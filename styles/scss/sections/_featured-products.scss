@@ -1,0 +1,57 @@
+.featured-product-section {
+    padding-top: 100px;
+
+    @include md {
+        padding-top: 60px;
+    }
+}
+
+.fz-feat-single-product {
+    position: relative;
+
+    &:hover {
+        .fz-single-product__actions {
+            margin-top: 0;
+            opacity: 1;
+            pointer-events: auto;
+        }
+    }
+
+    .fz-single-product {
+        &__img {
+            img {
+                height: auto;
+            }
+        }
+
+        &__tag {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background-color: $white;
+            border-radius: 2px;
+            padding: 5px 15px;
+            font-size: 16px;
+            font-family: $kanit;
+            font-weight: 400;
+
+            @include md {
+                top: 20px;
+                left: 20px;
+                padding: 2px 10px;
+                font-size: 14px;
+            }
+
+            @include sm {
+                top: 10px;
+                left: 10px;
+            }
+        }
+    }
+
+    &-2 {
+        .single-product__txt {
+            background-color: #ECF3F3;
+        }
+    }
+}

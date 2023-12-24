@@ -1,0 +1,59 @@
+.clients-section {
+    padding: 60px 0;
+    background: url(../../../public/images/fz-client-bg.png) no-repeat center center;
+    background-size: cover;
+    isolation: isolate;
+
+    @include md {
+        padding: 40px 0;
+    }
+
+    .clients {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 103px;
+            margin: auto;
+            height: 100px;
+            object-fit: contain;
+
+            @include xxs {
+                width: 70px;
+            }
+        }
+    }
+}
+
+// INDEX-3 BRANDS SECTION
+.fz-1-brands-section {
+    background: none;
+
+    @include xl {
+        padding: 30px 0;
+    }
+
+    .fz-1-section-heading {
+        text-align: left;
+        border-bottom: 1px solid rgb(0 0 0 / 10%);
+        padding-bottom: 10px;
+    }
+
+    .fz-1-brands {
+        a {
+            display: block;
+            margin: auto;
+            width: fit-content;
+
+            img {
+                width: 100px;
+                aspect-ratio: 1;
+                object-fit: contain;
+
+                @include xxs {
+                    width: 60px;
+                }
+            }
+        }
+    }
+}

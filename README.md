@@ -1,136 +1,38 @@
-<h1 align="center">Shopify Merchant-Facing Channel App</h1>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p align="center">
-    <a href="https://github.com/Shopify/shopify-marketplaces-admin-app/releases">
-    <img src="https://img.shields.io/github/issues/Shopify/shopify-marketplaces-admin-app/total?style=for-the-badge&logo=Shopify">
-  </a>
-  <a href="https://github.com/Shopify/shopify-marketplaces-admin-app/issues&color=brightgreen">
-    <img src="https://img.shields.io/github/stars/Shopify/shopify-marketplaces-admin-app?style=for-the-badge&logo=Shopify">
-    </a>
+## Getting Started
 
-This is a Node App with Express and React. It is to be used as a starting point for a merchant facing channel app for marketplaces. This repo makes use of [Shopify CLI](https://shopify.dev/apps/tools/cli) commands to help setup your app quickly and easily.
-
----
-
-- [1. Getting Started](#1-getting-started)
-- [2. Overview of Code Structure](#2-overview-of-code-structure)
-- [3. How to use this repo](#3-how-to-use-this-repo)
-- [4. Key Tech](#4-key-tech)
-- [5. License](#5-license)
-
----
-
-## 1. Getting Started
-
-**Requirements:**
-
-- [Yarn](https://yarnpkg.com/en/)
-- [Sequelize-cli](https://www.npmjs.com/package/sequelize-cli) installed on your system
-- [Shopify CLI](https://github.com/Shopify/shopify-cli) installed and [configured for local development](https://shopify.dev/apps/tools/cli/getting-started#4-start-a-local-development-server) (version >= 2.16.1)
-
-To set up for first time
-
-**Clone this repository:**
+First, run the development server:
 
 ```bash
-git clone https://github.com/Shopify/shopify-marketplaces-admin-app
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-**Install dependencies:**
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-yarn
-```
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-**Run migrations:**
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-```bash
-npx sequelize-cli db:migrate
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-**Add scopes:**
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Create a .env file in the root folder
-Add the following scopes to .env file `unauthenticated_read_product_listings,read_product_listings`.
-Your .env file should look like the following:
+## Learn More
 
-```bash
-SCOPES=unauthenticated_read_product_listings,read_product_listings
-```
+To learn more about Next.js, take a look at the following resources:
 
-**Run and install app:**
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-To run this in dev:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-```bash
-shopify app serve
-```
+## Deploy on Vercel
 
-This will walk you through a series of steps to setup the app in your development store.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-To run in production:
-
-```bash
-yarn build
-yarn start
-```
-
-
-## 2. Overview of Code Structure
-
-Familiarize yourself with the code structure for the merchant-facing channel app, to help you add all additional features that will be required, it is a great way to get started! The file structure follows that of [Shopify CLI](https://shopify.dev/apps/tools/cli). We highly recommend familiarizing yourself with the Shopify CLI and [Channels UI](https://github.com/Shopify/channels-ui-docs). A description of the code for this app can be found on the [Marketplace Kit docs](https://shopify.dev/marketplaces/getting-started/get-started-with-shopify-marketplace-kit).
-
-Familiarize yourself with the code structure for the merchant-facing app, to help orient you to subsequent Marketplace Kit tutorials.
-
-<table>
-  <caption>Code structure</caption>
-  <tr>
-    <th scope="col">Folder/file</th>
-    <th scope="col">Contains</th>
-  </tr>
-  <tr scope="row">
-    <td><code>app/*</code></td>
-    <td>React code for the frontend, which the merchant sees in the Shopify admin</td>
-  </tr>
-  <tr scope="row">
-    <td><code>server/index.js</code></td>
-    <td>The setup for the app's Express server, the Shopify API library, and the Apollo GraphQL server</td>
-  </tr>
-  <tr scope="row">
-    <td><code>server/custom-session-storage.js</code></td>
-    <td>Custom session storage functions to store data in the database.You might need to edit this for the database that you're using</td>
-  </tr>
-  <tr scope="row">
-    <td><code>server/handlers/*</code></td>
-    <td>Helper functions for making REST and GraphQL calls to Shopify, so that you can do things like create Storefront Access Tokens. Also includes callback functions that are called when the app receives a webhook from Shopify</td>
-  </tr>
-  <tr scope="row">
-    <td><code>server/helpers.js</code></td>
-    <td>Helper and wrapper functions that call functions in the <code>handlers</code> folder</td>
-  </tr>
-  <tr scope="row">
-    <td><code>webpack.config.js</code></td>
-    <td>The configuration for webpack, which is the app's module bundler. You might need to edit this file depending on your needs for development and production</td>
-  </tr>
-</table>
-
-
-## 3. How to use this repo
-We have bundled up the code from our tutorials to help you get started building marketplaces quickly. You can use the code in this repo out-of-the-box but we highly recommend familiarizing yourself with the codebase and tutorials so you can have a full understanding of how it works. [Marketplace Kit requirements](https://shopify.dev/marketplaces/getting-started/get-started-with-shopify-marketplace-kit#requirements) is a good starting point and provides explanations for the code. This will make it easier for you to modify and customize your marketplace.
-
-## 4. Key tech
-
-- [`Yarn`](https://classic.yarnpkg.com/en/)
-- [`NPM`](https://docs.npmjs.com/getting-started)
-- [`Node`](https://nodejs.org/en/download/)
-- [`Express`](https://expressjs.com/)
-- [`Webpack`](https://webpack.js.org/)
-- [`React`](https://reactjs.org/)
-- [`Sequelize`](https://sequelize.org/)
-- [`Channels UI Library`](https://github.com/Shopify/channels-ui-docs).
-- [`GraphQL`](https://graphql.org/) and [REST](https://shopify.dev/api/admin-rest)
-- [`Storefront API`](https://shopify.dev/api/storefront)
-
-## 5. License
-
-This repository is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

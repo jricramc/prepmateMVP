@@ -1,0 +1,427 @@
+// INDEX-1 BLOG SECTION
+.fz-1-blog-section {
+    background-color: #f8f8f8;
+    padding: 115px 0 120px;
+    overflow-x: hidden;
+
+    @include md {
+        padding: 55px 0 60px;
+    }
+
+    .fz-blogs {
+        >.row {
+            --bs-gutter-x: 30px;
+
+
+            @include sm {
+                --bs-gutter-y: 30px;
+            }
+        }
+    }
+
+
+    .fz-single-blog {
+        border-radius: 8px;
+        overflow: hidden;
+
+        @include sm {
+            width: max-content;
+            margin: auto;
+
+            &:not(:last-of-type) {
+                margin-bottom: 30px;
+            }
+        }
+
+        &.fz-first-blog {
+            .fz-single-blog__title {
+                margin-bottom: 10px;
+
+                @include md {
+                    margin-bottom: -4px;
+                }
+            }
+        }
+
+        &:hover {
+            .fz-single-blog__img img {
+                scale: 1.1;
+            }
+        }
+
+        &__img {
+            position: relative;
+
+            img {
+                width: 100%;
+                transition: scale 0.4s ease;
+                object-fit: cover;
+
+                @include sm {
+                    width: 350px;
+                    aspect-ratio: 1;
+                }
+
+                @include xxs {
+                    width: 290px;
+                }
+            }
+
+            &-overlay {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0 0 0 / 5%) 50%);
+
+                @include xl {
+                    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0 0 0 / 5%) 65%);
+                }
+            }
+
+        }
+
+        &__txt {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 40px;
+
+            @include xl {
+                padding: 30px;
+            }
+
+            @include md {
+                padding: 15px;
+            }
+        }
+
+        &__infos {
+            display: flex;
+            gap: 10px;
+            color: $white;
+            font-weight: 400;
+            text-transform: capitalize;
+            margin-bottom: 15px;
+            font-size: 18px;
+
+            @include lg {
+                margin-bottom: 10px;
+            }
+
+            @include md {
+                font-size: 14px;
+            }
+
+            span:not(:last-child) {
+
+                border-right: 1px solid $white;
+                padding-right: 10px;
+            }
+        }
+
+        &__title {
+            font-family: $tenorSans;
+            font-size: 34px;
+            margin-bottom: -7px;
+            color: $white;
+            transition: all 0.1s ease;
+
+
+            @include lg {
+                font-size: 25px;
+            }
+
+            @include md {
+                font-size: 22px;
+                margin-bottom: -4px;
+            }
+
+            @include sm {
+                font-size: 20px;
+            }
+
+            @include xxs {
+                font-size: 18px;
+            }
+
+            a {
+                display: inline;
+                background-image: linear-gradient($white, $white);
+                background-size: 0% 1px;
+                background-repeat: no-repeat;
+                background-position: left bottom;
+                transition: 0.4s ease;
+
+                &:hover {
+                    background-size: 100% 1px;
+                }
+            }
+        }
+
+
+        &__desc {
+            font-weight: 300;
+            color: #fff;
+
+            @include md {
+                display: none;
+            }
+        }
+    }
+}
+
+// INDEX-2 BLOG SECTION
+.fz-2-blog-section {
+    padding: 115px 0 120px;
+
+    @include md {
+        padding: 55px 0 60px;
+    }
+
+    .fz-2-section-heading {
+        .fz-section-title {
+            @include sm {
+                text-align: left;
+            }
+
+            @include xxs {
+                text-align: center;
+            }
+        }
+
+        a {
+            display: block;
+            width: max-content;
+            margin-left: auto;
+
+            @include xxs {
+                margin: auto;
+            }
+        }
+    }
+
+    .fz-single-blog {
+        overflow: hidden;
+
+        &:hover {
+            .fz-single-blog__img img {
+                scale: 1.1;
+            }
+        }
+
+        &__img {
+            position: relative;
+
+            img {
+                width: 100%;
+                transition: scale 0.4s ease;
+            }
+
+            &-overlay {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(to top, rgba(25, 25, 25, 100%), rgba(101, 101, 101, 0));
+            }
+
+        }
+
+        &__txt {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 40px;
+            padding-bottom: 32px;
+
+            @include xl {
+                padding: 30px;
+                padding-bottom: 22px;
+            }
+
+            @include lg {
+                padding: 25px;
+                padding-bottom: 17px;
+            }
+
+            @include md {
+                padding: 20px;
+                padding-bottom: 16px;
+            }
+        }
+
+        &__infos {
+            display: flex;
+            gap: 10px;
+            color: $white;
+            font-weight: 300;
+            text-transform: capitalize;
+            margin-bottom: 15px;
+            line-height: 1;
+
+            @include lg {
+                margin-bottom: 10px;
+            }
+
+            @include md {
+                font-size: 14px;
+            }
+
+            span:not(:last-child) {
+
+                border-right: 1px solid $white;
+                padding-right: 10px;
+            }
+        }
+
+        &__title {
+            font-family: $soligant;
+            color: $white;
+            font-size: 25px;
+            transition: all 0.1s ease;
+            margin-bottom: 0;
+
+
+            @include lg {
+                font-size: 22px;
+            }
+
+            @include md {
+                font-size: 18px;
+            }
+
+            a {
+                display: inline;
+                background-image: linear-gradient($white, $white);
+                background-size: 0% 1px;
+                background-repeat: no-repeat;
+                background-position: left bottom;
+                transition: 0.4s ease;
+
+                &:hover {
+                    background-size: 100% 1px;
+                }
+            }
+        }
+    }
+}
+
+// INDEX-3 BLOG SECTION
+.fz-3-blog-section {
+    padding: 115px 0 120px;
+
+    @include xl {
+        padding: 75px 0 80px;
+    }
+
+    @include md {
+        padding: 55px 0 60px;
+    }
+
+    .fz-3-section-heading {
+        text-align: center;
+
+        .fz-3-section-title {
+            @include sm {
+                text-align: left;
+            }
+
+            @include xxs {
+                text-align: center;
+            }
+        }
+
+        a {
+            text-align: end;
+            display: block;
+
+            @include xxs {
+                text-align: center;
+            }
+        }
+    }
+
+    .fz-3-single-blog {
+
+        &:hover {
+            .fz-3-single-blog__img img {
+                scale: 1.1;
+            }
+
+            .fz-3-single-blog__category-and-actions {
+                color: $black;
+            }
+        }
+
+        &__img {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+
+            img {
+                width: 100%;
+                transition: 0.4s ease;
+            }
+        }
+
+        &__title {
+            font-size: 23px;
+            transition: all 0.1s ease;
+            margin-bottom: 0;
+            padding: 18px 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+
+            @include xl {
+                font-size: 20px;
+            }
+
+            @include md {
+                font-size: 17px;
+                margin-bottom: 10px;
+                padding: 10px 0;
+            }
+
+            a {
+                display: inline;
+                background-image: linear-gradient(#4a4a4a, #4a4a4a);
+                background-size: 0% 1px;
+                background-repeat: no-repeat;
+                background-position: left bottom;
+                transition: 0.4s ease;
+
+                &:hover {
+                    background-size: 100% 1px;
+                }
+            }
+        }
+
+
+        &__category-and-actions {
+            display: flex;
+            justify-content: space-between;
+            color: #999;
+
+            @include md {
+                font-size: 14px;
+            }
+
+            a {
+                &:hover {
+                    i {
+                        transform: rotate(-45deg);
+                    }
+                }
+
+                i {
+                    transition: all 0.4s ease;
+                }
+            }
+        }
+    }
+}

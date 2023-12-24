@@ -1,0 +1,299 @@
+.fz-3-offer-section {
+    .fz-3-single-offer {
+        background: url(../../../public/images/offer-bg-1.png) no-repeat center center;
+        background-size: cover;
+        padding: 50px;
+        padding-right: 320px;
+        color: $white;
+        transition: all 0.4s ease;
+        overflow: hidden;
+        position: relative;
+        isolation: isolate;
+
+        @include xl {
+            padding-right: 170px;
+        }
+
+        @include lg {
+            padding: 30px;
+            padding-right: 110px;
+        }
+
+        @include md {
+            padding: 25px;
+        }
+
+        @include sm {
+            padding-right: 150px;
+        }
+
+
+        @include xxs {
+            padding: 20px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.32);
+            z-index: -1;
+        }
+
+        &-2 {
+            background-image: url(../../../public/images/offer-bg-2.png);
+        }
+
+        &__title {
+            font-size: 35px;
+            line-height: 45px;
+            font-weight: 600;
+            margin-bottom: 23px;
+
+            @include lg {
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            @include md {
+                font-size: 27px;
+                line-height: 37px;
+            }
+
+            @include xxs {
+                font-size: 24px;
+                line-height: 34px;
+            }
+        }
+
+        &__btn {
+            border: 1px solid $white;
+            padding: 0 20px;
+            height: 35px;
+            line-height: 33px;
+
+            &:hover {
+                background-color: $white;
+                color: $black;
+            }
+        }
+    }
+}
+
+
+.fz-special-offer {
+    &-bg {
+        background: url(../../../public/images/special-offer-bg.png) no-repeat center center;
+        background-size: cover;
+        padding: 0 130px;
+
+        @include lg {
+            padding: 0 50px;
+        }
+
+        @include sm {
+            padding: 0 30px;
+        }
+
+        @include xs {
+            padding: 0 25px;
+        }
+    }
+
+    &__txt {
+        @include xl {
+            padding: 50px 0;
+        }
+
+        @include md {
+            padding: 30px 0;
+        }
+
+        @include xs {
+            padding: 25px 0;
+        }
+    }
+
+    &-sub-title {
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 10px;
+
+        @include md {
+            font-size: 20px;
+        }
+
+        @include sm {
+            font-size: 18px;
+        }
+    }
+
+    &-title {
+        font-family: $soligant;
+        font-size: 60px;
+        margin-bottom: 9px;
+
+        @include lg {
+            font-size: 50px;
+        }
+
+        @include md {
+            font-size: 45px;
+        }
+
+        @include sm {
+            font-size: 35px;
+        }
+    }
+
+    &-description {
+        font-weight: 300;
+        margin-bottom: 31px;
+
+        @include md {
+            margin-bottom: 26px;
+        }
+
+        @include sm {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    &-btn {
+        background: $black;
+        color: $white;
+        padding: 15px 45px;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 16px;
+
+        @include sm {
+            padding: 10px 25px;
+        }
+
+        &:hover {
+            background-color: $color-3;
+            color: $white;
+        }
+    }
+}
+
+//INDEX-1 OFFER SECTION 
+.fz-1-offer-section {
+    background-color: #f8f8f8;
+    overflow: hidden;
+
+    img {
+        max-width: none;
+
+        @include md {
+            max-width: 100%;
+        }
+    }
+
+    .fz-single-offer {
+
+        &__txt {
+            padding: 120px 0;
+
+            @include md {
+                padding: 60px 0 40px;
+                text-align: center;
+            }
+        }
+
+        &__discount-percentage {
+            font-size: 60px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+
+            @include xl {
+                font-size: 50px;
+                margin-bottom: 5px;
+            }
+
+            @include lg {
+                font-size: 45px;
+            }
+
+            @include md {
+                font-size: 40px;
+            }
+
+            @include sm {
+                font-size: 35px;
+            }
+
+            @include xs {
+                margin-bottom: 0;
+            }
+
+            @include xxs {
+                font-size: 30px;
+            }
+        }
+
+        &__title {
+            font-size: 48px;
+            margin-bottom: 8px;
+
+            @include xl {
+                font-size: 40px;
+            }
+
+            @include lg {
+                font-size: 35px;
+            }
+
+            @include md {
+                font-size: 32px;
+            }
+
+            @include sm {
+                font-size: 28px;
+            }
+
+            @include xxs {
+                font-size: 25px;
+            }
+        }
+
+        &__disc {
+            font-family: $kanit;
+            font-weight: 300;
+            font-size: 16px;
+            width: 70%;
+            color: #616161;
+            margin-bottom: 32px;
+
+
+            @include xl {
+                width: 80%;
+            }
+
+            @include lg {
+                width: 90%;
+            }
+
+            @include md {
+                margin: auto;
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    .fz-1-single-offer__btn {
+        color: $white;
+        background-color: $black;
+
+        &::before {
+            background-color: $white;
+        }
+
+        &:hover {
+            color: $black;
+            border-color: $black;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+// ========================= FONTS =========================
+$poppins: 'Poppins', sans-serif;
+$rubik: 'Rubik', sans-serif;
+$jost: 'Jost', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$adobeclean: 'Adobe Clean', sans-serif;
+$futuraPT: 'Futura PT', sans-serif;
+$kanit: 'Kanit', sans-serif;
+$soligant: 'Soligant', sans-serif;
+$playfair: 'Playfair Display', serif;
+$tenorSans: 'Tenor Sans', sans-serif;
+
+$xxxl : '(min-width: 1600px) and (max-width: 1799px)';
+$xxl : '(min-width: 1400px) and (max-width: 1599px)';
+$xl: '(min-width: 1200px) and (max-width: 1399px)';
+$lg: '(min-width: 992px) and  (max-width: 1199px)';
+$md: '(min-width: 768px) and  (max-width: 991px)';
+$sm: '(min-width: 576px) and  (max-width: 767px)';
+$xs: '(max-width: 767px)';
+
+// ========================= Custom Fonts =========================
+/* Default Version */
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../../public/fonts/futuraptbook.otf');
+    font-weight: 300;
+}
+
+/* Demi Version */
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../../public/fonts/futuraptdemi.otf');
+    font-weight: 600;
+}
+
+/* Medium Version */
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../../public/fonts/futuraptmedium.otf');
+    font-weight: 500;
+}
+
+/* Light Version */
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../../../public/fonts/futuraptlight.otf');
+    font-weight: 200;
+}
+
+/* soligant font */
+@font-face {
+    font-family: 'Soligant';
+    src: url('../../../public/fonts/soligant.otf');
+    font-weight: 400;
+}
+
+/* ----- FONTS ----- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap');
+
+// ========================= COLORS =========================
+:root {
+    --clr-theme-primary: #0063d1;
+    --clr-theme-primary-dark: #024d9f;
+    --clr-theme-secondary: #00274C;
+    --clr-theme-tertiary: #FF2525;
+    --clr-theme-3: #9F4700;
+    --clr-theme-4: #bf8200;
+    --clr-theme-5: #C9F31D;
+    --clr-body-color: #777777;
+    --clr-body-dark: #191919;
+    --clr-body-dark-2: #1b1c19;
+    --clr-body-dark-3: #060606;
+    --clr-body-soft: #999999;
+    --clr-body-text: #616161;
+    --clr-common-white: #fff;
+    --clr-border-soft: #f2f2f2;
+    --clr-common-black: #282828;
+    --clr-common-black-deep: #000;
+    --clr-common-bg-gray: #f5f5f5;
+    --clr-gray-soft: #f8f8f8;
+    --clr-gray-2: #DBDBDB;
+}
+
+$black-0: #000;
+$black: #222222;
+$black-2: #606060;
+$black-3: #292929;
+$black-4: #282828;
+$white: #ffffff;
+$white-2: #F1F1F1;
+$white-3: #b3b7c8;
+$white-4: #f3f3f3;
+$bg-color: #eaf1f5;
+$bg-color-2: #f5f5f5;
+$bg-color-3: #0d0e22;
+$bg-color-4: #f7f7f7;
+$bg-color-5: #F9E3D9;
+$border-color: #EBEBEB;
+$border-color-2: #707070;
+$txt-color: #ccc;
+$txt-color-2: #ddd;
+$txt-color-3: #808080;
+$gold: #ffc801;
+$color-1: #0063D1;
+$color-2: #e9b808;
+$color-3 : #B8860B;

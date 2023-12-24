@@ -1,0 +1,420 @@
+// INDEX-1 CATEGORY SECTION STYLES
+.fz-1-category-section {
+    padding: 112px 0 120px;
+
+    @include md {
+        padding: 52px 0 60px;
+    }
+
+    >.container>.row {
+        @include xs {
+            --bs-gutter-x: 10px;
+            --bs-gutter-y: 7px;
+        }
+    }
+
+    .fz-1-category-col {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+
+        @include md {
+            flex-direction: row;
+        }
+
+        @include sm {
+            gap: 17px;
+        }
+
+        @include xs {
+            gap: 10px;
+        }
+    }
+
+    .fz-1-single-category {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 6px;
+
+
+        &:hover {
+            img {
+                transform: scale(1.15);
+            }
+        }
+
+        img {
+            width: 100%;
+            transition: all 0.6s ease;
+            height: 100%;
+        }
+
+        &__title {
+            font-family: $kanit;
+            font-weight: 400;
+            position: absolute;
+            bottom: 30px;
+            background-color: $white;
+            left: 50%;
+            translate: -50% 0;
+            text-align: center;
+            width: max-content;
+            padding: 10px 20px;
+            box-shadow: 0 0 6px rgb(0 0 0 / 3%);
+            text-decoration: 1px underline transparent;
+            text-decoration-skip-ink: none;
+            transition: all 0.4s ease;
+
+            @include md {
+                font-size: 16px;
+                bottom: 15px;
+            }
+
+            @include sm {
+                padding: 5px 10px;
+                font-size: 14px;
+            }
+
+            @include xs {
+                width: 90%;
+                bottom: 10px;
+            }
+
+            &:hover {
+                text-decoration-color: $black;
+            }
+        }
+    }
+}
+
+// INDEX-2 CATEGORY SECTION STYLES
+.fz-2-category-section {
+    background: $white;
+    padding: 110px 0;
+
+    @include md {
+        padding: 60px 0;
+    }
+
+    .fz-section-heading {
+        @include sm {
+            text-align: center;
+        }
+
+        &-description {
+            margin-bottom: 0;
+            font-weight: 300;
+        }
+    }
+
+    .fz-section-title {
+        font-family: $soligant;
+
+        span {
+            margin-left: 50px;
+
+            @include sm {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .fz-single-category {
+        &__img {
+            position: relative;
+            margin-bottom: 23px;
+
+            @include xxs {
+                margin-bottom: 10px;
+            }
+
+            &:hover {
+                .fz-overlay {
+                    opacity: 1;
+                }
+
+                .fz-def-btn {
+                    opacity: 1;
+                    margin-top: 0;
+                }
+            }
+
+            .fz-def-btn {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                translate: -50% -50%;
+                border-color: $white;
+                background: no-repeat;
+                color: $white;
+                opacity: 0;
+                margin-top: 10px;
+
+                @include xxs {
+                    font-size: 12px;
+                    width: 80px;
+                    height: 80px;
+                    line-height: 80px;
+                }
+
+                &:hover {
+                    border-color: $black;
+                }
+
+                span {
+                    background-color: $black;
+                }
+            }
+
+            .fz-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgb(0, 0, 0, .3);
+                opacity: 0;
+                transition: .4s ease;
+            }
+        }
+
+        &__txt {
+            h5 {
+                font-family: $soligant;
+                font-size: 34px;
+                text-transform: capitalize;
+                margin-bottom: 0;
+
+                @include md {
+                    font-size: 25px;
+                }
+
+                @include xxs {
+                    font-size: 14px;
+                }
+
+                span {
+                    font-family: $futuraPT;
+                    font-weight: 300;
+                    font-size: 25px;
+
+                    @include sm {
+                        font-size: 20px;
+                    }
+
+                    @include xs {
+                        font-size: 15px;
+                    }
+
+                    @include xxs {
+                        font-size: 13px;
+                    }
+                }
+
+                a {
+                    &:hover {
+                        color: $color-3;
+                    }
+                }
+            }
+        }
+
+        &.second-category {
+            height: 100%;
+
+            .fz-single-category__img {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// INDEX-3 CATEGORY SECTION STYLES
+.fz-3-category-section {
+    background: #f8f8f8;
+    padding: 110px 0;
+    isolation: isolate;
+
+    @include xl {
+        padding: 60px 0;
+    }
+
+    .fz-3-section-heading {
+        text-align: center;
+
+
+        &-description {
+            margin-bottom: 0;
+            font-weight: 300;
+        }
+    }
+
+    .fz-3-section-title {
+
+        @include xxl {
+            font-size: 70px;
+        }
+
+        @include xl {
+            font-size: 60px;
+        }
+
+        @include lg {
+            font-size: 50px;
+        }
+
+        @include md {
+            font-size: 45px;
+        }
+
+        @include sm {
+            font-size: 40px;
+
+            br {
+                display: none;
+            }
+        }
+
+        @include xs {
+            font-size: 38px;
+        }
+
+        @include xxs {
+            font-size: 35px;
+        }
+
+        span {
+            margin-left: 50px;
+
+            @include sm {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .fz-3-single-category {
+        display: block;
+        text-align: center;
+
+        &__img {
+            border-radius: 50%;
+            width: 216px;
+            max-width: 100%;
+            aspect-ratio: 1;
+            position: relative;
+            margin: auto;
+            margin-bottom: 23px;
+            background: url(../../../public/images/fz-cat-bg-1.png) no-repeat center center;
+            z-index: 1;
+            display: grid;
+            place-items: center;
+
+            @include xl {
+                width: 135px;
+                margin-bottom: 13px;
+            }
+
+            @include lg {
+                width: 125px;
+            }
+
+            @include xs {
+                margin-bottom: 8px;
+            }
+
+            @include xxs {
+                width: 120px;
+                margin-bottom: 5px;
+            }
+
+            img {
+                width: 50%;
+            }
+
+            &::before {
+                transition: all 0.4s ease;
+                content: "";
+                border: 1px solid #eee;
+                position: absolute;
+                inset: 0;
+                background-color: #f8f8f8;
+                border-radius: 50%;
+                z-index: -1;
+            }
+
+            &:hover {
+                &::before {
+                    background-color: rgb(0 0 0 / 65%);
+                }
+            }
+
+            .fz-3-def-btn {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                translate: -50% -50%;
+                border-color: $white;
+                background: no-repeat;
+                color: $white;
+                opacity: 0;
+                margin-top: 10px;
+
+                &:hover {
+                    border-color: $black;
+                }
+            }
+
+            .fz-3-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgb(0, 0, 0, .3);
+                opacity: 0;
+                transition: .4s ease;
+            }
+        }
+
+        &__txt {
+            a {
+                font-family: $playfair;
+                font-size: 18px;
+                text-transform: capitalize;
+                margin-bottom: 0;
+
+                @include xxs {
+                    font-size: 16px;
+                }
+
+                &:hover {
+                    color: $color-3;
+                }
+
+                span {
+                    font-family: $futuraPT;
+                    font-weight: 300;
+                    font-size: 25px;
+                }
+            }
+        }
+
+        &.second-category {
+            height: 100%;
+
+            .single-category__img {
+                margin-bottom: 0;
+                margin-top: 10px;
+
+                @include xs {
+                    margin-top: 0;
+                    margin-bottom: 23px;
+                }
+            }
+        }
+    }
+}

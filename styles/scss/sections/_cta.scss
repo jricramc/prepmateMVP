@@ -1,0 +1,119 @@
+.subs-section {
+    background: url(../../../public/images/fz-3-subs-bg.png) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: $white;
+
+    @include lg {
+        padding: 70px 0;
+    }
+
+    @include sm {
+        padding: 50px 0;
+    }
+
+    @include xs {
+        padding: 25px 0;
+    }
+
+    &__txt {
+        h2 {
+            font-size: 48px;
+            margin-bottom: 13px;
+
+            @include xl {
+                font-size: 40px;
+            }
+
+            @include lg {
+                font-size: 35px;
+            }
+
+            @include md {
+                font-size: 30px;
+            }
+
+            @include sm {
+                font-size: 27px;
+            }
+
+            @include xs {
+                font-size: 25px;
+            }
+        }
+
+        h3 {
+            font-size: 34px;
+
+            @include lg {
+                font-size: 30px;
+            }
+
+            @include md {
+                font-size: 25px;
+            }
+
+            @include sm {
+                font-size: 22px;
+            }
+
+            @include xs {
+                font-size: 20px;
+            }
+
+            @include xxs {
+                font-size: 20px;
+            }
+        }
+    }
+
+    &__form {
+        form {
+            display: flex;
+            border: 1px solid $white;
+
+            @include xxs {
+                flex-direction: column;
+                border: none;
+                row-gap: 10px;
+            }
+
+            input {
+                height: 60px;
+                padding: 0 20px;
+                color: $white;
+                width: 100%;
+
+                @include md {
+                    height: 50px;
+                    border: 1px solid $white;
+                }
+
+                &::placeholder {
+                    color: #cfcfcf;
+                }
+            }
+
+            button {
+                background-color: $white;
+                height: 60px;
+                padding: 0 65px;
+                border-left: 1px solid $white;
+
+                &:hover {
+                    background-color: $black;
+                    color: $white;
+                    border-left: 1px solid $white;
+                }
+
+                @include lg {
+                    padding: 0 45px;
+                }
+
+                @include md {
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
