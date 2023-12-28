@@ -1,17 +1,17 @@
 const firstBannerData = [
     {
         id:0,
-        title:"The Perfect Door For Every Occasion",
+        title:"The Perfect Meal For Every Occasion",
         imgSrc:"images/fz-3-banner-img-3.jpg",
     },
     {
         id:1,
-        title:"Make your entrance a grand one",
+        title:"Make your kitchen a thing of the past",
         imgSrc:"images/fz-3-banner-img-2.jpg",
     },
     {
         id:2,
-        title:"The Secret Key to a Stylish Home",
+        title:"The Secret Key to a Healthy and Balanced Diet",
         imgSrc:"images/fz-3-banner-img.png",
     },
 ]
@@ -117,29 +117,29 @@ const accordionList = [
 const allProductList = [
     {
         id:0,
-        imgSrc:"images/fz-3-pro-2.png",
-        name:"Dark Brown Door",
+        imgSrc:"images/mill.jpeg",
+        name:"Mill City",
         category:"Solid Color Door",
         price:740.00,
         isInWishlist:false,
     },{
         id:1,
-        imgSrc:"images/fz-3-pro-3.png",
-        name:"Light Wood Door",
+        imgSrc:"images/hongkong.jpeg",
+        name:"Hong Kong",
         category:"Double Layer Door",
         price:550.00,
         isInWishlist:false,
     },{
         id:2,
-        imgSrc:"images/fz-3-pro-4.png",
-        name:"Dark Stripe Door",
+        imgSrc:"images/five.png",
+        name:"Five Spices House",
         category:"Chinese Door",
         price:850.00,
         isInWishlist:false,
     },{
         id:3,
-        imgSrc:"images/fz-3-pro-5.png",
-        name:"Modern Fir Door",
+        imgSrc:"images/dosa.jpeg",
+        name:"Dosa N Curry",
         category:"Plastic Door",
         price:440.00,
         isInWishlist:false,

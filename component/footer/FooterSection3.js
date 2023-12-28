@@ -58,7 +58,7 @@ const FooterSection3 = () => {
                             <ul>
                                 <li><a href="#">Shop on Facebook</a></li>
                                 <li><a href="#">Shop on Ebay</a></li>
-                                <li><a href="#">Shop by Category</a></li>
+                                <li><a href="#">Shop by Restaurant</a></li>
                                 <li><Link href="/shop">Shop All</Link></li>
                                 <li><a href="#">Coupons and Discounts</a></li>
                             </ul>

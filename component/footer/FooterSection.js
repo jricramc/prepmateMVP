@@ -24,7 +24,7 @@ const FooterSection = () => {
                             <ul>
                                 <li><a href="#">Shop on Facebook</a></li>
                                 <li><a href="#">Shop on Ebay</a></li>
-                                <li><Link href="/shop">Shop by Category</Link></li>
+                                <li><Link href="/shop">Shop by Restaurant</Link></li>
                                 <li><Link href="/shop">Shop All</Link></li>
                                 <li><a href="#">Coupons and Discounts</a></li>
                             </ul>

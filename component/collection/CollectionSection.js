@@ -34,7 +34,7 @@ const CollectionSection = () => {
     <section className="fz-1-latest-collection">
         <div className="container">
             <div className="fz-1-section-heading">
-                <h2 className="fz-section-title">Latest Collection</h2>
+                <h2 className="fz-section-title">All Restaurants</h2>
             </div>
 
             <Nav 
