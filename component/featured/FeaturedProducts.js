@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
     <section className="featured-product-section">
         <div className="container">
             <div className="fz-1-section-heading">
-                <h2 className="fz-section-title">Featured Product</h2>
+                <h2 className="fz-section-title">Featured Meal Kits</h2>
             </div>
 
             <div className="row gy-4">
