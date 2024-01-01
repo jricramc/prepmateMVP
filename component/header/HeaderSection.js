@@ -21,50 +21,6 @@ const HeaderSection = () => {
     } = useContext(FarzaaContext)
   return (
     <header className="fz-header-section fz-1-header-section">
-        <div className="top-header">
-            <div className="container">
-                <div className="row gy-3 align-items-center">
-                    <div className="col-lg-4 d-lg-block d-none">
-                        <span className="mail-address">
-                            <a href="mailto:info@webmail.com">
-                                <i className="fa-regular fa-envelope-open"></i>
-                                info@webmail.com
-                            </a>
-                        </span>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <h6>SALE: 400+ products up to 70% off. Shop Now</h6>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <div className="top-header-right-actions">
-                            <div className="top-header-socials">
-                                <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                                <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i className="fa-brands fa-youtube"></i></a>
-                            </div>
-
-                            <select name="currency" id="top-header-currency-dropdown">
-                                <option value="USD">USD</option>
-                                <option value="Taka">Taka</option>
-                                <option value="Euro">Euro</option>
-                                <option value="Rupee">Rupee</option>
-                            </select>
-
-                            <select name="language" id="top-header-language-dropdown">
-                                <option value="English">English</option>
-                                <option value="Bangla">Bangla</option>
-                                <option value="French">French</option>
-                                <option value="Hindi">Hindi</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div className={`bottom-header to-be-fixed ${isHeaderFixed? 'fixed':''}`}>
             <div className="container">
                 <div className="row g-0 align-items-center">
@@ -82,10 +38,6 @@ const HeaderSection = () => {
 
                     <div className="col-lg-5 col-md-6 col-3">
                         <div className="fz-header-right-content">
-                            <form action="#" className="bottom-header-search-form d-none d-sm-flex">
-                                <input type="text" name="search" id="bottom-header-search-input" placeholder="Search keyword"/>
-                                <button type="submit"><i className="fa-regular fa-magnifying-glass"></i></button>
-                            </form>
 
                             <ul className="fz-header-right-actions d-flex align-items-center justify-content-end">
                                 <li>

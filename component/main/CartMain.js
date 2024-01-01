@@ -5,7 +5,7 @@ import CartSection from '../cart/CartSection'
 const CartMain = () => {
   return (
     <>
-        <BreadcrumbSection title={"Cart Page"} current={"Cart"}/>
+        <BreadcrumbSection title={"Cart"} current={"Cart"}/>
         <CartSection/>
     </>
   )

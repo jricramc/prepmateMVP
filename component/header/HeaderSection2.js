@@ -8,44 +8,6 @@ const HeaderSection2 = () => {
     const {isHeaderFixed} = useContext(FarzaaContext)
   return (
     <header className="fz-header-section fz-1-header-section inner-page-header">
-        <div className="top-header">
-            <div className="container">
-                <div className="row gy-3 align-items-center">
-                    <div className="col-4 d-none d-md-block">
-                        <span className="mail-address">
-                            <a href="mailto:info@webmail.com">
-                                <i className="fa-regular fa-envelope-open" style={{paddingRight:5}}></i>
-                                info@webmail.com
-                            </a>
-                        </span>
-                    </div>
-
-                    <div className="col-md-4 col-6 col-xxs-12">
-                        <h6>Shop events & save up to 65% off!</h6>
-                    </div>
-
-                    <div className="col-md-4 col-6 col-xxs-12">
-                        <div className="top-header-right-actions">
-                            <a href="account"><i className="fa-light fa-user"></i> Sign up</a>
-
-                            <select name="currency" id="top-header-currency-dropdown">
-                                <option value="USD">USD</option>
-                                <option value="Taka">Taka</option>
-                                <option value="Euro">Euro</option>
-                                <option value="Rupee">Rupee</option>
-                            </select>
-
-                            <select name="language" id="top-header-language-dropdown">
-                                <option value="English">English</option>
-                                <option value="Bangla">Bangla</option>
-                                <option value="French">French</option>
-                                <option value="Hindi">Hindi</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div className={`bottom-header to-be-fixed ${isHeaderFixed? 'fixed':''}`}>
             <div className="container">

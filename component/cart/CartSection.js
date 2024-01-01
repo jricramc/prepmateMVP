@@ -6,8 +6,7 @@ import { FarzaaContext } from '@/context/FarzaaContext'
 const CartSection = () => {
     const {
         subTotal, 
-        shipping, 
-        coupon, 
+        shipping,
         finalPrice, 
         cartItems,
         handleQuantityChange,
@@ -21,17 +20,6 @@ const CartSection = () => {
                     <div className="cart__body">
                         <div className="table-responsive">
                             <CartItemTable cartArray={cartItems} remove={handleRemoveItem} quantity={handleQuantityChange}/>
-                        </div>
-
-                        <div className="cart-left-actions d-flex justify-content-end">
-                            {cartItems.length === 0? (
-                              <Link className='fz-1-banner-btn update-cart-btn' href='/shop'>Go to Shop</Link>  
-                            ):(
-                                <form action="#" className="cart-coupon-form">
-                                    <input type="text" name="cart-coupon-input" id="cart-coupon-input" placeholder="Enter Your Coupon Code"/>
-                                    <button type="submit" className="fz-1-banner-btn coupon-apply-btn">Apply Coupon</button>
-                                </form>
-                            )}
                         </div>
                     </div>
                 </div>
@@ -49,11 +37,6 @@ const CartSection = () => {
                     <li>
                         <span className="checkout-summary__key">Shipping</span>
                         <span className="checkout-summary__value"><span>$</span>{shipping}</span>
-                    </li>
-
-                    <li>
-                        <span className="checkout-summary__key">Coupon discount</span>
-                        <span className="checkout-summary__value">-<span>$</span>{coupon}</span>
                     </li>
 
                     <li className="cart-checkout-total">

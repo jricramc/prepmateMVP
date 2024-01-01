@@ -37,25 +37,20 @@ const FooterSection2 = () => {
                         <div className="fz-footer-widget">
                             <h5 className="fz-footer-widget__title">Customer Service</h5>
                             <ul>
-                                <li><a href="#">Shipping and Returns</a></li>
-                                <li><a href="#">Product Care</a></li>
-                                <li><a href="#">Returns & Policy</a></li>
-                                <li><a href="#">Warranty & Lifetime Service</a></li>
-                                <li><a href="#">Jewelry Care Instruction</a></li>
+                                <li><a href="#">Restaurants</a></li>
                                 <li><Link href="/faq">FAQ</Link></li>
+                                <li><a href="#">About</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-6 col-xxs-12">
                         <div className="fz-footer-widget">
-                            <h5 className="fz-footer-widget__title">Quick Link</h5>
+                            <h5 className="fz-footer-widget__title">Legal</h5>
                             <ul>
-                                <li><Link href="/about">Our Story</Link></li>
-                                <li><Link href="/blog">Blog & Press</Link></li>
-                                <li><a href="#">Order History</a></li>
-                                <li><a href="#">Wish List</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><Link href="/terms">Terms of Service</Link></li>
+                                <li><Link href="/privacy">Privacy Policy</Link></li>
+                                <li><Link href="/cookies">Cookie Policy</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -85,7 +80,7 @@ const FooterSection2 = () => {
                 <div className="row gy-4 align-items-center">
                     <div className="col-lg-6">
                         <p className="fz-copyright">&copy;
-                            {currentYear} Design & Developed by <b>CodeBasket</b>
+                            {currentYear} PrepMate. All rights reserved.
                         </p>
                     </div>
 

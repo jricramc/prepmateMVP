@@ -449,8 +449,7 @@ useEffect(() => {
   // Total Price
   const subTotal = cartItems.reduce((total, item) => total + item.quantity * item.price, 0);
   const shipping = cartItems.length === 0 ? 0.00 : 50.00;
-  const coupon = cartItems.length === 0 ? 0.00 : 60.00;
-  const finalPrice = subTotal - (shipping + coupon)
+  const finalPrice = subTotal + (shipping) ;
 
   // Blog List Category Filter
   const [filteredBlogList, setFilteredBlogList] = useState(blogList);
@@ -932,7 +931,6 @@ useEffect(() => {
       addToWishlist,
       subTotal,
       shipping,
-      coupon,
       finalPrice,
       filteredBlogList,
       handleBlogCategoryFilter,

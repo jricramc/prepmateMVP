@@ -4,39 +4,23 @@ import React, { useContext } from 'react'
 import { Form } from 'react-bootstrap'
 
 const CheckoutSection = () => {
-    const {subTotal, shipping, coupon, finalPrice} = useContext(FarzaaContext)
+    const {subTotal, shipping, finalPrice} = useContext(FarzaaContext)
   return (
     <div className="container">
         <div className="fz-checkout">
             <form action="#" className="checkout-form">
                 <div className="fz-billing-details">
                     <div className="row gy-0 gx-3 gx-md-4">
-                        <h3 className="fz-checkout-title">Billing Details</h3>
+                        <h3 className="fz-checkout-title">Delivery Details</h3>
                         <div className="col-6 col-xxs-12">
                             <input type="text" name="first-name" id="checkout-first-name" placeholder="First Name"/>
                         </div>
                         <div className="col-6 col-xxs-12">
                             <input type="text" name="last-name" id="checkout-last-name" placeholder="Last Name"/>
                         </div>
-                        <div className="col-12">
-                            <input type="text" name="company-name" id="checkout-company-name" placeholder="Company Name"/>
-                        </div>
 
                         <div className="col-12">
-                            <Form.Select className='country-select' name="country" id="checkout-country">
-                                <option value="United States">United States (US)</option>
-                                <option value="United Kingdom">United Kingdom (UK)</option>
-                                <option value="France">France</option>
-                                <option value="Russia">Russia</option>
-                                <option value="Iran">Iran</option>
-                                <option value="Bangladesh">Bangladesh</option>
-                                <option value="Bhutan">Bhutan</option>
-                                <option value="Nepal">Nepal</option>
-                            </Form.Select>
-                        </div>
-
-                        <div className="col-12">
-                            <input type="text" name="house-street-number" id="checkout-house-street-number" placeholder="House Number & Street Name"/>
+                            <input type="text" name="address-line-one" id="checkout-address-line-one" placeholder="Address Line 1"/>
                         </div>
 
                         <div className="col-12">
@@ -49,14 +33,7 @@ const CheckoutSection = () => {
 
                         <div className="col-6 col-xxs-12">
                             <Form.Select className='state-select' name="states" id="checkout-states">
-                                <option value="Alabama">Alabama</option>
-                                <option value="Alaska">Alaska</option>
-                                <option value="California">California</option>
-                                <option value="Delaware">Delaware</option>
-                                <option value="Florida">Florida</option>
-                                <option value="Georgia">Georgia</option>
-                                <option value="Hawaii">Hawaii</option>
-                                <option value="Idaho">Idaho</option>
+                                <option value="Massachusetts">Massachusetts</option>
                             </Form.Select>
                         </div>
 
@@ -70,11 +47,6 @@ const CheckoutSection = () => {
 
                         <div className="col-6 col-xxs-12">
                             <input type="email" name="email-address" id="checkout-email-address" placeholder="Email Address"/>
-                        </div>
-
-                        <div className="col">
-                            <input type="checkbox" name="create-account" id="checkout-create-account"/>
-                            <label className='create-acc-lebel' htmlFor="checkout-create-account">Create an Account</label>
                         </div>
 
                         <div className="col-12 additional-info">
@@ -99,11 +71,6 @@ const CheckoutSection = () => {
                                     <span className="checkout-summary__value"><span>$</span>{shipping}</span>
                                 </li>
 
-                                <li>
-                                    <span className="checkout-summary__key">Coupon discount</span>
-                                    <span className="checkout-summary__value">-<span>$</span>{coupon}</span>
-                                </li>
-
                                 <li className="cart-checkout-total">
                                     <span className="checkout-summary__key">Total</span>
                                     <span className="checkout-summary__value"><span>$</span>{finalPrice}</span>
@@ -115,14 +82,20 @@ const CheckoutSection = () => {
                         </div>
                     </div>
 
-                    <div className="payment-info">
-                        <h4 className="fz-checkout-title">Payment Information</h4>
-                        <div className="d-flex payment-area align-items-center">
-                            <input type="number" name="Pyament-option" id="checkout-payment-option" placeholder="xxxx xxxx xxxx xxxx"/>
-                            <i className="fa-light fa-credit-card"></i>
+                    <div className="delivery-day">
+                        <h4 className="fz-checkout-title">Delivery Day</h4>
+                        <div className="col-6 col-xxs-12">
+                            <Form.Select className='day-select' name="days" id="checkout-days">
+                                <option value="Wednesday">Wednesday</option>
+                                <option value="Sunday">Sunday</option>
+                            </Form.Select>
                         </div>
+                    </div>
+
+                    <div className="payment-info">
+                        <h4 className="fz-checkout-title">Payment</h4>
                         <p className="checkout-payment-descr">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#">privacy policy</a></p>
-                        <button type="submit" className="fz-1-banner-btn cart-checkout-btn checkout-form-btn">Place Order</button>
+                        <button type="submit" className="fz-1-banner-btn cart-checkout-btn checkout-form-btn">Pay</button>
                     </div>
                 </div>
             </form>
