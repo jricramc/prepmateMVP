@@ -114,6 +114,40 @@ const accordionList = [
     },
 ]
 
+const allProductListMill= [
+    {
+        id:0,
+        imgSrc:"images/mill.jpeg",
+        name:"Test 1",
+        category:"Solid Color Door",
+        price:740.00,
+        isInWishlist:false,
+        link: "/shop"
+    },{
+        id:1,
+        imgSrc:"images/hongkong.jpeg",
+        name:"Test 2",
+        category:"Double Layer Door",
+        price:550.00,
+        isInWishlist:false,
+    },{
+        id:2,
+        imgSrc:"images/five.png",
+        name:"Test 3",
+        category:"Chinese Door",
+        price:850.00,
+        isInWishlist:false,
+    },{
+        id:3,
+        imgSrc:"images/dosa.jpeg",
+        name:"Test 4",
+        category:"Plastic Door",
+        price:440.00,
+        isInWishlist:false,
+    }
+
+]
+
 const allProductList = [
     {
         id:0,
@@ -122,6 +156,7 @@ const allProductList = [
         category:"Solid Color Door",
         price:740.00,
         isInWishlist:false,
+        link: "/shop"
     },{
         id:1,
         imgSrc:"images/hongkong.jpeg",
@@ -590,6 +625,7 @@ export {
     thirdBannerData,
     accordionList,
     allProductList,
+    allProductListMill,
     blogList,
     ornamentList,
     allCakeList,
