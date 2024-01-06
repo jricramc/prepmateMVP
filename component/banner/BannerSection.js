@@ -38,14 +38,14 @@ const BannerSection = () => {
                        <SwiperSlide className="fz-1-banner-single-slide" key={item.id}>
                             <div className="container position-relative">
                                 <div className="row">
-                                    <div className="col-lg-6 col-md-7">
+                                    <div className="col-lg-20 col-md-6">
                                         <div className="fz-1-banner-txt">
                                             <h1 className="text5">{item.title}</h1>
 
                                             <div className="fz-1-banner-txt__btns">
-                                                <button className="fz-1-banner-vid-btn" data-video-id="SwZynNzqBys" onClick={handleVideoShow}>
+                                                {/* <button className="fz-1-banner-vid-btn" data-video-id="SwZynNzqBys" onClick={handleVideoShow}>
                                                     <i className="fa-solid fa-play"></i>
-                                                </button>
+                                                </button> */}
 
                                                 <Link href="/shop" className="fz-1-banner-btn">View More <i className="fa-light fa-arrow-up-right"></i></Link>
                                             </div>
@@ -54,10 +54,10 @@ const BannerSection = () => {
 
                                     <div className="col-lg-6 col-md-5 align-self-end">
                                         <div className="fz-1-banner-img-container">
-                                            <div className="sticker-container">
+                                            {/* <div className="sticker-container">
                                                 <img src="images/sticker.png" alt="Sticker" className="sticker"/>
                                                 <span>25k</span>
-                                            </div>
+                                            </div> */}
 
                                             <div className="fz-1-banner-img">
                                                 <img src={item.imgSrc} alt="Product Images"/>
@@ -79,7 +79,7 @@ const BannerSection = () => {
                     </button>
                 </div>
                 </Swiper>
-                <VideoModal/>
+                {/* <VideoModal/> */}
         </section>
   )
 }

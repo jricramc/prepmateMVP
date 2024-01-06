@@ -8,7 +8,7 @@ const SubscriptionSection = () => {
                 <div className="col-lg-6">
                     <div className="subs-section__txt">
                         <h2>Subscribe!</h2>
-                        <h3>Newsletter For Update & Offer</h3>
+                        <h3>Newsletter For Updates & Offers</h3>
                     </div>
                 </div>
 

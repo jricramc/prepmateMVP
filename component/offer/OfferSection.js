@@ -4,7 +4,7 @@ import React from 'react'
 const OfferSection = () => {
   return (
     <section className="fz-1-offer-section">
-        <div className="container">
+        {/* <div className="container">
             <div className="row">
                 <div className="col-lg-6">
                     <div className="fz-single-offer__txt">
@@ -20,7 +20,7 @@ const OfferSection = () => {
                     <img src="images/fz-3-offer-img.png" alt="Offer Image"/>
                 </div>
             </div>
-        </div>
+        </div> */}
     </section>
   )
 }

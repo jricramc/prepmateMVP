@@ -3,7 +3,7 @@ import React from 'react'
 const GallerySection = () => {
   return (
     <section className="fz-gallery-section fz-1-gallery-section">
-            <div className="fz-1-section-heading">
+            {/* <div className="fz-1-section-heading">
                 <h2 className="fz-section-title text-center">@prepmate</h2>
             </div>
 
@@ -45,7 +45,7 @@ const GallerySection = () => {
                         <button className="fz-ig-btn"><i className="fa-brands fa-instagram"></i></button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
   )
 }

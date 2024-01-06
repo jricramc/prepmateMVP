@@ -9,4 +9,6 @@ datasource db {
 
 model test {
   id String @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  name String
 }

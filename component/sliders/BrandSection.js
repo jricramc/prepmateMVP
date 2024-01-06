@@ -10,7 +10,7 @@ const BrandSection = () => {
   
   return (
     <div className="clients-section fz-1-brands-section">
-        <div className="container">
+        {/* <div className="container">
             <div className="fz-1-section-heading">
                 <h2 className="fz-section-title">Browse by Brand</h2>
             </div>
@@ -30,7 +30,7 @@ const BrandSection = () => {
                 ))}
                 
             </Swiper>
-        </div>
+        </div> */}
     </div>
   )
 }

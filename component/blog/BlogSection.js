@@ -4,7 +4,7 @@ import React from 'react'
 const BlogSection = () => {
   return (
     <section className="fz-1-blog-section">
-        <div className="container">
+        {/* <div className="container">
             <div className="fz-1-section-heading">
                 <h2 className="fz-section-title">Blog & Insights</h2>
             </div>
@@ -65,7 +65,7 @@ const BlogSection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
     </section>
   )
 }

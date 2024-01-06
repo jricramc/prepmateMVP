@@ -1,19 +1,19 @@
 const firstBannerData = [
     {
         id:0,
-        title:"The Perfect Meal For Every Occasion",
-        imgSrc:"images/fz-3-banner-img-3.jpg",
+        title:"The Perfect Meal Plan from your favorite Restaurants",
+        imgSrc:"images/mealprepp.jpeg",
     },
-    {
-        id:1,
-        title:"Make your kitchen a thing of the past",
-        imgSrc:"images/fz-3-banner-img-2.jpg",
-    },
-    {
-        id:2,
-        title:"The Secret Key to a Healthy and Balanced Diet",
-        imgSrc:"images/fz-3-banner-img.png",
-    },
+    // {
+    //     id:1,
+    //     title:"Make your kitchen a thing of the past",
+    //     imgSrc:"images/fz-3-banner-img-2.jpg",
+    // },
+    // {
+    //     id:2,
+    //     title:"The Secret Key to a Healthy and Balanced Diet",
+    //     imgSrc:"images/fz-3-banner-img.png",
+    // },
 ]
 
 const brandList = [
@@ -114,7 +114,7 @@ const accordionList = [
     },
 ]
 
-const allProductListMill= [
+const allProductList= [
     {
         id:0,
         imgSrc:"images/mill.jpeg",
@@ -148,7 +148,7 @@ const allProductListMill= [
 
 ]
 
-const allProductList = [
+const allProductListMill = [
     {
         id:0,
         imgSrc:"images/mill.jpeg",
