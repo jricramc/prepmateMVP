@@ -122,8 +122,8 @@ const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY)
 
 const CheckoutSection = () => {
     const {subTotal, shipping, finalPrice} = useContext(FarzaaContext);
-    console.log('farz final', finalPrice)
-    console.log('farzacont', FarzaaContext)
+    // console.log('farz final', finalPrice)
+    // console.log('farzacont', FarzaaContext)
 
     const [clientSecret, setClientSecret] = useState("");
 
