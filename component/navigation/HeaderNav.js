@@ -17,10 +17,10 @@ const HeaderNav = ({position}) => {
             <li className="fz-dropdown fz-nav-item">
                 <a role="button" className="fz-nav-link"><span>shop</span> <i className="fa-regular fa-plus"></i></a>
 
-                <ul className="fz-submenu">
+                {/* <ul className="fz-submenu">
                     <li><Link href="/shop" className="fz-nav-link fz-submenu-nav-link">Shop</Link></li>
                     <li><Link href="/shopDetails" className="fz-nav-link fz-submenu-nav-link">Shop details</Link></li>
-                </ul>
+                </ul> */}
             </li>
             <li className="fz-dropdown fz-nav-item">
                 <a role="button" className="fz-nav-link"><span>pages</span> <i className="fa-regular fa-plus"></i></a>

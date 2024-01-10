@@ -42,7 +42,7 @@ const BannerSection3 = () => {
                                 </div>
                             </div>
                         </div>
-
+{/* 
                         <div className="fz-3-banner-product-cards">
                             <div className="fz-3-single-product">
                                 <img src={item.firstImgSrc} alt="Product Image"/>
@@ -55,7 +55,7 @@ const BannerSection3 = () => {
                                 <h5 className="fz-3-single-product__title"><Link href="/shopDetails">Chocolate Layer Cake</Link></h5>
                                 <p className="fz-3-single-product__price">${item.secondPrice}</p>
                             </div>
-                        </div>
+                        </div> */}
                     </SwiperSlide>
                 ))}
                 

@@ -164,7 +164,7 @@ const allProductList= [
 
 ]
 
-const allProductListMill = [
+const allProductListMil = [
     {
         id:0,
         imgSrc:"images/mill.jpeg",
@@ -196,6 +196,147 @@ const allProductListMill = [
         isInWishlist:false,
     }
 ]
+
+const allProductListMill = [
+    {
+        id: 0,
+        name: "Tuna Sandwich",
+ 
+        description: "A classic delight",
+        price: 4.49, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 1,
+        name: "Ham & Cheese Sandwich",
+        description: "Sliced Ham Sandwich on White Bread",
+        price: 4.49, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 2,
+        name: "Turkey & Cheese Sandwich",
+        description: "Sliced Turkey Sandwich on White Bread",
+        price: 4.49, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 3,
+        name: "Steak & Rice",
+        description: "Steak paired with rice and accompanied by fresh greens",
+        price: 10.79, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 4,
+        name: "Chicken & Rice",
+        description: "Grilled Chicken paired with rice and accompanied by fresh greens",
+        price: 8.09, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 5,
+        name: "Shrimp & Rice",
+        description: "Garlic Shrimp paired with rice and garnished with fresh parsley",
+        price: 8.99, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 6,
+        name: "Steak Broccoli Alfredo",
+        description: "Tender steak slices with fresh broccoli served over penne with creamy Alfredo",
+        price: 10.79, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 7,
+        name: "Chicken Broccoli Alfredo",
+        description: "Tender grilled chicken with fresh broccoli served over penne with creamy Alfredo",
+        price: 8.09, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 8,
+        name: "Shrimp Broccoli Alfredo",
+        description: "Juicy Shrimp with fresh broccoli served over penne with creamy Alfredo",
+        price: 8.99, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 9,
+        name: "Mac N Cheese",
+        description: "Bowl of Homemade Mac N Cheese",
+        price: 5.39, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 10,
+        name: "Steak Burrito Bowl",
+        description: "A flavorful bowl featuring steak, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        price: 12.59, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 11,
+        name: "Chicken Burrito Bowl",
+        description: "A flavorful bowl featuring chicken, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        price: 8.99, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 12,
+        name: "Shrimp Burrito Bowl",
+        description: "A delightful bowl featuring shrimp, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        price: 8.99, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 13,
+        name: "Steak Grain Bowl",
+        description: "A hearty bowl of steak, quinoa, chickpeas, and a mix of vegetables, all brought together with a tangy vinaigrette.",
+        price: 11.69, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 14,
+        name: "Chicken Grain Bowl",
+        description: "A hearty bowl of chicken, quinoa, chickpeas, and a mix of vegetables, all brought together with a tangy vinaigrette.",
+        price: 8.99, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 15,
+        name: "Sirloin Steak Dinner",
+        description: "Steak accompanied by fresh green beans and mashed potatoes",
+        price: 11.69, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 16,
+        name: "Grilled Chicken Dinner",
+        description: "Chicken accompanied by fresh green beans and mashed potatoes",
+        price: 11.69, // Updated price with 10% off
+        isInWishlist: false,
+        category: []
+    }
+];
+
 
 const allProductListLifee = [
     {

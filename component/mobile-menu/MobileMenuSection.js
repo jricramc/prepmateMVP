@@ -47,7 +47,7 @@ const MobileMenuSection = () => {
 
                             <ul className={`fz-submenu shop-page-links ${isDropdownOpen.shop? 'd-block':'d-none'}`}>
                                 <li><Link href="/shop" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Shop</Link></li>
-                                <li><Link href="/shopDetails" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Shop details</Link></li>
+                                <li><Link href="/shop" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Shop details</Link></li>
                             </ul>  
                     </div>
                     <div className="fz-dropdown fz-nav-item">
