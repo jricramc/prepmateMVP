@@ -2,7 +2,7 @@ import { FarzaaContext } from '@/context/FarzaaContext'
 import { blogList } from '@/data/Data';
 import React, { useContext } from 'react'
 const categories = [
-  { name: null, label: 'All Door' },
+  { name: null, label: 'All Meals' },
   { name: 'Electronic', label: 'Electronic' },
   { name: 'Furniture', label: 'Furniture' },
   { name: 'Fashion', label: 'Fashion' },

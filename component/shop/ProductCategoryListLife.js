@@ -3,7 +3,7 @@ import { allProductListLife } from '@/data/Data';
 import React, { useContext, useState } from 'react';
 
 const categories = [
-    { name: null, label: 'All Door' },
+    { name: null, label: 'All Meals' },
     // { name: 'Plastic Door', label: 'Plastic Door' },
     // { name: 'Wooden Door', label: 'Wooden Door' },
     // { name: 'Double Layer Door', label: 'Double layer Door' },
