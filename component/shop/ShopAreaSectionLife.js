@@ -1,14 +1,14 @@
 import React from 'react'
 import SearchFilter from './SearchFilter'
-import ProductCategoryList from './ProductCategoryListMill'
+import ProductCategoryList from './ProductCategoryListLife'
 import ProductPriceFilter from './ProductPriceFilter'
 import ProductTag from './ProductTag'
 import ProductViewFilter from './ProductViewFilter'
 import ProductContainer from './ProductContainer'
 import ProductPagination from './ProductPagination'
-import ProductContainerMill from './ProductContainerMill'
+import ProductContainerLife from './ProductContainerLife'
 
-const ShopAreaSectionMill = () => {
+const ShopAreaSectionLife = () => {
   return (
     <div className="shop-area">
         <div className="container">
@@ -28,7 +28,7 @@ const ShopAreaSectionMill = () => {
                 <div className="col-xl-9 col-lg-8 order-0 order-lg-1">
                     <ProductViewFilter/>
 
-                    <ProductContainerMill/>
+                    <ProductContainerLife/>
 
                     <ProductPagination/>
                 </div>
@@ -38,4 +38,4 @@ const ShopAreaSectionMill = () => {
   )
 }
 
-export default ShopAreaSectionMill
+export default ShopAreaSectionLife

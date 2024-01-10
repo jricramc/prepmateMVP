@@ -168,7 +168,7 @@ const allProductListMill = [
     {
         id:0,
         imgSrc:"images/mill.jpeg",
-        name:"Mill City",
+        name:"test1",
         category:"Solid Color Door",
         price:740.00,
         isInWishlist:false,
@@ -176,119 +176,220 @@ const allProductListMill = [
     },{
         id:1,
         imgSrc:"images/hongkong.jpeg",
-        name:"Hong Kong",
+        name:"test2",
         category:"Double Layer Door",
         price:550.00,
         isInWishlist:false,
     },{
         id:2,
         imgSrc:"images/five.png",
-        name:"Five Spices House",
+        name:"test3",
         category:"Chinese Door",
         price:850.00,
         isInWishlist:false,
     },{
         id:3,
         imgSrc:"images/dosa.jpeg",
-        name:"Dosa N Curry",
+        name:"test4",
         category:"Plastic Door",
         price:440.00,
         isInWishlist:false,
-    },{
-        id:4,
-        imgSrc:"images/fz-3-cat-4.png",
-        name:"Brown Wood Door",
+    }
+]
+
+const allProductListLifee = [
+    {
+        id:0,
+        imgSrc:"images/mill.jpeg",
+        name:"life",
         category:"Solid Color Door",
-        price:680.00,
+        price:740.00,
+        isInWishlist:false,
+        link: "/shop"
+    },{
+        id:1,
+        imgSrc:"images/hongkong.jpeg",
+        name:"life",
+        category:"Double Layer Door",
+        price:550.00,
         isInWishlist:false,
     },{
-        id:5,
-        imgSrc:"images/fz-3-cat-4.png",
-        name:"Brown Layer Door",
-        category:"Solid Color Door",
-        price:730.00,
+        id:2,
+        imgSrc:"images/five.png",
+        name:"life",
+        category:"Chinese Door",
+        price:850.00,
         isInWishlist:false,
     },{
-        id:6,
-        imgSrc:"images/fz-3-cat-3.png",
-        name:"Dark Brown Door",
-        category:"Bi-fold Doors",
-        price:940.00,
-        isInWishlist:false,
-    },{
-        id:7,
-        imgSrc:"images/fz-3-cat-2.png",
-        name:"Wood Stripe Door",
-        category:"Panel Door",
-        price:480.00,
-        isInWishlist:false,
-    },{
-        id:8,
-        imgSrc:"images/fz-3-cat-1.png",
-        name:"Light Brown Door",
-        category:"Wooden Door",
-        price:390.00,
-        isInWishlist:false,
-    },{
-        id:9,
-        imgSrc:"images/fz-3-pro-1.png",
-        name:"Plastic Brown Door",
+        id:3,
+        imgSrc:"images/dosa.jpeg",
+        name:"life",
         category:"Plastic Door",
-        price:240.00,
+        price:440.00,
         isInWishlist:false,
-    },{
-        id:10,
-        imgSrc:"images/fz-3-pro-6.png",
-        name:"Modern Black Door",
-        category:"Steel Door",
-        price:430.00,
-        isInWishlist:false,
-    },{
-        id:11,
-        imgSrc:"images/fz-3-pro-7.png",
-        name:"Plastic Black Door",
-        category:"Security Door",
-        price:580.00,
-        isInWishlist:false,
-    },{
-        id:12,
-        imgSrc:"images/fz-3-pro-5.png",
-        name:"Wooden Design Door",
-        category:"Plastic Door",
-        price:340.00,
-        isInWishlist:false,
-    },{
-        id:13,
-        imgSrc:"images/fz-3-cat-4.png",
-        name:"Rustic Theme Door",
-        category:"Wooden Door",
-        price:690.00,
-        isInWishlist:false,
-    },{
-        id:14,
-        imgSrc:"images/fz-3-cat-2.png",
-        name:"Wood Stripe Door",
-        category:"Wooden Door",
-        price:350.00,
-        isInWishlist:false,
-    },{
-        id:15,
-        imgSrc:"images/feat-pro-1.png",
-        name:"Brown Solid Door",
-        category:"Wooden Door",
-        price:630.00,
-        oldPrice:900.00,
-        isInWishlist:false,
-    },{
-        id:16,
-        imgSrc:"images/feat-pro-2.png",
-        name:"Brown Antique Door",
-        category:"Wooden Door",
-        price:672.00,
-        oldPrice:960.00,
-        isInWishlist:false,
+    }
+]
+const allProductListLife = [
+    {
+        id: 0,
+        imgSrc: "images/LA_swarmi.png",
+        name: "Swami",
+        description: "Broccoli, carrots, onions, kale, roasted almonds & raisins with curry brown rice and sweet red miso sauce. Contains tree nuts, soy, sesame and allium.",
+        price: 11.25, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF"]
     },
-    
+    {
+        id: 1,
+        imgSrc: "images/LA_rainbow.png",
+        name: "Rainbow Harvest",
+        description: "Whipped sweet potato, beets, carrots, broccoli, kale, tofu & brown rice with ginger tamari sauce. Contains soy and allium.",
+        price: 11.48, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF", "NF"]
+    },
+    {
+        id: 2,
+        imgSrc: "images/LA_teriyaki.png",
+        name: "Teriyaki Tofu",
+        description: "Teriyaki glazed tofu with broccoli, roasted shiitake, carrots, charred onion, black sesame, scallions and brown rice. Contains allium, sesame & soy.",
+        price: 11.66, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF", "NF"]
+    },
+    {
+        id: 3,
+        imgSrc: "images/LA_green.png",
+        name: "Green Goddess",
+        description: "Avocado, broccoli & kale with tofu, lemon garlic brown rice and ginger tamari sauce. Contains soy and allium.",
+        price: 11.84, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF", "NF"]
+    },
+    {
+        id: 4,
+        imgSrc: "images/LA_southwest.png",
+        name: "Southwest Sol",
+        description: "Avocado, sweet corn, tomato, roasted chipotle tofu with peppers & onions, purple cabbage, jalapeño, braised black beans & dirty rice topped with salsa verde. Contains allium and soy.",
+        price: 11.84, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF", "NF"]
+    },
+    {
+        id: 5,
+        imgSrc: "images/LA_buddha.png",
+        name: "Buddha Bowl",
+        description: "Avocado, beets, kale, shiitake, purple cabbage, jalapeño, tamari almonds, hemp seeds, lemon cilantro rice & quinoa with ginger tamari sauce. Contains tree nuts, soy and allium.",
+        price: 12.29, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF"]
+    },
+    {
+        id: 6,
+        imgSrc: "images/LA_autumn.jpeg",
+        name: "Autumn Falafel",
+        description: "Crispy baked falafel, roasted butternut squash, brussels sprouts, carrots, kale, crispy chickpeas, black lentils & lemon flax brown rice with lemon tahini. Contains sesame, soy and allium.",
+        price: 12.29, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF", "NF"]
+    },
+    {
+        id: 7,
+        imgSrc: "images/LA_plant.png",
+        name: "Plant Power Bowl",
+        description: "Roasted brussels sprouts, hot honey slaw, broccoli, beets, shiitake & enoki mushrooms, smoky chili brown rice & quinoa topped with avocado, toasted pumpkin & sunflower seeds and salsa verde.",
+        price: 12.29, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF", "NF"]
+    },
+    {
+        id: 8,
+        imgSrc: "images/LA_tuscan.jpeg",
+        name: "Tuscan Kale",
+        description: "Tuscan kale, green apples, shaved fennel, roasted cashews, dried cranberries, cashew parmesan & basil green goddess dressing. Contains tree nuts and allium.",
+        price: 11.25, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF", "S"]
+    },
+    {
+        id: 9,
+        imgSrc: "images/LA_greek.png",
+        name: "Greek Tahini",
+        description: "Cucumber, tomato, feta, kalamata olives, hummus & tahini, shredded carrots, pickled onion, crispy chickpeas with mixed baby lettuces, romaine hearts and greek vinaigrette. Contains sesame, dairy, allium and soy.",
+        price: 11.66, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "GF", "NF"]
+    },
+    {
+        id: 10,
+        imgSrc: "images/LA_elote.png",
+        name: "Elote Avocado",
+        description: "Avocado, sweet corn, roasted chipotle tofu with peppers & onions, tomato, mixed baby lettuces, romaine hearts, shaved cabbages, pickled onions, jalapeño, black beans, chili-lime crema & salsa verde. Contains dairy, allium and soy.",
+        price: 11.66, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "GF", "NF"]
+    },
+    {
+        id: 11,
+        imgSrc: "images/LA_chilled.jpeg",
+        name: "Chilled Thai Noodles",
+        description: "Rice noodles, sugar snap peas, red bell pepper, cucumber, celery, carrot, cabbages, cilantro & mint and peanut crumble with peanut lime sauce & sweet chili coconut sauce. Contains peanuts, tree nuts, allium, sesame and soy.",
+        price: 11.66, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "VG", "GF", "DF"]
+    },
+    {
+        id: 12,
+        imgSrc: "images/LA_avocado.png",
+        name: "Avocado Greens",
+        description: "Everything-encrusted avocado, cucumber, sweet corn, pickled onions, kalamata olives, crispy chickpeas, feta, mixed baby lettuces, romaine hearts and tomato vinaigrette. Contains dairy, soy, sesame and allium.",
+        price: 11.93, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "GF", "NF"]
+    },
+    {
+        id: 13,
+        imgSrc: "images/LA_chopped.jpeg",
+        name: "Autumn Chopped",
+        description: "Roasted butternut squash, green apples, dried cranberries, candied pecans, blue cheese, celery, baby lettuces, romaine hearts & hot honey cider vinaigrette. Contains tree nuts, dairy, allium and soy.",
+        price: 11.93, // Updated price with 10% off
+        isInWishlist: false,
+        category: ["V", "GF"]
+    }
+];
+
+
+const allProductListSilk = [
+    {
+        id:0,
+        imgSrc:"images/mill.jpeg",
+        name:"Silk",
+        category:"Solid Color Door",
+        price:740.00,
+        isInWishlist:false,
+        link: "/shop"
+    },{
+        id:1,
+        imgSrc:"images/hongkong.jpeg",
+        name:"Silk",
+        category:"Double Layer Door",
+        price:550.00,
+        isInWishlist:false,
+    },{
+        id:2,
+        imgSrc:"images/five.png",
+        name:"Silk",
+        category:"Chinese Door",
+        price:850.00,
+        isInWishlist:false,
+    },{
+        id:3,
+        imgSrc:"images/dosa.jpeg",
+        name:"Silk",
+        category:"Plastic Door",
+        price:440.00,
+        isInWishlist:false,
+    }
 ]
 
 const blogList = [
@@ -642,6 +743,8 @@ export {
     accordionList,
     allProductList,
     allProductListMill,
+    allProductListLife,
+    allProductListSilk,
     blogList,
     ornamentList,
     allCakeList,

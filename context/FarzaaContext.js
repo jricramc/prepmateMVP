@@ -1,4 +1,4 @@
-import { allCakeList, allProductList, blogList, ornamentList } from '@/data/Data';
+import { allCakeList, allProductList, allProductListMill, allProductListLife, allProductListSilk, blogList, ornamentList } from '@/data/Data';
 import { createContext, useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
@@ -241,6 +241,78 @@ const FarzaaContextProvider = ({ children }) => {
       setFilteredProducts(allProductList);
     }
   }, [selectedTags]);
+
+ // All Product Filter Mill
+ const [filteredProductsMill, setFilteredProductsMill] = useState(allProductListMill);
+
+ // Pagination for Mill Products
+ const [currentPageMill, setCurrentPageMill] = useState(1);
+ const productsPerPageMill = 9;
+ const totalProductsMill = filteredProductsMill.length;
+ const totalPagesMill = Math.ceil(totalProductsMill / productsPerPageMill);
+
+ const handlePageChangeMill = (newPage) => {
+  setCurrentPageMill(newPage);
+  scrollToTop(); // Scroll to the top after changing the page
+};
+
+useEffect(() => {
+  const startIndexMill = (currentPageMill - 1) * productsPerPageMill;
+  const endIndexMill = currentPageMill * productsPerPageMill;
+
+  const paginatedSliceMill = filteredProductsMill.slice(startIndexMill, endIndexMill);
+  setPaginatedProductsMill(paginatedSliceMill);
+}, [currentPageMill, filteredProductsMill]);
+
+const [paginatedProductsMill, setPaginatedProductsMill] = useState([]);
+
+
+// All Product Filter Mill
+const [filteredProductsLife, setFilteredProductsLife] = useState(allProductListLife);
+
+// Pagination for Mill Products
+const [currentPageLife, setCurrentPageLife] = useState(1);
+const productsPerPageLife = 16;
+const totalProductsLife = filteredProductsLife.length;
+const totalPagesLife = Math.ceil(totalProductsLife / productsPerPageLife);
+
+const handlePageChangeLife = (newPage) => {
+ setCurrentPageLife(newPage);
+ scrollToTop(); // Scroll to the top after changing the page
+};
+
+useEffect(() => {
+ const startIndexLife = (currentPageLife - 1) * productsPerPageLife;
+ const endIndexLife = currentPageLife * productsPerPageLife;
+
+ const paginatedSliceLife = filteredProductsLife.slice(startIndexLife, endIndexLife);
+ setPaginatedProductsLife(paginatedSliceLife);
+}, [currentPageLife, filteredProductsLife]);
+
+const [paginatedProductsLife, setPaginatedProductsLife] = useState([]);
+
+const [filteredProductsSilk, setFilteredProductsSilk] = useState(allProductListSilk);
+
+// Pagination for Silk Products
+const [currentPageSilk, setCurrentPageSilk] = useState(1);
+const productsPerPageSilk = 9;
+const totalProductsSilk = filteredProductsSilk.length;
+const totalPagesSilk = Math.ceil(totalProductsSilk / productsPerPageSilk);
+
+const handlePageChangeSilk = (newPage) => {
+  setCurrentPageSilk(newPage);
+  scrollToTop(); // Scroll to the top after changing the page
+};
+
+useEffect(() => {
+  const startIndexSilk = (currentPageSilk - 1) * productsPerPageSilk;
+  const endIndexSilk = currentPageSilk * productsPerPageSilk;
+
+  const paginatedSliceSilk = filteredProductsSilk.slice(startIndexSilk, endIndexSilk);
+  setPaginatedProductsSilk(paginatedSliceSilk);
+}, [currentPageSilk, filteredProductsSilk]);
+
+const [paginatedProductsSilk, setPaginatedProductsSilk] = useState([]);
   
 // Pagination
 const productsPerPage = 9;
@@ -982,6 +1054,31 @@ useEffect(() => {
       slidesBrand,
       wishlistJewelleryItemAmount,
       wishlistCakeAmount,
+
+
+      filteredProductsMill,
+      currentPageMill,
+      handlePageChangeMill,
+      totalPagesMill,
+      paginatedProductsMill,
+      productsPerPageMill,
+      totalProductsMill,
+
+      filteredProductsLife,
+      currentPageLife,
+      handlePageChangeLife,
+      totalPagesLife,
+      paginatedProductsLife,
+      productsPerPageLife,
+      totalProductsLife,
+
+      filteredProductsSilk,
+      currentPageSilk,
+      handlePageChangeSilk,
+      totalPagesSilk,
+      paginatedProductsSilk,
+      productsPerPageSilk,
+      totalProductsSilk,
     }}>
       {children}
     </FarzaaContext.Provider>
