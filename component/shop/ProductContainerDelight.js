@@ -49,7 +49,7 @@ const ProductContainerDelight = () => {
 
                     <div className="fz-single-product__txt">
                         <span className="fz-single-product__category list-view-text">{item.category}</span>
-                        <Link href="/shopDetails" className="fz-single-product__title">{item.name}</Link>
+                        <Link href="/shop" className="fz-single-product__title">{item.name}</Link>
                         <p className="fz-single-product__desc list-view-text">{item.description}</p>
                                     
                         <div className="fz-single-product__price-rating">

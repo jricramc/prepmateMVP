@@ -124,7 +124,9 @@ const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY)
 
 
 const CheckoutSection = () => {
-    const {subTotal, delivery, salestax, finalPrice, cart} = useContext(FarzaaContext);
+    const {subTotal, delivery, salestax, serviceCharge, finalPrice, cartItems} = useContext(FarzaaContext);
+    // console.log('cart', cartItems)
+
     // console.log('farz final', finalPrice)
     // console.log('farzacont', FarzaaContext)
 
@@ -151,13 +153,15 @@ const CheckoutSection = () => {
         const formData = new FormData(e.target);
         const data = Object.fromEntries(formData.entries());
 
-        data.cart = cart;
+
+        const data_send = {data, cartItems}
+
 
         try {
             let response = await fetch('/api/submitCheckout', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(data),
+                body: JSON.stringify(data_send),
             });
     
             if (!response.ok) throw new Error('Problem with submitCheckout');
@@ -259,6 +263,11 @@ const CheckoutSection = () => {
                                     <span className="checkout-summary__value"><span>$</span>{salestax.toFixed(2)}</span>
                                 </li>
 
+                                <li>
+                                    <span className="checkout-summary__key">Service Charge</span>
+                                    <span className="checkout-summary__value"><span>$</span>{serviceCharge.toFixed(2)}</span>
+                                </li>
+
                                 <li className="cart-checkout-total">
                                     <span className="checkout-summary__key">Total</span>
                                     <span className="checkout-summary__value"><span>$</span>{finalPrice.toFixed(2)}</span>
@@ -274,24 +283,27 @@ const CheckoutSection = () => {
                         <h4 className="fz-checkout-title">Delivery Day</h4>
                         <div className="col-6 col-xxs-12">
                             <Form.Select className='day-select' name="days" id="checkout-days">
-                                <option value="Wednesday">Wednesday</option>
-                                <option value="Sunday">Sunday</option>
+                                <option value="Sunday Jan 14">Sunday Jan 14</option>
+                                <option value="Wednesday Jan 17">Wednesday Jan 17</option>
                             </Form.Select>
                         </div>
                     </div>
 
                     <div className="payment-info">
-                        <h4 className="fz-checkout-title">Payment</h4>
-                        <p className="checkout-payment-descr">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#">privacy policy</a></p>
+                        <h4 className="fz-checkout-title mt-5">Payment: $50 Minimum </h4>
+                        <p className="checkout-payment-descr">By Ordering you agree to our <a href="https://prepmate.shop/Privacy">privacy policy</a> and <a href="https://prepmate.shop/Terms">terms.</a> 
+                        <br /> <b>Please use same email on Stripe as your Delivery Details. </b>
+                        <br /> <b></b>
+                        </p>
                         <button type="submit" className="fz-1-banner-btn cart-checkout-btn checkout-form-btn">Pay</button>
                     </div>
                 </div>s
                 </form>
-                {clientSecret && (
+                {/* {clientSecret && (
                     <Elements options={options} stripe={stripePromise}>
                         <CheckoutForm />
                     </Elements>
-                )}
+                )} */}
             </div>
         </div>
     );

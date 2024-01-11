@@ -34,7 +34,7 @@ const CelebrationTabPane = () => {
                     </div>
 
                     <div className="fz-3-single-product__txt">
-                        <Link href="/shopDetails" className="fz-3-single-product__title">{item.name}</Link>
+                        <Link href="/shop" className="fz-3-single-product__title">{item.name}</Link>
                         <p className="fz-3-single-product__price">
                             <span className="current-price">${item.price}</span>
                             <span className="prev-price text-decoration-line-through">${item.oldPrice}</span>

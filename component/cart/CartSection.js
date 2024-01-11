@@ -8,6 +8,7 @@ const CartSection = () => {
         subTotal, 
         delivery,
         salestax,
+        serviceCharge,
         finalPrice, 
         cartItems,
         handleQuantityChange,

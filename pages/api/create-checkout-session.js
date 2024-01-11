@@ -20,6 +20,11 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Invalid price provided' });
   }
 
+  // Check if finalPrice is less than 55
+  if (finalPrice < 55) {
+    return res.status(400).json({ error: 'Minimum purchase amount is $55' });
+  }
+
   // Example: Create a session with a single line item
   const session = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],

@@ -1020,7 +1020,7 @@ const allProductListDelight = [
     {
         "id": 45,
         "name": "Two Vegetarian Dishes",
-        "imgSrc": "images/spice-delight/veg.jpg",
+        "imgSrc": "images/spice-delight/veg.jpeg",
         "description": "Two Vegetarian Dishes served with Rice",
         "price": 12.99,
         "isInWishlist": false,
