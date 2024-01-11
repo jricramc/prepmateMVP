@@ -1,6 +1,10 @@
 # Use an official Node.js runtime as the base image
 FROM node:16
 
+ARG DATABASE_URL
+ARG NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+ARG STRIPE_SECRET_KEY
+
 # Set the working directory in the container to /app
 WORKDIR /app
 
