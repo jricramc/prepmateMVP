@@ -31,7 +31,7 @@ const CartSection = () => {
                 <ul className="checkout-summary">
                     <li>
                         <span className="checkout-summary__key">Subtotal</span>
-                        <span className="checkout-summary__value"><span>$</span>{subTotal}</span>
+                        <span className="checkout-summary__value"><span>$</span>{subTotal.toFixed(2)}</span>
                     </li>
 
                     <li>
@@ -41,7 +41,7 @@ const CartSection = () => {
 
                     <li className="cart-checkout-total">
                         <span className="checkout-summary__key">Total</span>
-                        <span className="checkout-summary__value"><span>$</span>{finalPrice}</span>
+                        <span className="checkout-summary__value"><span>$</span>{finalPrice.toFixed(2)}</span>
                     </li>
                 </ul>
 

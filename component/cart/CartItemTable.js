@@ -49,16 +49,16 @@ const CartItemTable = ({cartArray,remove,quantity}) => {
                                     type="number"
                                     name="product-quantity-input"
                                     className="cart-product-quantity-input"
-                                    min="0"
+                                    // min="5"
                                     value={item.quantity}
-                                    onChange={(event) => {
-                                        const newQuantity = parseInt(event.target.value);
-                                        quantity(item.id, newQuantity);
-                                    }}
+                                    // onChange={(event) => {
+                                    //     const newQuantity = parseInt(event.target.value);
+                                    //     quantity(item.id, newQuantity);
+                                    // }}
                                 />
                             </div>
                             </td>
-                            <td>${item.total}</td>
+                            <td>${item.total.toFixed(2)}</td>
                             <td>
                                 <button
                                     className="item-remove-btn"

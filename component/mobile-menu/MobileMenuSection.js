@@ -14,7 +14,7 @@ const MobileMenuSection = () => {
             <nav className="mean-nav">
                 <div className="align-items-center justify-content-center mobile-menu-list-items">
                     <div className="fz-dropdown fz-nav-item">
-                            <a 
+                            {/* <a 
                             role="button" 
                             className="fz-nav-link"
                             >
@@ -24,13 +24,13 @@ const MobileMenuSection = () => {
                                 role='button' 
                                 onClick={() => handleDropdownToggle('home')}
                                 ></i>
-                            </a>
+                            </a> */}
 
-                            <ul className={`fz-submenu home-page-links ${isDropdownOpen.home? 'd-block':'d-none'}`}>
+                            {/* <ul className={`fz-submenu home-page-links ${isDropdownOpen.home? 'd-block':'d-none'}`}>
                                 <li><Link href="/" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Door Shop</Link></li>
                                 <li><Link href="/jewelleryShop" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Jewelry Shop</Link></li>
                                 <li><Link href="/cakeShop" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Cake Shop</Link></li>
-                            </ul> 
+                            </ul>  */}
                     </div>
                     <div className="fz-dropdown fz-nav-item">
                            <a 
@@ -82,14 +82,14 @@ const MobileMenuSection = () => {
                                 <i 
                                 className={`fa-regular ${isDropdownOpen.blog ? 'fa-minus':'fa-plus'}`} 
                                 role='button' 
-                                onClick={() => handleDropdownToggle('blog')}
+                                // onClick={() => handleDropdownToggle('blog')}
                                 ></i>
                             </a>
 
-                            <ul className={`fz-submenu blog-page-links ${isDropdownOpen.blog? 'd-block':'d-none'}`}>
+                            {/* <ul className={`fz-submenu blog-page-links ${isDropdownOpen.blog? 'd-block':'d-none'}`}>
                                 <li><Link href="/blog" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Blog</Link></li>
                                 <li><Link href="/blogDetails" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Blog-details</Link></li>
-                            </ul>   
+                            </ul>    */}
                            
                     </div>
                     <div className="fz-nav-item mean-last">
