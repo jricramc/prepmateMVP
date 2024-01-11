@@ -15,7 +15,10 @@ COPY . .
 
 RUN npm run build
 
-RUN printenv
+# RUN printenv
+
+RUN echo "STRIPE_API_KEY: $STRIPE_API_KEY"
+
 
 # Make port 3000 available to the world outside this container
 # EXPOSE 3000
