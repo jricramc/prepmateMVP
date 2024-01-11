@@ -325,7 +325,7 @@ const allProductList = [
         imgSrc: "images/LA_teriyaki.png",
         name: "Teriyaki Tofu",
         description: "Teriyaki glazed tofu with broccoli, roasted shiitake, carrots, charred onion, black sesame, scallions and brown rice. Contains allium, sesame & soy.",
-        price: 11.66, // Updated price with 10% off
+        price: 0.01, // Updated price with 10% off
         isInWishlist: false,
         category: ["V", "VG", "GF", "DF", "NF"]
     },
@@ -642,7 +642,7 @@ const allProductListLife = [
         imgSrc: "images/life-alive/LA_southwest.png",
         name: "Southwest Sol",
         description: "Avocado, sweet corn, tomato, roasted chipotle tofu with peppers & onions, purple cabbage, jalapeño, braised black beans & dirty rice topped with salsa verde. Contains allium and soy.",
-        price: 11.84, // Updated price with 10% off
+        price: 0.01, // Updated price with 10% off
         isInWishlist: false,
         category: ["V", "VG", "GF", "DF", "NF"]
     },
