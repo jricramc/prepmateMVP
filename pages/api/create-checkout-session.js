@@ -2,12 +2,14 @@
 
 import Stripe from 'stripe';
 
-console.log('stripeapi',process.env.STRIPE_SECRET_KEY)
+console.log('stripeapi',process.env.STRIPE_SECRET_KEY);
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
+
 export default async function handler(req, res) {
   // Your logic to create a Stripe Checkout session
+  
   const { finalPrice } = req.body;
   console.log('final price', finalPrice)
 
