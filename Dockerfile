@@ -15,6 +15,8 @@ COPY . .
 
 RUN npm run build
 
+RUN printenv
+
 # Make port 3000 available to the world outside this container
 # EXPOSE 3000
 
