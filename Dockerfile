@@ -17,11 +17,14 @@ RUN npm run build
 
 # RUN printenv
 
-RUN echo "STRIPE_API_KEY: $STRIPE_API_KEY"
+# RUN echo "STRIPE_API_KEY: $STRIPE_API_KEY"
+# CMD echo "STRIPE_API_KEY: $STRIPE_API_KEY"
+
 
 
 # Make port 3000 available to the world outside this container
 # EXPOSE 3000
 
 # Define the command to run your app using CMD which defines your runtime
-CMD [ "npm", "start" ]
+# CMD [ "npm", "start" ]
+CMD ["sh", "-c", "echo 'STRIPE_API_KEY: $STRIPE_API_KEY' && npm start"]
