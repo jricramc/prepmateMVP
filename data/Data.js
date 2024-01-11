@@ -164,8 +164,7 @@ const allProductList2= [
 
 ]
 
-const allProductList = [
-    
+const allProductList= [
     {
         "id": 0,
         "name": "Tuna Sandwich",
@@ -302,151 +301,133 @@ const allProductList = [
         "category": []
     },
     {
-        id: 15,
-        imgSrc: "images/life-alive/LA_swarmi.png",
-        name: "Swami",
-        description: "Broccoli, carrots, onions, kale, roasted almonds & raisins with curry brown rice and sweet red miso sauce. Contains tree nuts, soy, sesame and allium.",
-        price: 11.25, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF"]
+        "id": 15,
+        "imgSrc": "images/life-alive/LA_swarmi.png",
+        "name": "Swami",
+        "description": "Broccoli, carrots, onions, kale, roasted almonds & raisins with curry brown rice and sweet red miso sauce. Contains tree nuts, soy, sesame and allium.",
+        "price": 11.25, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF"]
     },
     {
-        id: 16,
-        imgSrc: "images/life-alive/LA_rainbow.png",
-        name: "Rainbow Harvest",
-        description: "Whipped sweet potato, beets, carrots, broccoli, kale, tofu & brown rice with ginger tamari sauce. Contains soy and allium.",
-        price: 11.48, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF", "NF"]
+        "id": 16,
+        "imgSrc": "images/life-alive/LA_rainbow.png",
+        "name": "Rainbow Harvest",
+        "description": "Whipped sweet potato, beets, carrots, broccoli, kale, tofu & brown rice with ginger tamari sauce. Contains soy and allium.",
+        "price": 11.48, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 17,
-        imgSrc: "images/life-alive/LA_teriyaki.png",
-        name: "Teriyaki Tofu",
-        description: "Teriyaki glazed tofu with broccoli, roasted shiitake, carrots, charred onion, black sesame, scallions and brown rice. Contains allium, sesame & soy.",
-        price: 11.66, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF", "NF"]
+        "id": 17,
+        "imgSrc": "images/life-alive/LA_teriyaki.png",
+        "name": "Teriyaki Tofu",
+        "description": "Teriyaki glazed tofu with broccoli, roasted shiitake, carrots, charred onion, black sesame, scallions and brown rice. Contains allium, sesame & soy.",
+        "price": 11.66, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 18,
-        imgSrc: "images/life-alive/LA_green.png",
-        name: "Green Goddess",
-        description: "Avocado, broccoli & kale with tofu, lemon garlic brown rice and ginger tamari sauce. Contains soy and allium.",
-        price: 11.84, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF", "NF"]
+        "id": 18,
+        "imgSrc": "images/life-alive/LA_green.png",
+        "name": "Green Goddess",
+        "description": "Avocado, broccoli & kale with tofu, lemon garlic brown rice and ginger tamari sauce. Contains soy and allium.",
+        "price": 11.84, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 19,
-        imgSrc: "images/life-alive/LA_southwest.png",
-        name: "Southwest Sol",
-        description: "Avocado, sweet corn, tomato, roasted chipotle tofu with peppers & onions, purple cabbage, jalapeño, braised black beans & dirty rice topped with salsa verde. Contains allium and soy.",
-        price: 0.01, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF", "NF"]
+        "id": 19,
+        "imgSrc": "images/life-alive/LA_southwest.png",
+        "name": "Southwest Sol",
+        "description": "Avocado, sweet corn, tomato, roasted chipotle tofu with peppers & onions, purple cabbage, jalapeño, braised black beans & dirty rice topped with salsa verde. Contains allium and soy.",
+        "price": 0.01, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 20,
-        imgSrc: "images/life-alive/LA_buddha.png",
-        name: "Buddha Bowl",
-        description: "Avocado, beets, kale, shiitake, purple cabbage, jalapeño, tamari almonds, hemp seeds, lemon cilantro rice & quinoa with ginger tamari sauce. Contains tree nuts, soy and allium.",
-        price: 12.29, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF"]
+        "id": 20,
+        "imgSrc": "images/life-alive/LA_buddha.png",
+        "name": "Buddha Bowl",
+        "description": "Avocado, beets, kale, shiitake, purple cabbage, jalapeño, tamari almonds, hemp seeds, lemon cilantro rice & quinoa with ginger tamari sauce. Contains tree nuts, soy and allium.",
+        "price": 12.29, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF"]
     },
     {
-        id: 21,
-        imgSrc: "images/life-alive/LA_autumn.jpeg",
-        name: "Autumn Falafel",
-        description: "Crispy baked falafel, roasted butternut squash, brussels sprouts, carrots, kale, crispy chickpeas, black lentils & lemon flax brown rice with lemon tahini. Contains sesame, soy and allium.",
-        price: 12.29, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF", "NF"]
+        "id": 21,
+        "imgSrc": "images/life-alive/LA_autumn.jpeg",
+        "name": "Autumn Falafel",
+        "description": "Crispy baked falafel, roasted butternut squash, brussels sprouts, carrots, kale, crispy chickpeas, black lentils & lemon flax brown rice with lemon tahini. Contains sesame, soy and allium.",
+        "price": 12.29, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 22,
-        imgSrc: "images/life-alive/LA_plant.png",
-        name: "Plant Power Bowl",
-        description: "Roasted brussels sprouts, hot honey slaw, broccoli, beets, shiitake & enoki mushrooms, smoky chili brown rice & quinoa topped with avocado, toasted pumpkin & sunflower seeds and salsa verde.",
-        price: 12.29, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF", "NF"]
+        "id": 22,
+        "imgSrc": "images/life-alive/LA_plant.png",
+        "name": "Plant Power Bowl",
+        "description": "Roasted brussels sprouts, hot honey slaw, broccoli, beets, shiitake & enoki mushrooms, smoky chili brown rice & quinoa topped with avocado, toasted pumpkin & sunflower seeds and salsa verde.",
+        "price": 12.29, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 23,
-        imgSrc: "images/life-alive/LA_tuscan.jpeg",
-        name: "Tuscan Kale",
-        description: "Tuscan kale, green apples, shaved fennel, roasted cashews, dried cranberries, cashew parmesan & basil green goddess dressing. Contains tree nuts and allium.",
-        price: 11.25, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF", "S"]
+        "id": 23,
+        "imgSrc": "images/life-alive/LA_tuscan.jpeg",
+        "name": "Tuscan Kale",
+        "description": "Tuscan kale, green apples, shaved fennel, roasted cashews, dried cranberries, cashew parmesan & basil green goddess dressing. Contains tree nuts and allium.",
+        "price": 11.25, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF", "S"]
     },
     {
-        id: 24,
-        imgSrc: "images/life-alive/LA_greek.png",
-        name: "Greek Tahini",
-        description: "Cucumber, tomato, feta, kalamata olives, hummus & tahini, shredded carrots, pickled onion, crispy chickpeas with mixed baby lettuces, romaine hearts and greek vinaigrette. Contains sesame, dairy, allium and soy.",
-        price: 11.66, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "GF", "NF"]
+        "id": 24,
+        "imgSrc": "images/life-alive/LA_greek.png",
+        "name": "Greek Tahini",
+        "description": "Cucumber, tomato, feta, kalamata olives, hummus & tahini, shredded carrots, pickled onion, crispy chickpeas with mixed baby lettuces, romaine hearts and greek vinaigrette. Contains sesame, dairy, allium and soy.",
+        "price": 11.66, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "GF", "NF"]
     },
     {
-        id: 25,
-        imgSrc: "images/life-alive/LA_elote.png",
-        name: "Elote Avocado",
-        description: "Avocado, sweet corn, roasted chipotle tofu with peppers & onions, tomato, mixed baby lettuces, romaine hearts, shaved cabbages, pickled onions, jalapeño, black beans, chili-lime crema & salsa verde. Contains dairy, allium and soy.",
-        price: 11.66, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "GF", "NF"]
+        "id": 25,
+        "imgSrc": "images/life-alive/LA_elote.png",
+        "name": "Elote Avocado",
+        "description": "Avocado, sweet corn, roasted chipotle tofu with peppers & onions, tomato, mixed baby lettuces, romaine hearts, shaved cabbages, pickled onions, jalapeño, black beans, chili-lime crema & salsa verde. Contains dairy, allium and soy.",
+        "price": 11.66, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "GF", "NF"]
     },
     {
-        id: 26,
-        imgSrc: "images/life-alive/LA_chilled.jpeg",
-        name: "Chilled Thai Noodles",
-        description: "Rice noodles, sugar snap peas, red bell pepper, cucumber, celery, carrot, cabbages, cilantro & mint and peanut crumble with peanut lime sauce & sweet chili coconut sauce. Contains peanuts, tree nuts, allium, sesame and soy.",
-        price: 11.66, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "VG", "GF", "DF"]
+        "id": 26,
+        "imgSrc": "images/life-alive/LA_chilled.jpeg",
+        "name": "Chilled Thai Noodles",
+        "description": "Rice noodles, sugar snap peas, red bell pepper, cucumber, celery, carrot, cabbages, cilantro & mint and peanut crumble with peanut lime sauce & sweet chili coconut sauce. Contains peanuts, tree nuts, allium, sesame and soy.",
+        "price": 11.66, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "VG", "GF", "DF"]
     },
     {
-        id: 27,
-        imgSrc: "images/life-alive/LA_avocado.png",
-        name: "Avocado Greens",
-        description: "Everything-encrusted avocado, cucumber, sweet corn, pickled onions, kalamata olives, crispy chickpeas, feta, mixed baby lettuces, romaine hearts and tomato vinaigrette. Contains dairy, soy, sesame and allium.",
-        price: 11.93, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "GF", "NF"]
+        "id": 27,
+        "imgSrc": "images/life-alive/LA_avocado.png",
+        "name": "Avocado Greens",
+        "description": "Everything-encrusted avocado, cucumber, sweet corn, pickled onions, kalamata olives, crispy chickpeas, feta, mixed baby lettuces, romaine hearts and tomato vinaigrette. Contains dairy, soy, sesame and allium.",
+        "price": 11.93, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "GF", "NF"]
     },
     {
-        id: 28,
-        imgSrc: "images/life-alive/LA_chopped.jpeg",
-        name: "Autumn Chopped",
-        description: "Roasted butternut squash, green apples, dried cranberries, candied pecans, blue cheese, celery, baby lettuces, romaine hearts & hot honey cider vinaigrette. Contains tree nuts, dairy, allium and soy.",
-        price: 11.93, // Updated price with 10% off
-        isInWishlist: false,
-        category: ["V", "GF"]
+        "id": 28,
+        "imgSrc": "images/life-alive/LA_chopped.jpeg",
+        "name": "Autumn Chopped",
+        "description": "Roasted butternut squash, green apples, dried cranberries, candied pecans, blue cheese, celery, baby lettuces, romaine hearts & hot honey cider vinaigrette. Contains tree nuts, dairy, allium and soy.",
+        "price": 11.93, // Updated price with 10% off
+        "isInWishlist": false,
+        "category": ["V", "GF"]
     },
     {
         "id": 29,
-        "name": "Stir-Fried Tomato with Egg",
-        "imgSrc": "images/silk-road/tomato-egg.jpg",
-        "description": "Boiled Egg with Stir-Fried Tomato",
-        "price": 10.99,
-        "isInWishlist": false,
-        "category": []
-    },
-    {
-        "id": 30,
-        "name": "Stir-Fried Celery with Fungus",
-        "imgSrc": "images/silk-road/celery-fungus.jpg",
-        "description": "Stir-Fried Vegetables with Fungus",
-        "price": 10.99,
-        "isInWishlist": false,
-        "category": []
-    },
-    {
-        "id": 31,
         "name": "Spicy Tofu",
         "imgSrc": "images/silk-road/spicy-tofu.jpg",
         "description": "Stir-Fried Tofu in House Dressing",
@@ -455,7 +436,7 @@ const allProductList = [
         "category": []
     },
     {
-        "id": 32,
+        "id": 30,
         "name": "Laghman",
         "imgSrc": "images/silk-road/laghman.webp",
         "description": "Hand pulled noodle with stir-fried veggies and beef",
@@ -464,7 +445,7 @@ const allProductList = [
         "category": []
     },
     {
-        "id": 33,
+        "id": 31,
         "name": "Dry Fried Noodles",
         "imgSrc": "images/silk-road/dry-fried.jpg",
         "description": "Dry-fried noodles with veggies and beef",
@@ -473,7 +454,7 @@ const allProductList = [
         "category": []
     },
     {
-        "id": 34,
+        "id": 32,
         "name": "Diced Noodle",
         "imgSrc": "images/silk-road/diced-noodle.jpg",
         "description": "Finely cut stir-fried noodles with veggies and beef",
@@ -482,7 +463,7 @@ const allProductList = [
         "category": []
     },
     {
-        "id": 35,
+        "id": 33,
         "name": "Uyghur Pilaf",
         "imgSrc": "images/silk-road/uyghur.jpg",
         "description": "Traditional Uyghur braised rice cooked with carrot, onion, and beef",
@@ -491,7 +472,7 @@ const allProductList = [
         "category": []
     },
     {
-        "id": 36,
+        "id": 34,
         "name": "Chicken Rice Noodle",
         "imgSrc": "images/silk-road/chicken-rice.jpg",
         "description": "Stir-fried chicken with rice noodle",
@@ -500,7 +481,7 @@ const allProductList = [
         "category": []
     },
     {
-        "id": 37,
+        "id": 35,
         "name": "Dumpling",
         "imgSrc": "images/silk-road/dumpling.jpg",
         "description": "Dumpling filled with beef and onion",
@@ -509,10 +490,28 @@ const allProductList = [
         "category": []
     },
     {
-        "id": 38,
+        "id": 36,
         "name": "Beef Noodle Soup",
         "imgSrc": "images/silk-road/beef-noodle.webp",
         "description": "Beef broth with noodle and sliced beef",
+        "price": 10.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 37,
+        "name": "Stir-Fried Tomato with Egg",
+        "imgSrc": "images/silk-road/tomato-egg.jpg",
+        "description": "Boiled Egg with Stir-Fried Tomato",
+        "price": 10.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 38,
+        "name": "Stir-Fried Celery with Fungus",
+        "imgSrc": "images/silk-road/celery-fungus.jpg",
+        "description": "Stir-Fried Vegetables with Fungus",
         "price": 10.99,
         "isInWishlist": false,
         "category": []
@@ -608,7 +607,7 @@ const allProductList = [
         "category": []
     },
     {
-        "id": 48,
+        "id": 49,
         "name": "Chana Masala and Chicken Korma ",
         "imgSrc": "images/spice-delight/one-each.jpg",
         "description": "Chana Masala and Chicken Korma Served with Rice",
@@ -625,7 +624,9 @@ const allProductList = [
         "isInWishlist": false,
         "category": []
     }
+
 ]
+
 
 
 const allProductListMill = [
@@ -1047,7 +1048,7 @@ const allProductListDelight = [
     {
         "id": 45,
         "name": "Saag Paneer and Chana Masala",
-        "imgSrc": "images/spice-delight/veg.jpg",
+        "imgSrc": "images/spice-delight/veg.jpeg",
         "description": "Saag Paneer and Chana Masala served with Rice",
         "price": 12.99,
         "isInWishlist": false,
@@ -1081,7 +1082,7 @@ const allProductListDelight = [
         "category": []
     },
     {
-        "id": 48,
+        "id": 49,
         "name": "Chana Masala and Chicken Korma ",
         "imgSrc": "images/spice-delight/one-each.jpg",
         "description": "Chana Masala and Chicken Korma Served with Rice",
