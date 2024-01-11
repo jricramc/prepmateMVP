@@ -1,4 +1,4 @@
-import { allCakeList, allProductList, allProductListMill, allProductListLife, allProductListSilk, blogList, ornamentList } from '@/data/Data';
+import { allCakeList, allProductList, allProductListMill, allProductListLife, allProductListSilk, allProductListDelight, blogList, ornamentList } from '@/data/Data';
 import { createContext, useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
@@ -313,6 +313,29 @@ useEffect(() => {
 }, [currentPageSilk, filteredProductsSilk]);
 
 const [paginatedProductsSilk, setPaginatedProductsSilk] = useState([]);
+
+const [filteredProductsDelight, setFilteredProductsDelight] = useState(allProductListDelight);
+
+// Pagination for Mill Products
+const [currentPageDelight, setCurrentPageDelight] = useState(1);
+const productsPerPageDelight = 16;
+const totalProductsDelight = filteredProductsDelight.length;
+const totalPagesDelight = Math.ceil(totalProductsDelight / productsPerPageDelight);
+
+const handlePageChangeDelight = (newPage) => {
+ setCurrentPageDelight(newPage);
+ scrollToTop(); // Scroll to the top after changing the page
+};
+
+useEffect(() => {
+ const startIndexDelight = (currentPageDelight - 1) * productsPerPageDelight;
+ const endIndexDelight = currentPageDelight * productsPerPageDelight;
+
+ const paginatedSliceDelight = filteredProductsDelight.slice(startIndexDelight, endIndexDelight);
+ setPaginatedProductsDelight(paginatedSliceDelight);
+}, [currentPageDelight, filteredProductsDelight]);
+
+const [paginatedProductsDelight, setPaginatedProductsDelight] = useState([]);
   
 // Pagination
 const productsPerPage = 9;
@@ -1081,6 +1104,14 @@ useEffect(() => {
       paginatedProductsSilk,
       productsPerPageSilk,
       totalProductsSilk,
+
+      filteredProductsDelight,
+      currentPageDelight,
+      handlePageChangeDelight,
+      totalPagesDelight,
+      paginatedProductsDelight,
+      productsPerPageDelight,
+      totalProductsDelight,
     }}>
       {children}
     </FarzaaContext.Provider>

@@ -37,6 +37,15 @@ const CategorySection = () => {
               </div>
             </Link>
           </div>
+
+          <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 fz-1-category-col">
+            <Link href="/delightShop">
+              <div className="fz-1-single-category">
+                <img src="images/spice-delight/delight.jpeg" alt="Product Icon" />
+                <h5 className="fz-1-single-category__title">Spice Delight</h5>
+              </div>
+            </Link>
+          </div>
 {/* 
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 fz-1-category-col">
             <Link href="/shop">
