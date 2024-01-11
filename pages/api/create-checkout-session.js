@@ -3,7 +3,7 @@
 import Stripe from 'stripe';
 
 const stripe_sec= process.env.STRIPE_SECRET_KEY
-
+console.log(typeof stripe_sec)
 
 console.log('stripeapi', stripe_sec);
 
