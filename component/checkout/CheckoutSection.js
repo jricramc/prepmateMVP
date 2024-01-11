@@ -117,6 +117,9 @@ import { loadStripe } from '@stripe/stripe-js';
 import Link from 'next/link';
 import { FarzaaContext } from '@/context/FarzaaContext';
 
+const next_public= process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+console.log('next_public', next_public)
+
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
 
 

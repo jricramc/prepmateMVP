@@ -2,7 +2,10 @@
 
 import Stripe from 'stripe';
 
-console.log('stripeapi',process.env.STRIPE_SECRET_KEY);
+const stripe_sec= process.env.STRIPE_SECRET_KEY
+
+
+console.log('stripeapi', stripe_sec);
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
