@@ -124,7 +124,7 @@ const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY)
 
 
 const CheckoutSection = () => {
-    const {subTotal, shipping, finalPrice} = useContext(FarzaaContext);
+    const {subTotal, delivery, salestax, finalPrice} = useContext(FarzaaContext);
     // console.log('farz final', finalPrice)
     // console.log('farzacont', FarzaaContext)
 
@@ -247,8 +247,13 @@ const CheckoutSection = () => {
                                 </li>
 
                                 <li>
-                                    <span className="checkout-summary__key">Shipping</span>
-                                    <span className="checkout-summary__value"><span>$</span>{shipping}</span>
+                                    <span className="checkout-summary__key">Delivery</span>
+                                    <span className="checkout-summary__value"><span>$</span>{delivery}</span>
+                                </li>
+
+                                <li>
+                                    <span className="checkout-summary__key">Sales Tax</span>
+                                    <span className="checkout-summary__value"><span>$</span>{salestax.toFixed(2)}</span>
                                 </li>
 
                                 <li className="cart-checkout-total">

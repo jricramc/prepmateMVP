@@ -6,7 +6,8 @@ import { FarzaaContext } from '@/context/FarzaaContext'
 const CartSection = () => {
     const {
         subTotal, 
-        shipping,
+        delivery,
+        salestax,
         finalPrice, 
         cartItems,
         handleQuantityChange,
@@ -35,8 +36,13 @@ const CartSection = () => {
                     </li>
 
                     <li>
-                        <span className="checkout-summary__key">Shipping</span>
-                        <span className="checkout-summary__value"><span>$</span>{shipping}</span>
+                        <span className="checkout-summary__key">Delivery</span>
+                        <span className="checkout-summary__value"><span>$</span>{delivery}</span>
+                    </li>
+
+                    <li>
+                        <span className="checkout-summary__key">Sales Tax</span>
+                        <span className="checkout-summary__value"><span>$</span>{salestax.toFixed(2)}</span>
                     </li>
 
                     <li className="cart-checkout-total">
