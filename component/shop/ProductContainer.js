@@ -49,7 +49,7 @@ const ProductContainer = () => {
 
                     <div className="fz-single-product__txt">
                         <span className="fz-single-product__category list-view-text">{item.category}</span>
-                        <Link href="/shopDetails" className="fz-single-product__title">{item.name}</Link>
+                        <Link href="/shop" className="fz-single-product__title">{item.name}</Link>
                         <div className="fz-single-product__price-rating">
                             <p className="fz-single-product__price">
                                 <span className="current-price">${item.price}</span>
@@ -64,10 +64,10 @@ const ProductContainer = () => {
                             </div>
                         </div>
 
-                        <p className="fz-single-product__desc list-view-text">
+                        {/* <p className="fz-single-product__desc list-view-text">
                             2021 Latest G5 3200DPI Gaming Mouse 7-Color RGB Breathing
                             Led Light for Notebook Laptop/PC RGB Backlit Universal.
-                        </p>
+                        </p> */}
 
                         <div className="fz-single-product__actions list-view-text">
                             <button 

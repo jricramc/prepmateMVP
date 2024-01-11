@@ -32,7 +32,7 @@ const CollectionSection = () => {
       : paginatedProducts.filter((item) => item.category === activeTab);
   return (
     <section className="fz-1-latest-collection">
-        <div className="container">
+        {/* <div className="container">
             <div className="fz-1-section-heading">
                 <h2 className="fz-section-title">All Restaurants</h2>
             </div>
@@ -132,7 +132,7 @@ const CollectionSection = () => {
                     ))
                 }
             </Swiper>
-        </div>
+        </div> */}
     </section>
   )
 }

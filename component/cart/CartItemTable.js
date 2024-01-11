@@ -24,7 +24,7 @@ const CartItemTable = ({cartArray,remove,quantity}) => {
                                         <img src={item.imgSrc} alt="Product Image"/>
                                     </div>
                                     <div className="cart-product__txt">
-                                        <h6><Link href="/shopDetails">{item.name}</Link></h6>
+                                        <h6><Link href="/shop">{item.name}</Link></h6>
                                     </div>
                                 </div>
                             </td>

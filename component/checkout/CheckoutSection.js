@@ -124,7 +124,7 @@ const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY)
 
 
 const CheckoutSection = () => {
-    const {subTotal, delivery, salestax, finalPrice} = useContext(FarzaaContext);
+    const {subTotal, delivery, salestax, finalPrice, cart} = useContext(FarzaaContext);
     // console.log('farz final', finalPrice)
     // console.log('farzacont', FarzaaContext)
 
@@ -147,8 +147,11 @@ const CheckoutSection = () => {
     const handleFormSubmit = async (e) => {
         e.preventDefault();
 
+        // const { cart } = useContext(FarzaaContext);
         const formData = new FormData(e.target);
         const data = Object.fromEntries(formData.entries());
+
+        data.cart = cart;
 
         try {
             let response = await fetch('/api/submitCheckout', {

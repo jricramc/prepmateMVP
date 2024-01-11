@@ -18,13 +18,13 @@ const FooterSection = () => {
                             <h5 className="fz-footer-widget__title">Customer Service</h5>
                             <ul>
                                 <li><a href="#">Restaurants</a></li>
-                                <li><Link href="/faq">FAQ</Link></li>
-                                <li><a href="#">About</a></li>
+                                <li><Link href="/contact">Contact</Link></li>
+                                {/* <li><a href="#">About</a></li> */}
                             </ul>
                         </div>
                     </div>
 
-                    <div className="col-xxl-2 col-lg-3 col-md-4 col-6 col-xxs-12">
+                    {/* <div className="col-xxl-2 col-lg-3 col-md-4 col-6 col-xxs-12">
                         <div className="fz-footer-widget">
                             <h5 className="fz-footer-widget__title">Legal</h5>
                             <ul>
@@ -33,7 +33,7 @@ const FooterSection = () => {
                                 <li><Link href="/cookies">Cookie Policy</Link></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="col-xxl-2 col-lg-3 col-md-4 col-6 col-xxs-12">
                         <div className="fz-footer__contact-info">

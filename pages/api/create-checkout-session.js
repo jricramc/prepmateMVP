@@ -30,13 +30,13 @@ export default async function handler(req, res) {
         product_data: {
           name: 'Sample Product',
         },
-        unit_amount: Math.round(finalPrice)*100, // Price in cents
+        unit_amount: Math.round(finalPrice*100), // Price in cents
       },
       quantity: 1,
     }],
     mode: 'payment',
     success_url: `${req.headers.origin}/success?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${req.headers.origin}/cancel`,
+    cancel_url: `${req.headers.origin}/`,
   });
 
   res.status(200).json({ sessionId: session.id });

@@ -10,8 +10,8 @@ const FeaturedSection = () => {
                         <img src="images/fz-3-feature-1.png" alt="Feature Icon"/>
                     </div>
                     <div className="fz-single-feature__txt">
-                        <h4 className="fz-single-feature__title">Free Delivery</h4>
-                        <h6 className="fz-single-feature__sub-title">Only in $50</h6>
+                        <h4 className="fz-single-feature__title">Delivery</h4>
+                        <h6 className="fz-single-feature__sub-title">Only $2.99</h6>
                     </div>
                 </div>
 
@@ -20,20 +20,20 @@ const FeaturedSection = () => {
                         <img src="images/fz-3-feature-2.png" alt="Feature Icon"/>
                     </div>
                     <div className="fz-single-feature__txt">
-                        <h4 className="fz-single-feature__title">Get Feedback</h4>
-                        <h6 className="fz-single-feature__sub-title">12000 Users</h6>
+                        <h4 className="fz-single-feature__title">Refer Friends</h4>
+                        <h6 className="fz-single-feature__sub-title">Earn Discounts</h6>
                     </div>
                 </div>
 
-                <div className="fz-single-feature">
+                {/* <div className="fz-single-feature">
                     <div className="fz-single-feature__img">
                         <img src="images/fz-3-feature-3.png" alt="Feature Icon"/>
                     </div>
                     <div className="fz-single-feature__txt">
-                        <h4 className="fz-single-feature__title">07 Days Returns</h4>
+                        <h4 className="fz-single-feature__title">2 Day </h4>
                         <h6 className="fz-single-feature__sub-title">Policy Option</h6>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="fz-single-feature">
                     <div className="fz-single-feature__img">

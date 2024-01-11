@@ -9,7 +9,7 @@ export default async function handler(req, res) {
       const client = new MongoClient(uri);
       await client.connect();
       const database = client.db('pm8');
-      const collection = database.collection('collection1');
+      const collection = database.collection('launch1');
 
       // Insert the document
       await collection.insertOne(req.body);

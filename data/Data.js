@@ -556,7 +556,7 @@ const allProductList = [
     {
         "id": 43,
         "name": "Spicy Beef Noodle",
-        "imgSrc": "images/silk-road/spicy-beef.jpg",
+        "imgSrc": "images/silk-road/spicy-steak.jpg",
         "description": "Stir-fried beef with yellow noodle",
         "price": 13.95,
         "isInWishlist": false,
@@ -972,7 +972,7 @@ const allProductListSilk = [
     {
         "id": 43,
         "name": "Spicy Beef Noodle",
-        "imgSrc": "images/silk-road/spicy-beef.jpg",
+        "imgSrc": "images/silk-road/spicy-steak.jpg",
         "description": "Stir-fried beef with yellow noodle",
         "price": 13.95,
         "isInWishlist": false,
@@ -988,7 +988,9 @@ const allProductListSilk = [
         "category": []
     }
 ]
+const allProductListDelight = [
 
+]
 const blogList = [
     {
         id:0,

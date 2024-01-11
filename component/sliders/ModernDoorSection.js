@@ -28,7 +28,7 @@ const ModernDoorSection = () => {
         <div className="container">
             <div className="fz-1-section-heading">
                 <div className="section-heading__txt">
-                    <h2 className="fz-section-title">Modern Interior Doors</h2>
+                    <h2 className="fz-section-title">Popular Dishes</h2>
                 </div>
             </div>
 
