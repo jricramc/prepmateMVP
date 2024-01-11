@@ -30,7 +30,7 @@ export default async function handler(req, res) {
         product_data: {
           name: 'Sample Product',
         },
-        unit_amount: finalPrice*100, // Price in cents
+        unit_amount: Math.round(finalPrice)*100, // Price in cents
       },
       quantity: 1,
     }],
