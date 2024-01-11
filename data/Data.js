@@ -1,7 +1,7 @@
 const firstBannerData = [
     {
         id:0,
-        title:"The Perfect Meal Plan from your favorite Restaurants",
+        title:"Plan your next 3 days with meals from your favorite Restaurants",
         imgSrc:"images/mealprepp.jpeg",
     },
     // {
