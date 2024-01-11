@@ -520,7 +520,7 @@ useEffect(() => {
 
   // Total Price
   const subTotal = cartItems.reduce((total, item) => total + item.quantity * item.price, 0);
-  const shipping = cartItems.length === 0 ? 0.00 : 0.01;
+  const shipping = cartItems.length === 0 ? 0.00 : 0.50;
   const finalPrice = subTotal + (shipping) ;
 
   // Blog List Category Filter
