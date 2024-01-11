@@ -1029,7 +1029,7 @@ const allProductListDelight = [
     {
         "id": 46,
         "name": "Saag Paneer and Chicken Tikka",
-        "imgSrc": "images/spice-delight/one-each.jpg",
+        "imgSrc": "images/spice-delight/saag-paneer.jpg",
         "description": "Saag Paneer and Chicken Tikka Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
@@ -1038,7 +1038,7 @@ const allProductListDelight = [
     {
         "id": 47,
         "name": "Saag Paneer and Chicken Korma",
-        "imgSrc": "images/spice-delight/one-each.jpg",
+        "imgSrc": "images/spice-delight/chic-korma.jpg",
         "description": "Saag Paneer and Chicken Korma Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
@@ -1047,7 +1047,7 @@ const allProductListDelight = [
     {
         "id": 48,
         "name": "Chana Masala and Chicken Tikka ",
-        "imgSrc": "images/spice-delight/one-each.jpg",
+        "imgSrc": "images/spice-delight/chana.jpg",
         "description": "Chana Masala and Chicken Tikka Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
