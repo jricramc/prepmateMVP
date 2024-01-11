@@ -1019,27 +1019,54 @@ const allProductListSilk = [
 const allProductListDelight = [
     {
         "id": 45,
-        "name": "Two Vegetarian Dishes",
+        "name": "Saag Paneer and Chana Masala",
         "imgSrc": "images/spice-delight/veg.jpg",
-        "description": "Two Vegetarian Dishes served with Rice",
+        "description": "Saag Paneer and Chana Masala served with Rice",
         "price": 12.99,
         "isInWishlist": false,
         "category": []
     },
     {
         "id": 46,
-        "name": "One Vegetarian and One Chicken Dish ",
+        "name": "Saag Paneer and Chicken Tikka",
         "imgSrc": "images/spice-delight/one-each.jpg",
-        "description": "One Vegetarian Dish and One Chicken Dish Served with Rice",
+        "description": "Saag Paneer and Chicken Tikka Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
     },
     {
         "id": 47,
-        "name": "Two Chicken Dishes",
+        "name": "Saag Paneer and Chicken Korma",
+        "imgSrc": "images/spice-delight/one-each.jpg",
+        "description": "Saag Paneer and Chicken Korma Served with Rice",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 48,
+        "name": "Chana Masala and Chicken Tikka ",
+        "imgSrc": "images/spice-delight/one-each.jpg",
+        "description": "Chana Masala and Chicken Tikka Served with Rice",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 48,
+        "name": "Chana Masala and Chicken Korma ",
+        "imgSrc": "images/spice-delight/one-each.jpg",
+        "description": "Chana Masala and Chicken Korma Served with Rice",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 50,
+        "name": "Chicken Tikka and Chicken Korma ",
         "imgSrc": "images/spice-delight/non-veg.jpg",
-        "description": "Two Chicken Dishes served with Rice",
+        "description": "Chicken Tikka and Chicken Korma served with Rice",
         "price": 14.99,
         "isInWishlist": false,
         "category": []
