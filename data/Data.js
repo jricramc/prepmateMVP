@@ -464,148 +464,145 @@ const allProductList = [
 
 const allProductListMill = [
     {
-        id: 0,
-        name: "Tuna Sandwich",
- 
-        description: "A classic delight",
-        price: 4.49, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 0,
+        "name": "Tuna Sandwich",
+        "imgSrc": "images/mill/tuna.jpg",
+        "description": "A classic delight",
+        "price": 4.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 1,
-        name: "Ham & Cheese Sandwich",
-        description: "Sliced Ham Sandwich on White Bread",
-        price: 4.49, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 1,
+        "name": "Ham & Cheese Sandwich",
+        "imgSrc": "images/mill/ham.jpg",
+        "description": "Sliced Ham Sandwich on White Bread",
+        "price": 4.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 2,
-        name: "Turkey & Cheese Sandwich",
-        description: "Sliced Turkey Sandwich on White Bread",
-        price: 4.49, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 2,
+        "name": "Turkey & Cheese Sandwich",
+        "imgSrc": "images/mill/turkey.jpg",
+        "description": "Sliced Turkey Sandwich on White Bread",
+        "price": 4.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 3,
-        name: "Steak & Rice",
-        description: "Steak paired with rice and accompanied by fresh greens",
-        price: 10.79, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 3,
+        "name": "Steak & Rice",
+        "imgSrc": "images/mill/steak-rice.jpg",
+        "description": "Steak paired with rice and accompanied by fresh greens",
+        "price": 11.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 4,
-        name: "Chicken & Rice",
-        description: "Grilled Chicken paired with rice and accompanied by fresh greens",
-        price: 8.09, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 4,
+        "name": "Chicken & Rice",
+        "imgSrc": "images/mill/chicken-rice.jpg",
+        "description": "Grilled Chicken paired with rice and accompanied by fresh greens",
+        "price": 8.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 5,
-        name: "Shrimp & Rice",
-        description: "Garlic Shrimp paired with rice and garnished with fresh parsley",
-        price: 8.99, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 5,
+        "name": "Shrimp & Rice",
+        "imgSrc": "images/mill/shrimp-rice.jpg",
+        "description": "Garlic Shrimp paired with rice and garnished with fresh parsely",
+        "price": 9.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 6,
-        name: "Steak Broccoli Alfredo",
-        description: "Tender steak slices with fresh broccoli served over penne with creamy Alfredo",
-        price: 10.79, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 6,
+        "name": "Steak Broccoli Alfredo",
+        "imgSrc": "images/mill/steak-alf.webp",
+        "description": "Tender steak slices with fresh broccoli served over penne with creamy Alfredo",
+        "price": 11.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 7,
-        name: "Chicken Broccoli Alfredo",
-        description: "Tender grilled chicken with fresh broccoli served over penne with creamy Alfredo",
-        price: 8.09, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 7,
+        "name": "Chicken Broccoli Alfredo",
+        "imgSrc": "images/mill/chicken-alf.webp",
+        "description": "Tender grilled chicken with fresh broccoli served over penne with creamy Alfredo",
+        "price": 8.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 8,
-        name: "Shrimp Broccoli Alfredo",
-        description: "Juicy Shrimp with fresh broccoli served over penne with creamy Alfredo",
-        price: 8.99, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 8,
+        "name": "Shrimp Broccoli Alfredo",
+        "imgSrc": "images/mill/shrimp-alf.jpg",
+        "description": "Juicy Shrimp with fresh broccoli served over penne with creamy Alfredo",
+        "price": 9.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 9,
-        name: "Mac N Cheese",
-        description: "Bowl of Homemade Mac N Cheese",
-        price: 5.39, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 9,
+        "name": "Mac N Cheese",
+        "imgSrc": "images/mill/mac.jpg",
+        "description": "Bowl of Homemade Mac N Cheese",
+        "price": 5.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 10,
-        name: "Steak Burrito Bowl",
-        description: "A flavorful bowl featuring steak, rice, beans, and veggies with a side of salsa, sour cream, and guac",
-        price: 12.59, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 10,
+        "name": "Steak Burrito Bowl",
+        "imgSrc": "images/mill/steak-burrito.webp",
+        "description": "A flavorful bowl featuring steak, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 11,
-        name: "Chicken Burrito Bowl",
-        description: "A flavorful bowl featuring chicken, rice, beans, and veggies with a side of salsa, sour cream, and guac",
-        price: 8.99, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 11,
+        "name": "Chicken Burrito Bowl",
+        "imgSrc": "images/mill/chicken-burrito.jpg",
+        "description": "A flavorful bowl featuring chicken, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "price": 9.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 12,
-        name: "Shrimp Burrito Bowl",
-        description: "A delightful bowl featuring shrimp, rice, beans, and veggies with a side of salsa, sour cream, and guac",
-        price: 8.99, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 12,
+        "name": "Shrimp Burrito Bowl",
+        "imgSrc": "images/mill/shrimp-burrito.jpg",
+        "description": "A delightful bowl featuring shrimp, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "price": 9.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 13,
-        name: "Steak Grain Bowl",
-        description: "A hearty bowl of steak, quinoa, chickpeas, and a mix of vegetables, all brought together with a tangy vinaigrette.",
-        price: 11.69, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 13,
+        "name": "Steak Grain Bowl",
+        "imgSrc": "images/mill/steak-grain.jpeg",
+        "description": "A hearty bowl of steak, quinoa, chickpeas, and a mix of vegetables, all brought together with a tangy vinaigrette.",
+        "price": 12.99,
+        "isInWishlist": false,
+        "category": []
     },
     {
-        id: 14,
-        name: "Chicken Grain Bowl",
-        description: "A hearty bowl of chicken, quinoa, chickpeas, and a mix of vegetables, all brought together with a tangy vinaigrette.",
-        price: 8.99, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
-    },
-    {
-        id: 15,
-        name: "Sirloin Steak Dinner",
-        description: "Steak accompanied by fresh green beans and mashed potatoes",
-        price: 11.69, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
-    },
-    {
-        id: 16,
-        name: "Grilled Chicken Dinner",
-        description: "Chicken accompanied by fresh green beans and mashed potatoes",
-        price: 11.69, // Updated price with 10% off
-        isInWishlist: false,
-        category: []
+        "id": 14,
+        "name": "Chicken Grain Bowl",
+        "imgSrc": "images/mill/chicken-grain.jpg",
+        "description": "A hearty bowl of chicken, quinoa, chickpeas, and a mix of vegetables, all brought together with a tangy vinaigrette.",
+        "price": 9.99,
+        "isInWishlist": false,
+        "category": []
     }
-];
-
+]
 
 const allProductListLife = [
     {
-        id: 17,
+        id: 15,
         imgSrc: "images/life-alive/LA_swarmi.png",
         name: "Swami",
         description: "Broccoli, carrots, onions, kale, roasted almonds & raisins with curry brown rice and sweet red miso sauce. Contains tree nuts, soy, sesame and allium.",
@@ -614,7 +611,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF"]
     },
     {
-        id: 18,
+        id: 16,
         imgSrc: "images/life-alive/LA_rainbow.png",
         name: "Rainbow Harvest",
         description: "Whipped sweet potato, beets, carrots, broccoli, kale, tofu & brown rice with ginger tamari sauce. Contains soy and allium.",
@@ -623,7 +620,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 19,
+        id: 17,
         imgSrc: "images/life-alive/LA_teriyaki.png",
         name: "Teriyaki Tofu",
         description: "Teriyaki glazed tofu with broccoli, roasted shiitake, carrots, charred onion, black sesame, scallions and brown rice. Contains allium, sesame & soy.",
@@ -632,7 +629,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 20,
+        id: 18,
         imgSrc: "images/life-alive/LA_green.png",
         name: "Green Goddess",
         description: "Avocado, broccoli & kale with tofu, lemon garlic brown rice and ginger tamari sauce. Contains soy and allium.",
@@ -641,7 +638,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 21,
+        id: 19,
         imgSrc: "images/life-alive/LA_southwest.png",
         name: "Southwest Sol",
         description: "Avocado, sweet corn, tomato, roasted chipotle tofu with peppers & onions, purple cabbage, jalapeño, braised black beans & dirty rice topped with salsa verde. Contains allium and soy.",
@@ -650,7 +647,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 22,
+        id: 20,
         imgSrc: "images/life-alive/LA_buddha.png",
         name: "Buddha Bowl",
         description: "Avocado, beets, kale, shiitake, purple cabbage, jalapeño, tamari almonds, hemp seeds, lemon cilantro rice & quinoa with ginger tamari sauce. Contains tree nuts, soy and allium.",
@@ -659,7 +656,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF"]
     },
     {
-        id: 23,
+        id: 21,
         imgSrc: "images/life-alive/LA_autumn.jpeg",
         name: "Autumn Falafel",
         description: "Crispy baked falafel, roasted butternut squash, brussels sprouts, carrots, kale, crispy chickpeas, black lentils & lemon flax brown rice with lemon tahini. Contains sesame, soy and allium.",
@@ -668,7 +665,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 24,
+        id: 22,
         imgSrc: "images/life-alive/LA_plant.png",
         name: "Plant Power Bowl",
         description: "Roasted brussels sprouts, hot honey slaw, broccoli, beets, shiitake & enoki mushrooms, smoky chili brown rice & quinoa topped with avocado, toasted pumpkin & sunflower seeds and salsa verde.",
@@ -677,7 +674,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF", "NF"]
     },
     {
-        id: 25,
+        id: 23,
         imgSrc: "images/life-alive/LA_tuscan.jpeg",
         name: "Tuscan Kale",
         description: "Tuscan kale, green apples, shaved fennel, roasted cashews, dried cranberries, cashew parmesan & basil green goddess dressing. Contains tree nuts and allium.",
@@ -686,7 +683,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF", "S"]
     },
     {
-        id: 26,
+        id: 24,
         imgSrc: "images/life-alive/LA_greek.png",
         name: "Greek Tahini",
         description: "Cucumber, tomato, feta, kalamata olives, hummus & tahini, shredded carrots, pickled onion, crispy chickpeas with mixed baby lettuces, romaine hearts and greek vinaigrette. Contains sesame, dairy, allium and soy.",
@@ -695,7 +692,7 @@ const allProductListLife = [
         category: ["V", "GF", "NF"]
     },
     {
-        id: 27,
+        id: 25,
         imgSrc: "images/life-alive/LA_elote.png",
         name: "Elote Avocado",
         description: "Avocado, sweet corn, roasted chipotle tofu with peppers & onions, tomato, mixed baby lettuces, romaine hearts, shaved cabbages, pickled onions, jalapeño, black beans, chili-lime crema & salsa verde. Contains dairy, allium and soy.",
@@ -704,7 +701,7 @@ const allProductListLife = [
         category: ["V", "GF", "NF"]
     },
     {
-        id: 28,
+        id: 26,
         imgSrc: "images/life-alive/LA_chilled.jpeg",
         name: "Chilled Thai Noodles",
         description: "Rice noodles, sugar snap peas, red bell pepper, cucumber, celery, carrot, cabbages, cilantro & mint and peanut crumble with peanut lime sauce & sweet chili coconut sauce. Contains peanuts, tree nuts, allium, sesame and soy.",
@@ -713,7 +710,7 @@ const allProductListLife = [
         category: ["V", "VG", "GF", "DF"]
     },
     {
-        id: 29,
+        id: 27,
         imgSrc: "images/life-alive/LA_avocado.png",
         name: "Avocado Greens",
         description: "Everything-encrusted avocado, cucumber, sweet corn, pickled onions, kalamata olives, crispy chickpeas, feta, mixed baby lettuces, romaine hearts and tomato vinaigrette. Contains dairy, soy, sesame and allium.",
@@ -722,7 +719,7 @@ const allProductListLife = [
         category: ["V", "GF", "NF"]
     },
     {
-        id: 30,
+        id: 28,
         imgSrc: "images/life-alive/LA_chopped.jpeg",
         name: "Autumn Chopped",
         description: "Roasted butternut squash, green apples, dried cranberries, candied pecans, blue cheese, celery, baby lettuces, romaine hearts & hot honey cider vinaigrette. Contains tree nuts, dairy, allium and soy.",
@@ -735,36 +732,151 @@ const allProductListLife = [
 
 const allProductListSilk = [
     {
-        id: 31,
-        imgSrc:"images/mill.jpeg",
-        name:"Silk",
-        category:"Solid Color Door",
-        price:740.00,
-        isInWishlist:false,
-        link: "/shop"
-    },{
-        id: 32,
-        imgSrc:"images/hongkong.jpeg",
-        name:"Silk",
-        category:"Double Layer Door",
-        price:550.00,
-        isInWishlist:false,
-    },{
-        id: 33,
-        imgSrc:"images/five.png",
-        name:"Silk",
-        category:"Chinese Door",
-        price:850.00,
-        isInWishlist:false,
-    },{
-        id: 34,
-        imgSrc:"images/dosa.jpeg",
-        name:"Silk",
-        category:"Plastic Door",
-        price:440.00,
-        isInWishlist:false,
+        "id": 29,
+        "name": "Stir-Fried Tomato with Egg",
+        "imgSrc": "images/silk-road/tomato-egg.jpg",
+        "description": "Boiled Egg with Stir-Fried Tomato",
+        "price": 10.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 30,
+        "name": "Stir-Fried Celery with Fungus",
+        "imgSrc": "images/silk-road/celery-fungus.jpg",
+        "description": "Stir-Fried Vegetables with Fungus",
+        "price": 10.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 31,
+        "name": "Spicy Tofu",
+        "imgSrc": "images/silk-road/spicy-tofu.jpg",
+        "description": "Stir-Fried Tofu in House Dressing",
+        "price": 10.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 32,
+        "name": "Laghman",
+        "imgSrc": "images/silk-road/laghman.webp",
+        "description": "Hand pulled noodle with stir-fried veggies and beef",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 33,
+        "name": "Dry Fried Noodles",
+        "imgSrc": "images/silk-road/dry-fried.jpg",
+        "description": "Dry-fried noodles with veggies and beef",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 34,
+        "name": "Diced Noodle",
+        "imgSrc": "images/silk-road/diced-noodle.jpg",
+        "description": "Finely cut stir-fried noodles with veggies and beef",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 35,
+        "name": "Uyghur Pilaf",
+        "imgSrc": "images/silk-road/uyghur.jpg",
+        "description": "Traditional Uyghur braised rice cooked with carrot, onion, and beef",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 36,
+        "name": "Chicken Rice Noodle",
+        "imgSrc": "images/silk-road/chicken-rice.jpg",
+        "description": "Stir-fried chicken with rice noodle",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 37,
+        "name": "Dumpling",
+        "imgSrc": "images/silk-road/dumpling.jpg",
+        "description": "Dumpling filled with beef and onion",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 38,
+        "name": "Beef Noodle Soup",
+        "imgSrc": "images/silk-road/beef-noodle.webp",
+        "description": "Beef broth with noodle and sliced beef",
+        "price": 10.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 39,
+        "name": "Lamb Noodle Soup",
+        "imgSrc": "images/silk-road/lamb-noodle.jpg",
+        "description": "Lamb broth with noodle and sliced lamb",
+        "price": 10.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 40,
+        "name": "Cucumber Garlic",
+        "imgSrc": "images/silk-road/cucumber.jpg",
+        "description": "Cucumber Salad with garlic dressing",
+        "price": 7.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 41,
+        "name": "Cold Noodle with Sauce",
+        "imgSrc": "images/silk-road/cold-noodle.jpg",
+        "description": "Yellow Noodles with special dressing",
+        "price": 6.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 42,
+        "name": "Stir-Fried Chicken with Noodle",
+        "imgSrc": "images/silk-road/sf-chicken.jpg",
+        "description": "Stir-fried chicken with flat noodle",
+        "price": 14.95,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 43,
+        "name": "Spicy Beef Noodle",
+        "imgSrc": "images/silk-road/spicy-beef.jpg",
+        "description": "Stir-fried beef with yellow noodle",
+        "price": 13.95,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 44,
+        "name": "Stir Fried Beef with Naan",
+        "imgSrc": "images/silk-road/beef-naan.jpg",
+        "description": "Uyghur style handmade naan filled with beef and onion",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
     }
 ]
+
 
 const blogList = [
     {

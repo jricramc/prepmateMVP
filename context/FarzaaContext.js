@@ -247,7 +247,7 @@ const FarzaaContextProvider = ({ children }) => {
 
  // Pagination for Mill Products
  const [currentPageMill, setCurrentPageMill] = useState(1);
- const productsPerPageMill = 9;
+ const productsPerPageMill = 15;
  const totalProductsMill = filteredProductsMill.length;
  const totalPagesMill = Math.ceil(totalProductsMill / productsPerPageMill);
 
@@ -295,7 +295,7 @@ const [filteredProductsSilk, setFilteredProductsSilk] = useState(allProductListS
 
 // Pagination for Silk Products
 const [currentPageSilk, setCurrentPageSilk] = useState(1);
-const productsPerPageSilk = 9;
+const productsPerPageSilk = 20;
 const totalProductsSilk = filteredProductsSilk.length;
 const totalPagesSilk = Math.ceil(totalProductsSilk / productsPerPageSilk);
 
