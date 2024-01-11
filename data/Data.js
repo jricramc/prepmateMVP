@@ -988,8 +988,35 @@ const allProductListSilk = [
         "category": []
     }
 ]
-const allProductListDelight = [
 
+const allProductListDelight = [
+    {
+        "id": 45,
+        "name": "Two Vegetarian Dishes",
+        "imgSrc": "images/spice-delight/veg.jpg",
+        "description": "Two Vegetarian Dishes served with Rice",
+        "price": 12.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 46,
+        "name": "One Vegetarian and One Chicken Dish ",
+        "imgSrc": "images/spice-delight/one-each.jpg",
+        "description": "One Vegetarian Dish and One Chicken Dish Served with Rice",
+        "price": 13.99,
+        "isInWishlist": false,
+        "category": []
+    },
+    {
+        "id": 47,
+        "name": "Two Chicken Dishes",
+        "imgSrc": "images/spice-delight/non-veg.jpg",
+        "description": "Two Chicken Dishes served with Rice",
+        "price": 14.99,
+        "isInWishlist": false,
+        "category": []
+    }
 ]
 const blogList = [
     {
