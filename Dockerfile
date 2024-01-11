@@ -27,4 +27,4 @@ RUN npm run build
 
 # Define the command to run your app using CMD which defines your runtime
 # CMD [ "npm", "start" ]
-CMD ["sh", "-c", "echo 'STRIPE_API_KEY: $STRIPE_API_KEY' && npm start"]
+CMD ["npm", "start"]
