@@ -606,7 +606,7 @@ const allProductListMill = [
 const allProductListLife = [
     {
         id: 17,
-        imgSrc: "images/LA_swarmi.png",
+        imgSrc: "images/life-alive/LA_swarmi.png",
         name: "Swami",
         description: "Broccoli, carrots, onions, kale, roasted almonds & raisins with curry brown rice and sweet red miso sauce. Contains tree nuts, soy, sesame and allium.",
         price: 11.25, // Updated price with 10% off
@@ -615,7 +615,7 @@ const allProductListLife = [
     },
     {
         id: 18,
-        imgSrc: "images/LA_rainbow.png",
+        imgSrc: "images/life-alive/LA_rainbow.png",
         name: "Rainbow Harvest",
         description: "Whipped sweet potato, beets, carrots, broccoli, kale, tofu & brown rice with ginger tamari sauce. Contains soy and allium.",
         price: 11.48, // Updated price with 10% off
@@ -624,7 +624,7 @@ const allProductListLife = [
     },
     {
         id: 19,
-        imgSrc: "images/LA_teriyaki.png",
+        imgSrc: "images/life-alive/LA_teriyaki.png",
         name: "Teriyaki Tofu",
         description: "Teriyaki glazed tofu with broccoli, roasted shiitake, carrots, charred onion, black sesame, scallions and brown rice. Contains allium, sesame & soy.",
         price: 11.66, // Updated price with 10% off
@@ -633,7 +633,7 @@ const allProductListLife = [
     },
     {
         id: 20,
-        imgSrc: "images/LA_green.png",
+        imgSrc: "images/life-alive/LA_green.png",
         name: "Green Goddess",
         description: "Avocado, broccoli & kale with tofu, lemon garlic brown rice and ginger tamari sauce. Contains soy and allium.",
         price: 11.84, // Updated price with 10% off
@@ -642,7 +642,7 @@ const allProductListLife = [
     },
     {
         id: 21,
-        imgSrc: "images/LA_southwest.png",
+        imgSrc: "images/life-alive/LA_southwest.png",
         name: "Southwest Sol",
         description: "Avocado, sweet corn, tomato, roasted chipotle tofu with peppers & onions, purple cabbage, jalapeño, braised black beans & dirty rice topped with salsa verde. Contains allium and soy.",
         price: 11.84, // Updated price with 10% off
@@ -651,7 +651,7 @@ const allProductListLife = [
     },
     {
         id: 22,
-        imgSrc: "images/LA_buddha.png",
+        imgSrc: "images/life-alive/LA_buddha.png",
         name: "Buddha Bowl",
         description: "Avocado, beets, kale, shiitake, purple cabbage, jalapeño, tamari almonds, hemp seeds, lemon cilantro rice & quinoa with ginger tamari sauce. Contains tree nuts, soy and allium.",
         price: 12.29, // Updated price with 10% off
@@ -660,7 +660,7 @@ const allProductListLife = [
     },
     {
         id: 23,
-        imgSrc: "images/LA_autumn.jpeg",
+        imgSrc: "images/life-alive/LA_autumn.jpeg",
         name: "Autumn Falafel",
         description: "Crispy baked falafel, roasted butternut squash, brussels sprouts, carrots, kale, crispy chickpeas, black lentils & lemon flax brown rice with lemon tahini. Contains sesame, soy and allium.",
         price: 12.29, // Updated price with 10% off
@@ -669,7 +669,7 @@ const allProductListLife = [
     },
     {
         id: 24,
-        imgSrc: "images/LA_plant.png",
+        imgSrc: "images/life-alive/LA_plant.png",
         name: "Plant Power Bowl",
         description: "Roasted brussels sprouts, hot honey slaw, broccoli, beets, shiitake & enoki mushrooms, smoky chili brown rice & quinoa topped with avocado, toasted pumpkin & sunflower seeds and salsa verde.",
         price: 12.29, // Updated price with 10% off
@@ -678,7 +678,7 @@ const allProductListLife = [
     },
     {
         id: 25,
-        imgSrc: "images/LA_tuscan.jpeg",
+        imgSrc: "images/life-alive/LA_tuscan.jpeg",
         name: "Tuscan Kale",
         description: "Tuscan kale, green apples, shaved fennel, roasted cashews, dried cranberries, cashew parmesan & basil green goddess dressing. Contains tree nuts and allium.",
         price: 11.25, // Updated price with 10% off
@@ -687,7 +687,7 @@ const allProductListLife = [
     },
     {
         id: 26,
-        imgSrc: "images/LA_greek.png",
+        imgSrc: "images/life-alive/LA_greek.png",
         name: "Greek Tahini",
         description: "Cucumber, tomato, feta, kalamata olives, hummus & tahini, shredded carrots, pickled onion, crispy chickpeas with mixed baby lettuces, romaine hearts and greek vinaigrette. Contains sesame, dairy, allium and soy.",
         price: 11.66, // Updated price with 10% off
@@ -696,7 +696,7 @@ const allProductListLife = [
     },
     {
         id: 27,
-        imgSrc: "images/LA_elote.png",
+        imgSrc: "images/life-alive/LA_elote.png",
         name: "Elote Avocado",
         description: "Avocado, sweet corn, roasted chipotle tofu with peppers & onions, tomato, mixed baby lettuces, romaine hearts, shaved cabbages, pickled onions, jalapeño, black beans, chili-lime crema & salsa verde. Contains dairy, allium and soy.",
         price: 11.66, // Updated price with 10% off
@@ -705,7 +705,7 @@ const allProductListLife = [
     },
     {
         id: 28,
-        imgSrc: "images/LA_chilled.jpeg",
+        imgSrc: "images/life-alive/LA_chilled.jpeg",
         name: "Chilled Thai Noodles",
         description: "Rice noodles, sugar snap peas, red bell pepper, cucumber, celery, carrot, cabbages, cilantro & mint and peanut crumble with peanut lime sauce & sweet chili coconut sauce. Contains peanuts, tree nuts, allium, sesame and soy.",
         price: 11.66, // Updated price with 10% off
@@ -714,7 +714,7 @@ const allProductListLife = [
     },
     {
         id: 29,
-        imgSrc: "images/LA_avocado.png",
+        imgSrc: "images/life-alive/LA_avocado.png",
         name: "Avocado Greens",
         description: "Everything-encrusted avocado, cucumber, sweet corn, pickled onions, kalamata olives, crispy chickpeas, feta, mixed baby lettuces, romaine hearts and tomato vinaigrette. Contains dairy, soy, sesame and allium.",
         price: 11.93, // Updated price with 10% off
@@ -723,7 +723,7 @@ const allProductListLife = [
     },
     {
         id: 30,
-        imgSrc: "images/LA_chopped.jpeg",
+        imgSrc: "images/life-alive/LA_chopped.jpeg",
         name: "Autumn Chopped",
         description: "Roasted butternut squash, green apples, dried cranberries, candied pecans, blue cheese, celery, baby lettuces, romaine hearts & hot honey cider vinaigrette. Contains tree nuts, dairy, allium and soy.",
         price: 11.93, // Updated price with 10% off
