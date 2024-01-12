@@ -35,12 +35,12 @@ const FooterSection2 = () => {
 
                     <div className="col-lg-3 col-md-4 col-6 col-xxs-12">
                         <div className="fz-footer-widget">
-                            <h5 className="fz-footer-widget__title">Customer Service</h5>
+                            {/* <h5 className="fz-footer-widget__title">Customer Service</h5>
                             <ul>
                                 <li><a href="#">Restaurants</a></li>
                                 <li><Link href="/faq">FAQ</Link></li>
                                 <li><a href="#">About</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
 

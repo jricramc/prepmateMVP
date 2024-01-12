@@ -51,10 +51,10 @@ const RightSideBar = () => {
                             <h4 className="fz-offcanvas-main-contacts-title mb-30">Get In Touch</h4>
 
                             <ul className="fz-offcanvas-main-contacts-list">
-                                <li>
+                                {/* <li>
                                     <i className="fa-thin fa-location-dot"></i>
                                     <span className="fz-offcanvas-main-contact-text">989 Bel Meadow Drive Los Angeles, CA 90017</span>
-                                </li>
+                                </li> */}
                                 <li>
                                     <i className="fa-thin fa-phone-flip"></i>
                                     <span className="fz-offcanvas-main-contact-text">

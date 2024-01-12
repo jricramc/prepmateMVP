@@ -64,11 +64,11 @@ const MobileMenuSection = () => {
                             </a>
 
                             <ul className={`fz-submenu other-page-links ${isDropdownOpen.pages? 'd-block':'d-none'}`}>
-                                <li><Link href="/about" className="fz-nav-link fz-submenu-nav-link sub-menu-link">About</Link></li>
-                                <li><Link href="/faq" className="fz-nav-link fz-submenu-nav-link sub-menu-link">FAQ</Link></li>
+                                {/* <li><Link href="/about" className="fz-nav-link fz-submenu-nav-link sub-menu-link">About</Link></li>
+                                <li><Link href="/faq" className="fz-nav-link fz-submenu-nav-link sub-menu-link">FAQ</Link></li> */}
                                 <li><Link href="/wishlist" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Wishlist</Link></li>
                                 <li><Link href="/cart" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Cart</Link></li>
-                                <li><Link href="/account" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Account</Link></li>
+                                {/* <li><Link href="/account" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Account</Link></li> */}
                                 <li><Link href="/checkout" className="fz-nav-link fz-submenu-nav-link sub-menu-link">Checkout</Link></li>
                             </ul> 
                         
