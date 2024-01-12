@@ -169,7 +169,7 @@ const allProductList= [
         "id": 0,
         "name": "Tuna Sandwich",
         "imgSrc": "images/mill/tuna.jpg",
-        "description": "A classic delight",
+        "description": "A classic tuna sandwich with American Cheese",
         "price": 4.99,
         "isInWishlist": false,
         "category": []
@@ -178,7 +178,7 @@ const allProductList= [
         "id": 1,
         "name": "Ham & Cheese Sandwich",
         "imgSrc": "images/mill/ham.jpg",
-        "description": "Sliced Ham Sandwich on White Bread",
+        "description": "Sliced Ham Sandwich on White Bread with American Cheese",
         "price": 4.99,
         "isInWishlist": false,
         "category": []
@@ -187,7 +187,7 @@ const allProductList= [
         "id": 2,
         "name": "Turkey & Cheese Sandwich",
         "imgSrc": "images/mill/turkey.jpg",
-        "description": "Sliced Turkey Sandwich on White Bread",
+        "description": "Sliced Turkey Sandwich on White Bread with American Cheese",
         "price": 4.99,
         "isInWishlist": false,
         "category": []
@@ -196,7 +196,7 @@ const allProductList= [
         "id": 3,
         "name": "Steak & Rice",
         "imgSrc": "images/mill/steak-rice.jpg",
-        "description": "Steak paired with rice and accompanied by fresh greens",
+        "description": "SirloinSteak Tips paired with rice and accompanied by fresh greens",
         "price": 11.99,
         "isInWishlist": false,
         "category": []
@@ -223,7 +223,7 @@ const allProductList= [
         "id": 6,
         "name": "Steak Broccoli Alfredo",
         "imgSrc": "images/mill/steak-alf.webp",
-        "description": "Tender steak slices with fresh broccoli served over penne with creamy Alfredo",
+        "description": "Tender steak tips with fresh broccoli served over penne with creamy Alfredo",
         "price": 11.99,
         "isInWishlist": false,
         "category": []
@@ -259,7 +259,7 @@ const allProductList= [
         "id": 10,
         "name": "Steak Burrito Bowl",
         "imgSrc": "images/mill/steak-burrito.webp",
-        "description": "A flavorful bowl featuring steak, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "description": "A flavorful bowl featuring steak, white rice, pinto beans, and mixed veggies with a side of salsa, sour cream, and guac",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
@@ -268,7 +268,7 @@ const allProductList= [
         "id": 11,
         "name": "Chicken Burrito Bowl",
         "imgSrc": "images/mill/chicken-burrito.jpg",
-        "description": "A flavorful bowl featuring chicken, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "description": "A flavorful bowl featuring chicken, white rice, pinto beans, and mixed veggies with a side of salsa, sour cream, and guac",
         "price": 9.99,
         "isInWishlist": false,
         "category": []
@@ -277,7 +277,7 @@ const allProductList= [
         "id": 12,
         "name": "Shrimp Burrito Bowl",
         "imgSrc": "images/mill/shrimp-burrito.jpg",
-        "description": "A delightful bowl featuring shrimp, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "description": "A delightful bowl featuring shrimp, white rice, pinto beans, and mixed veggies with a side of salsa, sour cream, and guac",
         "price": 9.99,
         "isInWishlist": false,
         "category": []
@@ -573,8 +573,8 @@ const allProductList= [
     {
         "id": 45,
         "name": "Saag Paneer and Chana Masala",
-        "imgSrc": "images/spice-delight/veg.jpg",
-        "description": "Saag Paneer and Chana Masala served with Rice",
+        "imgSrc": "images/spice-delight/veg.jpeg",
+        "description": "Saag Paneer (Spinach and Cottage Cheese) and Chana (Chickpea) Masala served with Rice",
         "price": 12.99,
         "isInWishlist": false,
         "category": []
@@ -583,7 +583,7 @@ const allProductList= [
         "id": 46,
         "name": "Saag Paneer and Chicken Tikka",
         "imgSrc": "images/spice-delight/saag-paneer.jpg",
-        "description": "Saag Paneer and Chicken Tikka Served with Rice",
+        "description": "Saag Paneer (Spinach and Cottage Cheese) and Chicken Tikka Masala (Spicy) Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
@@ -592,7 +592,7 @@ const allProductList= [
         "id": 47,
         "name": "Saag Paneer and Chicken Korma",
         "imgSrc": "images/spice-delight/chic-korma.jpg",
-        "description": "Saag Paneer and Chicken Korma Served with Rice",
+        "description": "Saag Paneer (Spinach and Cottage Cheese) and Chicken Korma (Mild) Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
@@ -601,7 +601,7 @@ const allProductList= [
         "id": 48,
         "name": "Chana Masala and Chicken Tikka ",
         "imgSrc": "images/spice-delight/chana.jpg",
-        "description": "Chana Masala and Chicken Tikka Served with Rice",
+        "description": "Chana (Chickpea) Masala and Chicken Tikka Masala (Spicy) Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
@@ -610,16 +610,16 @@ const allProductList= [
         "id": 49,
         "name": "Chana Masala and Chicken Korma ",
         "imgSrc": "images/spice-delight/one-each.jpg",
-        "description": "Chana Masala and Chicken Korma Served with Rice",
+        "description": "Chana (Chickpea) Masala and Chicken Korma (Mild) Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
     },
     {
         "id": 50,
-        "name": "Chicken Tikka and Chicken Korma ",
+        "name": "Chicken Tikka Masala and Chicken Korma ",
         "imgSrc": "images/spice-delight/non-veg.jpg",
-        "description": "Chicken Tikka and Chicken Korma served with Rice",
+        "description": "Chicken Tikka Masala (Spicy) and Chicken Korma (Mild) served with Rice",
         "price": 14.99,
         "isInWishlist": false,
         "category": []
@@ -634,7 +634,7 @@ const allProductListMill = [
         "id": 0,
         "name": "Tuna Sandwich",
         "imgSrc": "images/mill/tuna.jpg",
-        "description": "A classic delight",
+        "description": "A classic tuna sandwich with fresh greens",
         "price": 4.99,
         "isInWishlist": false,
         "category": []
@@ -643,7 +643,7 @@ const allProductListMill = [
         "id": 1,
         "name": "Ham & Cheese Sandwich",
         "imgSrc": "images/mill/ham.jpg",
-        "description": "Sliced Ham Sandwich on White Bread",
+        "description": "Sliced Ham Sandwich on White Bread with American Cheese",
         "price": 4.99,
         "isInWishlist": false,
         "category": []
@@ -652,7 +652,7 @@ const allProductListMill = [
         "id": 2,
         "name": "Turkey & Cheese Sandwich",
         "imgSrc": "images/mill/turkey.jpg",
-        "description": "Sliced Turkey Sandwich on White Bread",
+        "description": "Sliced Turkey Sandwich on White Bread with American Cheese",
         "price": 4.99,
         "isInWishlist": false,
         "category": []
@@ -661,7 +661,7 @@ const allProductListMill = [
         "id": 3,
         "name": "Steak & Rice",
         "imgSrc": "images/mill/steak-rice.jpg",
-        "description": "Steak paired with rice and accompanied by fresh greens",
+        "description": "Sirloin Steak Tips paired with rice and accompanied by fresh greens",
         "price": 11.99,
         "isInWishlist": false,
         "category": []
@@ -688,7 +688,7 @@ const allProductListMill = [
         "id": 6,
         "name": "Steak Broccoli Alfredo",
         "imgSrc": "images/mill/steak-alf.webp",
-        "description": "Tender steak slices with fresh broccoli served over penne with creamy Alfredo",
+        "description": "Tender steak tips with fresh broccoli served over penne with creamy Alfredo",
         "price": 11.99,
         "isInWishlist": false,
         "category": []
@@ -724,7 +724,7 @@ const allProductListMill = [
         "id": 10,
         "name": "Steak Burrito Bowl",
         "imgSrc": "images/mill/steak-burrito.webp",
-        "description": "A flavorful bowl featuring steak, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "description": "A flavorful bowl featuring steak, white rice, pinto beans, and mixed veggies with a side of salsa, sour cream, and guac",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
@@ -733,7 +733,7 @@ const allProductListMill = [
         "id": 11,
         "name": "Chicken Burrito Bowl",
         "imgSrc": "images/mill/chicken-burrito.jpg",
-        "description": "A flavorful bowl featuring chicken, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "description": "A flavorful bowl featuring chicken, white rice, pinto beans, and mixed veggies with a side of salsa, sour cream, and guac",
         "price": 9.99,
         "isInWishlist": false,
         "category": []
@@ -742,7 +742,7 @@ const allProductListMill = [
         "id": 12,
         "name": "Shrimp Burrito Bowl",
         "imgSrc": "images/mill/shrimp-burrito.jpg",
-        "description": "A delightful bowl featuring shrimp, rice, beans, and veggies with a side of salsa, sour cream, and guac",
+        "description": "A delightful bowl featuring shrimp, white rice, pinto beans, and mixed veggies with a side of salsa, sour cream, and guac",
         "price": 9.99,
         "isInWishlist": false,
         "category": []
@@ -1049,7 +1049,7 @@ const allProductListDelight = [
         "id": 45,
         "name": "Saag Paneer and Chana Masala",
         "imgSrc": "images/spice-delight/veg.jpeg",
-        "description": "Saag Paneer and Chana Masala served with Rice",
+        "description": "Saag Paneer (Spinach and Cottage Cheese) and Chana (Chickpea) Masala served with Rice",
         "price": 12.99,
         "isInWishlist": false,
         "category": []
@@ -1058,7 +1058,7 @@ const allProductListDelight = [
         "id": 46,
         "name": "Saag Paneer and Chicken Tikka",
         "imgSrc": "images/spice-delight/saag-paneer.jpg",
-        "description": "Saag Paneer and Chicken Tikka Served with Rice",
+        "description": "Saag Paneer (Spinach and Cottage Cheese) and Chicken Tikka Masala (Spicy) Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
@@ -1067,7 +1067,7 @@ const allProductListDelight = [
         "id": 47,
         "name": "Saag Paneer and Chicken Korma",
         "imgSrc": "images/spice-delight/chic-korma.jpg",
-        "description": "Saag Paneer and Chicken Korma Served with Rice",
+        "description": "Saag Paneer (Spinach and Cottage Cheese) and Chicken Korma (Mild) Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
@@ -1076,7 +1076,7 @@ const allProductListDelight = [
         "id": 48,
         "name": "Chana Masala and Chicken Tikka ",
         "imgSrc": "images/spice-delight/chana.jpg",
-        "description": "Chana Masala and Chicken Tikka Served with Rice",
+        "description": "Chana (Chickpea) Masala and Chicken Tikka Masala (Spicy) Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
@@ -1085,16 +1085,16 @@ const allProductListDelight = [
         "id": 49,
         "name": "Chana Masala and Chicken Korma ",
         "imgSrc": "images/spice-delight/one-each.jpg",
-        "description": "Chana Masala and Chicken Korma Served with Rice",
+        "description": "Chana (Chickpea) Masala and Chicken Korma (Mild) Served with Rice",
         "price": 13.99,
         "isInWishlist": false,
         "category": []
     },
     {
         "id": 50,
-        "name": "Chicken Tikka and Chicken Korma ",
+        "name": "Chicken Tikka Masala and Chicken Korma ",
         "imgSrc": "images/spice-delight/non-veg.jpg",
-        "description": "Chicken Tikka and Chicken Korma served with Rice",
+        "description": "Chicken Tikka Masala (Spicy) and Chicken Korma (Mild) served with Rice",
         "price": 14.99,
         "isInWishlist": false,
         "category": []
