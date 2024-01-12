@@ -18,7 +18,7 @@ const DoorShopMain = () => {
         <CategorySection/>
         <CollectionSection/>
         <SubscriptionSection/>
-        <FeaturedProducts/>
+        {/* <FeaturedProducts/> */}
         <FeaturedSection/>
         <OfferSection/>
         <ModernDoorSection/>

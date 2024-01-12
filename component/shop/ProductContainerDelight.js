@@ -40,11 +40,13 @@ const ProductContainerDelight = () => {
                                 <span className="btn-icon"><i className="fa-light fa-cart-shopping"></i></span>
                             </button>
 
-                            <button className="fz-add-to-compare-btn">
+                            {/* <button className="fz-add-to-compare-btn">
                                 <span className="btn-txt">select to compare</span>
                                 <span className="btn-icon"><i className="fa-light fa-arrow-right-arrow-left"></i></span>
-                            </button>
+                            </button> */}
                         </div>
+                        <p>{item.description}</p> {/* Add this line */}
+
                     </div>
 
                     <div className="fz-single-product__txt">

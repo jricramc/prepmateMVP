@@ -40,10 +40,10 @@ const ProductContainer = () => {
                                 <span className="btn-icon"><i className="fa-light fa-cart-shopping"></i></span>
                             </button>
 
-                            <button className="fz-add-to-compare-btn">
+                            {/* <button className="fz-add-to-compare-btn">
                                 <span className="btn-txt">select to compare</span>
                                 <span className="btn-icon"><i className="fa-light fa-arrow-right-arrow-left"></i></span>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
 
@@ -63,6 +63,10 @@ const ProductContainer = () => {
                                 <i className="fa-light fa-star"></i>
                             </div>
                         </div>
+
+                        <p className="fz-single-product__desc list-view-text">
+                            {item.description}
+                        </p>
 
                         {/* <p className="fz-single-product__desc list-view-text">
                             2021 Latest G5 3200DPI Gaming Mouse 7-Color RGB Breathing
