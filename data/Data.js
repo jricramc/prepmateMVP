@@ -896,7 +896,6 @@ const allProductListLife = [
     }
 ];
 
-
 const allProductListSilk = [
     {
         "id": 29,
@@ -1100,6 +1099,7 @@ const allProductListDelight = [
         "category": []
     }
 ]
+
 const blogList = [
     {
         id:0,
