@@ -21,6 +21,7 @@ const HeaderNav = ({position}) => {
                     <li><Link href="/millShop" className="fz-nav-link fz-submenu-nav-link">Mill City</Link></li>
                     <li><Link href="/lifealiveShop" className="fz-nav-link fz-submenu-nav-link">Life Alive</Link></li>
                     <li><Link href="/silkroadShop" className="fz-nav-link fz-submenu-nav-link">Silk Road Cuisine</Link></li>
+                    <li><Link href="/delightShop" className='fz-nav-link fz-submenu-nav-link'>Spice Delight</Link></li>
 
                 </ul>
             </li>
