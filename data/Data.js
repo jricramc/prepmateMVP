@@ -341,7 +341,7 @@ const allProductList= [
         "imgSrc": "images/life-alive/LA_southwest.png",
         "name": "Southwest Sol",
         "description": "Avocado, sweet corn, tomato, roasted chipotle tofu with peppers & onions, purple cabbage, jalapeño, braised black beans & dirty rice topped with salsa verde. Contains allium and soy.",
-        "price": 0.01, // Updated price with 10% off
+        "price": 11.48, // Updated price with 10% off
         "isInWishlist": false,
         "category": ["V", "VG", "GF", "DF", "NF"]
     },
@@ -809,7 +809,7 @@ const allProductListLife = [
         "imgSrc": "images/life-alive/LA_southwest.png",
         "name": "Southwest Sol",
         "description": "Avocado, sweet corn, tomato, roasted chipotle tofu with peppers & onions, purple cabbage, jalapeño, braised black beans & dirty rice topped with salsa verde. Contains allium and soy.",
-        "price": 0.01, // Updated price with 10% off
+        "price": 11.48, // Updated price with 10% off
         "isInWishlist": false,
         "category": ["V", "VG", "GF", "DF", "NF"]
     },
