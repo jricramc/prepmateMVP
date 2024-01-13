@@ -26,11 +26,11 @@ const ShopAreaSectionLife = () => {
                 </div> */}
 
                 <div className="col-xl-9 col-lg-8 order-0 order-lg-1">
-                    <ProductViewFilter/>
+                    {/* <ProductViewFilter/> */}
 
                     <ProductContainerDelight/>
 
-                    <ProductPagination/>
+                    {/* <ProductPagination/> */}
                 </div>
             </div>
         </div>

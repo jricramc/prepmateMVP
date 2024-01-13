@@ -26,11 +26,11 @@ const ShopAreaSectionMill = () => {
                 </div> */}
 
                 <div className="col-xl-9 col-lg-8 order-0 order-lg-1">
-                    <ProductViewFilter/>
+                    {/* <ProductViewFilter/> */}
 
                     <ProductContainerMill/>
 
-                    <ProductPagination/>
+                    {/* <ProductPagination/> */}
                 </div>
             </div>
         </div>
