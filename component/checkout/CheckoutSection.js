@@ -290,7 +290,7 @@ const CheckoutSection = () => {
                     </div>
 
                     <div className="payment-info">
-                        <h4 className="fz-checkout-title mt-5">Payment: $50 Minimum </h4>
+                        <h4 className="fz-checkout-title mt-5">Payment: $40 Minimum </h4>
                         <p className="checkout-payment-descr">By Ordering you agree to our <a href="https://prepmate.shop/Privacy">privacy policy</a> and <a href="https://prepmate.shop/Terms">terms.</a> 
                         <br /> <b>Please use same email on Stripe as your Delivery Details. </b>
                         <br /> <b></b>

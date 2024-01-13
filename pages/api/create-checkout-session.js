@@ -21,7 +21,7 @@ export default async function handler(req, res) {
   }
 
   // Check if finalPrice is less than 55
-  if (finalPrice < 50) {
+  if (finalPrice < 47) {
     return res.status(400).json({ error: 'Minimum purchase amount is $55' });
   }
 
