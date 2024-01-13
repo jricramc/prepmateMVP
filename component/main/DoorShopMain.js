@@ -17,12 +17,12 @@ const DoorShopMain = () => {
         <BannerSection/>
         <CategorySection/>
         <CollectionSection/>
-        <SubscriptionSection/>
+        {/* <SubscriptionSection/> */}
         {/* <FeaturedProducts/> */}
         <FeaturedSection/>
         <OfferSection/>
         <ModernDoorSection/>
-        <BlogSection/>
+        {/* <BlogSection/> */}
         <BrandSection/>
         <GallerySection/>
     </main>

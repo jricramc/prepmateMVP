@@ -59,14 +59,14 @@ const BlogDetailSection = () => {
                             <Link href="/blog">Marketings </Link>
                         </div>
 
-                        <div className="fz-blog-details__shares">
+                        {/* <div className="fz-blog-details__shares">
                             <span>Share:</span>
                             <button className="share-option"><i className="fa-brands fa-facebook-f"></i></button>
                             <button className="share-option"><i className="fa-brands fa-twitter"></i></button>
                             <button className="share-option"><i className="fa-brands fa-instagram"></i></button>
                             <button className="share-option"><i className="fa-brands fa-youtube"></i></button>
                             <button className="share-option"><i className="fa-brands fa-tiktok"></i></button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
