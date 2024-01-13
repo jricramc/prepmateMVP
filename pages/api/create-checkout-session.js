@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
   // Check if finalPrice is less than 55
   if (finalPrice < 47) {
-    return res.status(400).json({ error: 'Minimum purchase amount is $55' });
+    return res.status(400).json({ error: 'Minimum purchase amount is $47' });
   }
 
   // Example: Create a session with a single line item
@@ -40,7 +40,7 @@ export default async function handler(req, res) {
       quantity: 1,
     }],
     mode: 'payment',
-    success_url: `${req.headers.origin}/success?session_id={CHECKOUT_SESSION_ID}`,
+    success_url: `${req.headers.origin}/success`,
     cancel_url: `${req.headers.origin}/`,
   });
 
