@@ -14,6 +14,7 @@ export default async function handler(req, res) {
   // Your logic to create a Stripe Checkout session
   
   const { finalPrice } = req.body;
+  
   console.log('final price', finalPrice)
 
   if (typeof finalPrice !== 'number') {
