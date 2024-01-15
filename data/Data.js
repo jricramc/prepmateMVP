@@ -207,7 +207,7 @@ const allProductList= [
         "name": "Chicken Broccoli Alfredo",
         "imgSrc": "images/mill/chicken-alf.webp",
         "description": "Tender grilled chicken with fresh broccoli served over penne with creamy Alfredo",
-        "price": 8.99,
+        "price": 9.99,
         "isInWishlist": false,
         "category": []
     },
@@ -243,7 +243,7 @@ const allProductList= [
         "name": "Shrimp Broccoli Alfredo",
         "imgSrc": "images/mill/shrimp-alf.jpg",
         "description": "Juicy Shrimp with fresh broccoli served over penne with creamy Alfredo",
-        "price": 9.99,
+        "price": 10.99,
         "isInWishlist": false,
         "category": []
     },
@@ -252,7 +252,7 @@ const allProductList= [
         "name": "Mac N Cheese",
         "imgSrc": "images/mill/mac.jpg",
         "description": "Bowl of Homemade Mac N Cheese",
-        "price": 5.99,
+        "price": 6.99,
         "isInWishlist": false,
         "category": []
     },
@@ -672,7 +672,7 @@ const allProductListMill = [
         "name": "Chicken Broccoli Alfredo",
         "imgSrc": "images/mill/chicken-alf.webp",
         "description": "Tender grilled chicken with fresh broccoli served over penne with creamy Alfredo",
-        "price": 8.99,
+        "price": 9.99,
         "isInWishlist": false,
         "category": []
     },
@@ -708,7 +708,7 @@ const allProductListMill = [
         "name": "Shrimp Broccoli Alfredo",
         "imgSrc": "images/mill/shrimp-alf.jpg",
         "description": "Juicy Shrimp with fresh broccoli served over penne with creamy Alfredo",
-        "price": 9.99,
+        "price": 10.99,
         "isInWishlist": false,
         "category": []
     },
@@ -717,7 +717,7 @@ const allProductListMill = [
         "name": "Mac N Cheese",
         "imgSrc": "images/mill/mac.jpg",
         "description": "Bowl of Homemade Mac N Cheese",
-        "price": 5.99,
+        "price": 6.99,
         "isInWishlist": false,
         "category": []
     },
