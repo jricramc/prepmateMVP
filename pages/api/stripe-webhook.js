@@ -2,16 +2,26 @@
 
 import Stripe from 'stripe';
 import { MongoClient } from 'mongodb';
+import { buffer } from 'micro'; // You need to install the 'micro' package
+
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
+export const config = {
+    api: {
+      bodyParser: false,
+    },
+  };
+
 export default async function handler(req, res) {
+  const buf = await buffer(req);
+
   const sig = req.headers['stripe-signature'];
 
   let event;
 
   try {
-    event = stripe.webhooks.constructEvent(req.body, sig, process.env.STRIPE_WEBHOOK_SECRET);
+    event = stripe.webhooks.constructEvent(buf.toString(), sig, process.env.STRIPE_WEBHOOK_SECRET);
   } catch (err) {
     return res.status(400).send(`Webhook Error: ${err.message}`);
   }
@@ -27,10 +37,10 @@ export default async function handler(req, res) {
     const client = new MongoClient(uri);
     await client.connect();
     const database = client.db('pm8');
-    const collection = database.collection('checkout_sessions');
+    const collection = database.collection('launch2');
 
     // Retrieve the additional data from your database
-    const { dataa, cartItem } = await collection.findOne({ id });
+    const { dataa } = await collection.findOne({ id });
 
     // Your logic to handle the additional data
 
@@ -41,13 +51,13 @@ export default async function handler(req, res) {
 
     await collection2.insertOne(dataa);
 
-    // Add buyer's name to each item
-    const buyerName = dataa['email-address'];
-    cartItem.forEach(item => {
-      item.buyerName = buyerName;
-    });
+    // // Add buyer's name to each item
+    // const buyerName = dataa['email-address'];
+    // cartItem.forEach(item => {
+    //   item.buyerName = buyerName;
+    // });
 
-    await collection3.insertMany(cartItem);
+    // await collection3.insertMany(cartItem);
 
     // Close the MongoDB connection
     await client.close();
