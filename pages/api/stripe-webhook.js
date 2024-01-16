@@ -2,16 +2,26 @@
 
 import Stripe from 'stripe';
 import { MongoClient } from 'mongodb';
+import { buffer } from 'micro'; // You need to install the 'micro' package
+
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
+export const config = {
+    api: {
+      bodyParser: false,
+    },
+  };
+
 export default async function handler(req, res) {
+  const buf = await buffer(req);
+
   const sig = req.headers['stripe-signature'];
 
   let event;
 
   try {
-    event = stripe.webhooks.constructEvent(req.body, sig, process.env.STRIPE_WEBHOOK_SECRET);
+    event = stripe.webhooks.constructEvent(buf.toString(), sig, process.env.STRIPE_WEBHOOK_SECRET);
   } catch (err) {
     return res.status(400).send(`Webhook Error: ${err.message}`);
   }
@@ -20,7 +30,7 @@ export default async function handler(req, res) {
     const session = event.data.object;
 
     // Retrieve the identifier from the metadata
-    const id = session.metadata.id;
+    const id = session.metadata.databaseId;
 
     // Connect to your database
     const uri = process.env.DATABASE_URL;
@@ -30,7 +40,7 @@ export default async function handler(req, res) {
     const collection = database.collection('checkout_sessions');
 
     // Retrieve the additional data from your database
-    const { dataa, cartItem } = await collection.findOne({ id });
+    const { dataa, cartItem } = await collection.findOne({ _id: new ObjectId(id) });
 
     // Your logic to handle the additional data
 
