@@ -31,6 +31,7 @@ export default async function handler(req, res) {
 
     // Retrieve the identifier from the metadata
     const id = session.metadata.databaseId;
+    console.log('webhookid',id)
 
     // Connect to your database
     const uri = process.env.DATABASE_URL;
