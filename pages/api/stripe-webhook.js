@@ -41,7 +41,7 @@ export default async function handler(req, res) {
     const collection = database.collection('checkout_sessions');
 
     // Retrieve the additional data from your database
-    const { dataa, cartItem } = await collection.findOne({ _id: new ObjectId(id) });
+    const { dataa, cartItem } = await collection.findOne({ _id: id });
 
     // Your logic to handle the additional data
 
