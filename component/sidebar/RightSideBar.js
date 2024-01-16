@@ -35,21 +35,20 @@ const RightSideBar = () => {
                 <div className="fz-offcanvas-main-sideinfo-section">
 
                     <div className="fz-offcanvas-main-sideinfo">
-                        <div className="fz-offcanvas-main-search mb-45 d-block d-sm-none">
+                        {/* <div className="fz-offcanvas-main-search mb-45 d-block d-sm-none">
                             <form action="#">
                                 <input type="search" name="search" placeholder="Search Product" id="search-input" />
                                 <button type="submit"><i className="fa-light fa-magnifying-glass"></i></button>
                             </form>
-                        </div>
-                        <div className="fz-offcanvas-main-actions mb-15">
+                        </div> */}
+                        {/* <div className="fz-offcanvas-main-actions mb-15">
                             <Link href="/cart"><span className="fz-off-actions-icon"><i className="fa-thin fa-bag-shopping"></i>
                             </span> <span className="fz-off-actions-text"><span>View Cart</span><span>View Cart</span></span></Link>
                             <Link href="/wishlist"><i className="fa-thin fa-heart"></i> <span className="fz-off-actions-text"><span>View Wishlist</span><span>View Wishlist</span></span></Link>
-                        </div>
+                        </div> */}
 
                         <div className="fz-offcanvas-main-contacts">
-                            <h4 className="fz-offcanvas-main-contacts-title mb-30">Get In Touch</h4>
-
+                           
                             <ul className="fz-offcanvas-main-contacts-list">
                                 {/* <li>
                                     <i className="fa-thin fa-location-dot"></i>
@@ -58,26 +57,18 @@ const RightSideBar = () => {
                                 <li>
                                     <i className="fa-thin fa-phone-flip"></i>
                                     <span className="fz-offcanvas-main-contact-text">
-                                        <a href="tel:(+1)909-407-2988">(+1) 909-407-2988</a> <br />
-                                        <a href="tel:(+1)470-142-2412">(+1) 470-142-2412</a>
+                                        <a href="tel:(+1)214-780-6726">(+1) (214) 780-6726</a> <br />
+                                        <a href="mailto:support@prepmate.shop">support@prepmate.shop</a>
                                     </span>
                                 </li>
 
-                                <li>
+                                {/* <li>
                                     <i className="fa-thin fa-clock"></i>
                                     <span className="fz-offcanvas-main-contact-text">Store Hours:<br /><span className="fz-opentime">Mon - Sat : 8am - 5pm</span></span>
-                                </li>
+                                </li> */}
 
                             </ul>
                         </div>
-
-                        <div className="fz-offcanvas-main-socials mt-45">
-                            <a href="#"><i className="fa-brands fa-facebook-f"></i><i className="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i className="fa-brands fa-twitter"></i><i className="fa-brands fa-twitter"></i></a>
-                            <a href="#"><i className="fa-brands fa-instagram"></i><i className="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i className="fa-brands fa-youtube"></i><i className="fa-brands fa-youtube"></i></a>
-                        </div>
-
                     </div>
                 </div>
             </div>

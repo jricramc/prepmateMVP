@@ -10821,3 +10821,8 @@ a.fz-nav-link.fz-submenu-nav-link.sub-menu-link:hover {
   }
 }
 
+.vertical-item {
+  padding-top: 10px;
+  padding-bottom: 10px; /* Adjust the padding value as needed */
+}
+
