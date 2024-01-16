@@ -543,7 +543,7 @@ useEffect(() => {
 
   // Total Price
   const subTotal = cartItems.reduce((total, item) => total + item.quantity * item.price, 0);
-  const delivery = cartItems.length === 0 ? 0.00 : 0.5;
+  const delivery = cartItems.length === 0 ? 0.00 : 2.99;
   const salestax = (subTotal * 0.07);
   const serviceCharge= (subTotal * 0.05)
   const finalPrice = (subTotal + (delivery) + (salestax) + (serviceCharge)) ;
