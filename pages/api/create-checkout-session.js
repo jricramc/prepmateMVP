@@ -1,7 +1,6 @@
 // pages/api/create-checkout-session.js
 
 import Stripe from 'stripe';
-import { v4 as uuidv4 } from 'uuid';
 import { MongoClient } from 'mongodb';
 
 const stripe_sec= process.env.STRIPE_SECRET_KEY
