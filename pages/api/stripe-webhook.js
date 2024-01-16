@@ -41,24 +41,26 @@ export default async function handler(req, res) {
     const collection = database.collection('checkout_sessions');
 
     // Retrieve the additional data from your database
-    const { dataa, cartItem } = await collection.findOne({ _id: id });
+    const document= await collection.findOne({ _id: new ObjectId(id) });
+
+    console.log(document)
 
     // Your logic to handle the additional data
 
     // const checkoutData = JSON.parse(session.metadata.cartItem) // Assuming cartItems is a property of metadata
 
-    const collection2 = database.collection('confirmed_addresses');
-    const collection3 = database.collection('confirmed_orders');
+    // const collection2 = database.collection('confirmed_addresses');
+    // const collection3 = database.collection('confirmed_orders');
 
-    await collection2.insertOne(dataa);
+    // await collection2.insertOne(dataa);
 
-    // Add buyer's name to each item
-    const buyerName = dataa['email-address'];
-    cartItem.forEach(item => {
-      item.buyerName = buyerName;
-    });
+    // // Add buyer's name to each item
+    // const buyerName = dataa['email-address'];
+    // cartItem.forEach(item => {
+    //   item.buyerName = buyerName;
+    // });
 
-    await collection3.insertMany(cartItem);
+    // await collection3.insertMany(cartItem);
 
     // Close the MongoDB connection
     await client.close();
