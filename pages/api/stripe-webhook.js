@@ -30,17 +30,17 @@ export default async function handler(req, res) {
     const session = event.data.object;
 
     // Retrieve the identifier from the metadata
-    const id = session.metadata.id;
+    const id = session.metadata.databaseId;
 
     // Connect to your database
     const uri = process.env.DATABASE_URL;
     const client = new MongoClient(uri);
     await client.connect();
     const database = client.db('pm8');
-    const collection = database.collection('launch2');
+    const collection = database.collection('checkout_sessions');
 
     // Retrieve the additional data from your database
-    const { dataa } = await collection.findOne({ id });
+    const { dataa, cartItem } = await collection.findOne({ _id: new ObjectId(id) });
 
     // Your logic to handle the additional data
 
@@ -51,13 +51,13 @@ export default async function handler(req, res) {
 
     await collection2.insertOne(dataa);
 
-    // // Add buyer's name to each item
-    // const buyerName = dataa['email-address'];
-    // cartItem.forEach(item => {
-    //   item.buyerName = buyerName;
-    // });
+    // Add buyer's name to each item
+    const buyerName = dataa['email-address'];
+    cartItem.forEach(item => {
+      item.buyerName = buyerName;
+    });
 
-    // await collection3.insertMany(cartItem);
+    await collection3.insertMany(cartItem);
 
     // Close the MongoDB connection
     await client.close();
