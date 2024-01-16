@@ -43,7 +43,6 @@ export default async function handler(req, res) {
     // Retrieve the additional data from your database
     const {dataa, cartItem}= await collection.findOne({ _id: new ObjectId(id) });
 
-    console.log(document)
 
     // Your logic to handle the additional data
 
