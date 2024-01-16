@@ -71,7 +71,6 @@ export default async function handler(req, res) {
         databaseId: id,
       },
   });
-  console.log('metadata',metadata)
 
   res.status(200).json({ sessionId: session.id });
 }
