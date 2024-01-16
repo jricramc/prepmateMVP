@@ -75,12 +75,13 @@ const CheckoutSection = () => {
             // Handle response here (e.g., extract data if needed)
             const submitResult = await response.json();
             console.log(submitResult.message);
-    
+
+            const final_data= {finalPrice, data_send}
             // Step 3: Create Stripe Checkout Session
             response = await fetch('/api/create-checkout-session', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ finalPrice }), // Modify as necessary
+                body: JSON.stringify(final_data), // Modify as necessary
                 // Pass any necessary data for creating the session
             });
     

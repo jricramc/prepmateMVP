@@ -72,3 +72,53 @@
 // };
 
 // export default cors(webhookHandler);
+
+// pages/api/stripe-webhook.js
+
+import Stripe from 'stripe';
+
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+
+export default async function handler(req, res) {
+  const sig = req.headers['stripe-signature'];
+
+  let event;
+
+  try {
+    event = stripe.webhooks.constructEvent(req.body, sig, process.env.STRIPE_WEBHOOK_SECRET);
+  } catch (err) {
+    return res.status(400).send(`Webhook Error: ${err.message}`);
+  }
+
+  if (event.type === 'checkout.session.completed') {
+    const session = event.data.object;
+
+    // Perform your logic here. For example, you could update your database, send an email to the user, etc.
+
+    const data = JSON.parse(session.metadata.dataa);
+    const checkoutData = JSON.parse(session.metadata.cartItem);
+
+    const uri = process.env.DATABASE_URL;
+    const client = new MongoClient(uri);
+    await client.connect();
+    const database = client.db('pm8');
+    const collection = database.collection('confirmed_addresses');
+    const collection2 = database.collection('confirmed_orders');
+
+    await collection.insertOne(data);
+
+    // Add buyer's name to each item
+    const buyerName = data['email-address'];
+    checkoutData.forEach(item => {
+      item.buyerName = buyerName;
+    });
+
+    await collection2.insertMany(checkoutData);
+
+    // Close the MongoDB connection
+    await client.close();
+  }
+
+  // Return a response to acknowledge receipt of the event
+  res.json({received: true});
+}

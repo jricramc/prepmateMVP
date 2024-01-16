@@ -42,8 +42,8 @@ export default async function handler(req, res) {
       const client = new MongoClient(uri);
       await client.connect();
       const database = client.db('pm8');
-      const collection = database.collection('launch1');
-      const collection2 = database.collection('orders');
+      const collection = database.collection('launch2');
+      const collection2 = database.collection('orders2');
 
       // Insert the document
       await collection.insertOne(req.body.data);
