@@ -624,6 +624,15 @@ const allProductList= [
         price: 14.99,
         isInWishlist: false,
         category: []
+    },
+    {
+        id: 51,
+        name: "Test",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "test",
+        price: 0.01,
+        isInWishlist: false,
+        category: []
     }
 
 ]
@@ -1097,6 +1106,15 @@ const allProductListDelight = [
         imgSrc: "images/spice-delight/non-veg.jpg",
         description: "Chicken Tikka and Chicken Korma served with Rice",
         price: 14.99,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 51,
+        name: "Test",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "test",
+        price: 0.01,
         isInWishlist: false,
         category: []
     }
