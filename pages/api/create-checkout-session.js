@@ -43,7 +43,7 @@ export default async function handler(req, res) {
   }
 
   // Check if finalPrice is less than 55
-  if (finalPrice < 44) {
+  if (finalPrice < 0.01) {
     return res.status(400).json({ error: 'Minimum purchase amount is $44' });
   }
 //   const dataId = await saveData({dataa , cartItem});
