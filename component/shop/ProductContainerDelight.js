@@ -56,11 +56,11 @@ const ProductContainerDelight = () => {
                         <p className="fz-single-product__desc list-view-text">{item.description}</p>
                                     
                         <div className="fz-single-product__price-rating">
+                        <p className="fz-single-product__price">
+                            <span className="current-price" style={{textDecoration: 'line-through'}}>${item.originalPrice}</span>          
+                        </p>
                             <p className="fz-single-product__price">
-                                <span className="current-price">${item.originalPrice}</span>          
-                            </p>
-                            <p className="fz-single-product__price">
-                                <span className="current-price">${item.price}</span>
+                                <span className="current-price" style={{ color: 'black'}}>${item.price}</span>
                             </p>
 
                             <div className="rating list-view-text">
