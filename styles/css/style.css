@@ -201,6 +201,12 @@ img {
   height: auto;
 }
 
+.front-page-image {
+  width: 100px; /* Set the desired width for all images */
+  height: 100px; /* Set the desired height for all images */
+  /* object-fit: cover; Adjust the object-fit property based on your image content */
+}
+
 .bg-default {
   background-size: cover;
   background-repeat: no-repeat;
@@ -3404,7 +3410,7 @@ a.fz-hamburger {
 }
 
 .fz-1-banner-section {
-  background-color: #f8f8f8;
+  background-color: #ff3232;
   padding-top: 110px;
 }
 @media screen and (max-width: 1399px) {
@@ -10825,4 +10831,10 @@ a.fz-nav-link.fz-submenu-nav-link.sub-menu-link:hover {
   padding-top: 10px;
   padding-bottom: 10px; /* Adjust the padding value as needed */
 }
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+
 

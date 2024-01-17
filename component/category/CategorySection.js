@@ -11,10 +11,10 @@ const CategorySection = () => {
 
         <div className="row g-md-4 g-3 justify-content-center align-items-center align-items-xl-stretch">
           {/* Each item as a column with the same size */}
-          <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 fz-1-category-col">
+          <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 fz-1-category-col" >
             <Link href="/millShop">
               <div className="fz-1-single-category">
-                <img src="images/mill.jpeg" alt="Product Icon" />
+                <img src="images/millcity.jpg" alt="Product Icon" className="front-page-image"/>
                 <h5 className="fz-1-single-category__title">Mill City</h5>
               </div>
             </Link>
@@ -23,7 +23,7 @@ const CategorySection = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 fz-1-category-col">
             <Link href="/lifealiveShop">
               <div className="fz-1-single-category">
-                <img src="images/lifealive.jpeg" alt="Product Icon" />
+                <img src="images/lifealive.jpg" alt="Product Icon" className="front-page-image"/>
                 <h5 className="fz-1-single-category__title">Life Alive</h5>
               </div>
             </Link>
@@ -32,7 +32,7 @@ const CategorySection = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 fz-1-category-col">
             <Link href="/silkroadShop">
               <div className="fz-1-single-category">
-                <img src="images/silkroad.jpeg" alt="Product Icon" />
+                <img src="images/silkroad.jpg" alt="Product Icon" className="front-page-image"/>
                 <h5 className="fz-1-single-category__title">Silk Road Cuisine</h5>
               </div>
             </Link>
@@ -41,7 +41,7 @@ const CategorySection = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 fz-1-category-col">
             <Link href="/delightShop">
               <div className="fz-1-single-category">
-                <img src="images/spice-delight/delight.jpeg" alt="Product Icon" />
+                <img src="images/spice-delight/delight.jpg" alt="Product Icon" className="front-page-image"/>
                 <h5 className="fz-1-single-category__title">Spice Delight</h5>
               </div>
             </Link>
