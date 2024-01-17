@@ -45,7 +45,6 @@ const ProductContainerLife = () => {
                                 <span className="btn-icon"><i className="fa-light fa-arrow-right-arrow-left"></i></span>
                             </button> */}
                         </div>
-                        <p>{item.description}</p> {/* Add this line */}
 
                     </div>
 
@@ -99,7 +98,10 @@ const ProductContainerLife = () => {
                                 <span className="btn-icon"><i className="fa-light fa-arrow-right-arrow-left"></i></span>
                             </button> */}
                         </div>
+                         {/* Add this line */}
+
                     </div>
+                    <p>{item.description}</p>
                 </div>
             </div>   
             ))  

@@ -45,7 +45,6 @@ const ProductContainerSilk = () => {
                                 <span className="btn-icon"><i className="fa-light fa-arrow-right-arrow-left"></i></span>
                             </button> */}
                         </div>
-                        <p>{item.description}</p> {/* Add this line */}
 
                     </div>
 
@@ -98,6 +97,8 @@ const ProductContainerSilk = () => {
                             </button> */}
                         </div>
                     </div>
+                    <p>{item.description}</p> {/* Add this line */}
+
                 </div>
             </div>   
             ))  

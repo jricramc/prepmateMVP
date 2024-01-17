@@ -45,7 +45,6 @@ const ProductContainerMill = () => {
                                 <span className="btn-icon"><i className="fa-light fa-arrow-right-arrow-left"></i></span>
                             </button> */}
                         </div>
-                        <p>{item.description}</p> {/* Add this line */}
 
                     </div>
 
@@ -101,6 +100,8 @@ const ProductContainerMill = () => {
                             </button> */}
                         </div>
                     </div>
+                    <p>{item.description}</p> {/* Add this line */}
+
                 </div>
             </div>   
             ))  

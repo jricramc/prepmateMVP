@@ -45,16 +45,12 @@ const ProductContainerDelight = () => {
                                 <span className="btn-icon"><i className="fa-light fa-arrow-right-arrow-left"></i></span>
                             </button> */}
                         </div>
-                        <p>{item.description}</p> {/* Add this line */}
-
                     </div>
 
                     <div className="fz-single-product__txt">
                         <span className="fz-single-product__category list-view-text">{item.category}</span>
                         {/* <Link href="/shop" className="fz-single-product__title">{item.name}</Link> */}
-                        <b href="/shop" className="fz-single-product__title">{item.name}</b>
-                        <p className="fz-single-product__desc list-view-text">{item.description}</p>
-                                    
+                        <b href="/shop" className="fz-single-product__title">{item.name}</b>                                    
                         <div className="fz-single-product__price-rating">
                         <p className="fz-single-product__price">
                             <span className="current-price" style={{textDecoration: 'line-through'}}>${item.originalPrice}</span>          
@@ -62,6 +58,8 @@ const ProductContainerDelight = () => {
                             <p className="fz-single-product__price">
                                 <span className="current-price" style={{ color: 'black'}}>${item.price}</span>
                             </p>
+            
+
 
                             <div className="rating list-view-text">
                                 <i className="fa-solid fa-star"></i>
@@ -71,6 +69,9 @@ const ProductContainerDelight = () => {
                                 <i className="fa-light fa-star"></i>
                             </div>
                         </div>
+                        
+                        
+                
 
                         {/* <p className="fz-single-product__desc list-view-text">
                             2021 Latest G5 3200DPI Gaming Mouse 7-Color RGB Breathing
@@ -100,7 +101,10 @@ const ProductContainerDelight = () => {
                             </button> */}
                         </div>
                     </div>
+                    <p className="fz-single-product__desc list-view-text">{item.description}</p>
+                            <p>{item.description}</p>
                 </div>
+                
             </div>   
             ))  
             )}
