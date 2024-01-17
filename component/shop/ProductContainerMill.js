@@ -51,7 +51,9 @@ const ProductContainerMill = () => {
 
                     <div className="fz-single-product__txt">
                         <span className="fz-single-product__category list-view-text">{item.category}</span>
-                        <Link href="/shopMill" className="fz-single-product__title">{item.name}</Link>
+                        {/* <Link href="/millShop" className="fz-single-product__title">{item.name}</Link> */}
+                        <b href="/millShop" className="fz-single-product__title">{item.name}</b>
+
                         <div className="fz-single-product__price-rating">
                             <p className="fz-single-product__price">
                                 <span className="current-price">${item.price}</span>
