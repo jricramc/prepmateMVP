@@ -18,7 +18,7 @@ const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY)
 
 
 const CheckoutSection = () => {
-    const {subTotal, delivery, salestax, serviceCharge, finalPrice, cartItems} = useContext(FarzaaContext);
+    const {subTotal, totalOriginalPrice, moneySaved, delivery, salestax, serviceCharge, finalPrice, cartItems} = useContext(FarzaaContext);
     // console.log('cart', cartItems)
 
     // console.log('farz final', finalPrice)
@@ -167,8 +167,18 @@ const CheckoutSection = () => {
                         <div className="cart-checkout-area">
                             <ul className="checkout-summary">
                                 <li>
+                                    <span className="checkout-summary__key">Total Items Price</span>
+                                    <span className="checkout-summary__value"><span>$</span>{totalOriginalPrice.toFixed(2)}</span>
+                                </li>
+
+                                <li>
+                                    <span className="checkout-summary__key">PrepMate Discount</span>
+                                    <span className="checkout-summary__value red-text"><span className="red-text">- $</span>{moneySaved.toFixed(2)}</span>
+                                </li>
+
+                                <li>
                                     <span className="checkout-summary__key">Subtotal</span>
-                                    <span className="checkout-summary__value"><span>$</span>{subTotal.toFixed(2)}</span>
+                                    <span className="checkout-summary__value green-text"><span className='green-text'>$</span>{subTotal.toFixed(2)}</span>
                                 </li>
 
                                 <li>

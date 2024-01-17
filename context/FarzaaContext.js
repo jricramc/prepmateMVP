@@ -540,13 +540,17 @@ useEffect(() => {
       toast.success("Item added to cart!");
     }
   };
-
+  
   // Total Price
   const subTotal = cartItems.reduce((total, item) => total + item.quantity * item.price, 0);
   const delivery = cartItems.length === 0 ? 0.00 : 2.99;
   const salestax = (subTotal * 0.07);
   const serviceCharge= (subTotal * 0.05)
   const finalPrice = (subTotal + (delivery) + (salestax) + (serviceCharge)) ;
+
+  // Money Saved
+  const moneySaved = cartItems.reduce((total, item) => total + (item.originalPrice - item.price) * item.quantity, 0);
+  const totalOriginalPrice = cartItems.reduce((total, item) => total + item.originalPrice * item.quantity, 0);
 
   // Blog List Category Filter
   const [filteredBlogList, setFilteredBlogList] = useState(blogList);
@@ -1031,6 +1035,8 @@ useEffect(() => {
       salestax,
       serviceCharge,
       finalPrice,
+      totalOriginalPrice,
+      moneySaved,
       filteredBlogList,
       handleBlogCategoryFilter,
       activeBlogCategory,

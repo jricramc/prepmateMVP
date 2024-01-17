@@ -5,6 +5,8 @@ import { FarzaaContext } from '@/context/FarzaaContext'
 
 const CartSection = () => {
     const {
+        moneySaved,
+        totalOriginalPrice,
         subTotal, 
         delivery,
         salestax,
@@ -32,8 +34,18 @@ const CartSection = () => {
 
                 <ul className="checkout-summary">
                     <li>
+                        <span className="checkout-summary__key">Total Items Price</span>
+                        <span className="checkout-summary__value"><span>$</span>{totalOriginalPrice.toFixed(2)}</span>
+                    </li>
+
+                    <li>
+                        <span className="checkout-summary__key">PrepMate Discount</span>
+                        <span className="checkout-summary__value red-text"><span className="red-text">- $</span>{moneySaved.toFixed(2)}</span>
+                    </li>
+
+                    <li>
                         <span className="checkout-summary__key">Subtotal</span>
-                        <span className="checkout-summary__value"><span>$</span>{subTotal.toFixed(2)}</span>
+                        <span className="checkout-summary__value green-text"><span className='green-text'>$</span>{subTotal.toFixed(2)}</span>
                     </li>
 
                     <li>
@@ -45,7 +57,6 @@ const CartSection = () => {
                         <span className="checkout-summary__key">Sales Tax</span>
                         <span className="checkout-summary__value"><span>$</span>{salestax.toFixed(2)}</span>
                     </li>
-
                     <li className="cart-checkout-total">
                         <span className="checkout-summary__key">Total</span>
                         <span className="checkout-summary__value"><span>$</span>{finalPrice.toFixed(2)}</span>

@@ -1235,7 +1235,7 @@ img {
   }
 }
 .fz-1-single-product .fz-single-product__price .prev-price {
-  color: #616161;
+  color: #130a0a;
 }
 
 @-webkit-keyframes scaleUp {
@@ -10836,5 +10836,10 @@ a.fz-nav-link.fz-submenu-nav-link.sub-menu-link:hover {
   transform: rotate(90deg);
 }
 
+.red-text {
+  color: red;
+}
 
-
+.green-text {
+  color: green;
+}
