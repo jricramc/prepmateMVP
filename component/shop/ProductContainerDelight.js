@@ -57,6 +57,9 @@ const ProductContainerDelight = () => {
                                     
                         <div className="fz-single-product__price-rating">
                             <p className="fz-single-product__price">
+                                <span className="current-price">${item.originalPrice}</span>          
+                            </p>
+                            <p className="fz-single-product__price">
                                 <span className="current-price">${item.price}</span>
                             </p>
 

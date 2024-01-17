@@ -56,8 +56,13 @@ const ProductContainerMill = () => {
 
                         <div className="fz-single-product__price-rating">
                             <p className="fz-single-product__price">
-                                <span className="current-price">${item.price}</span>
+                                <span className="current-price">${item.originalPrice}</span>          
                             </p>
+                            <p className="fz-single-product__price">
+                                <span className="current-price">${item.price}</span>          
+                            </p>
+                            
+
 
                             <div className="rating list-view-text">
                                 <i className="fa-solid fa-star"></i>
