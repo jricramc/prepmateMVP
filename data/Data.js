@@ -627,7 +627,6 @@ const allProductList= [
         isInWishlist: false,
         category: []
     }
-
 ]
 
 

@@ -1,7 +1,7 @@
 // pages/api/stripe-webhook.js
 
 import Stripe from 'stripe';
-import { MongoClient } from 'mongodb';
+import { MongoClient, ObjectId } from 'mongodb';
 import { buffer } from 'micro'; // You need to install the 'micro' package
 
 
@@ -31,6 +31,7 @@ export default async function handler(req, res) {
 
     // Retrieve the identifier from the metadata
     const id = session.metadata.databaseId;
+    console.log('webhookid',id)
 
     // Connect to your database
     const uri = process.env.DATABASE_URL;
@@ -40,7 +41,8 @@ export default async function handler(req, res) {
     const collection = database.collection('checkout_sessions');
 
     // Retrieve the additional data from your database
-    const { dataa, cartItem } = await collection.findOne({ _id: new ObjectId(id) });
+    const {dataa, cartItem}= await collection.findOne({ _id: new ObjectId(id) });
+
 
     // Your logic to handle the additional data
 
