@@ -629,8 +629,6 @@ const allProductList= [
     }
 ]
 
-
-
 const allProductListMill = [
     {
         id: 0,
@@ -928,7 +926,6 @@ const allProductListLife = [
     },
 ];
 
-
 const allProductListSilk = [
     {
         id: 29,
@@ -1153,6 +1150,71 @@ const allProductListDelight = [
         isInWishlist: false,
         category: []
     }
+]
+
+
+const allProductListFiveSpice = [
+    {
+        id: 51,
+        name: "Scallion Pancakes",
+        imgSrc: "images/spice-delight/veg.jpeg",
+        description: "-",
+        price: 5.50,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 52,
+        name: "Saag Paneer and Chicken Tikka",
+        imgSrc: "images/spice-delight/saag-paneer.jpg",
+        description: "-",
+        price: 13.99,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 53,
+        name: "Saag Paneer and Chicken Korma",
+        imgSrc: "images/spice-delight/chic-korma.jpg",
+        description: "-",
+        price: 13.99,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 54,
+        name: "Chana Masala and Chicken Tikka ",
+        imgSrc: "images/spice-delight/chana.jpg",
+        description: "Chana Masala and Chicken Tikka Served with Rice",
+        price: 13.99,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 55,
+        name: "Chana Masala and Chicken Korma ",
+        imgSrc: "images/spice-delight/one-each.jpg",
+        description: "-",
+        price: 13.99,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 56,
+        name: "Chicken Tikka and Chicken Korma ",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 14.99,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    }
+
 ]
 const blogList = [
     {
@@ -1508,6 +1570,7 @@ export {
     allProductListLife,
     allProductListSilk,
     allProductListDelight,
+    allProductListFiveSpice,
     blogList,
     ornamentList,
     allCakeList,

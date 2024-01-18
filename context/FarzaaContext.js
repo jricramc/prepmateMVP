@@ -1,4 +1,5 @@
-import { allCakeList, allProductList, allProductListMill, allProductListLife, allProductListSilk, allProductListDelight, blogList, ornamentList } from '@/data/Data';
+import { allCakeList, allProductList, allProductListMill, 
+  allProductListLife, allProductListSilk, allProductListDelight, allProductListFiveSpice, blogList, ornamentList } from '@/data/Data';
 import { createContext, useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
@@ -336,6 +337,29 @@ useEffect(() => {
 }, [currentPageDelight, filteredProductsDelight]);
 
 const [paginatedProductsDelight, setPaginatedProductsDelight] = useState([]);
+
+const [filteredProductsFiveSpice, setFilteredProductsFiveSpice] = useState(allProductListFiveSpice);
+
+// Pagination for Silk Products
+const [currentPageFiveSpice, setCurrentPageFiveSpice] = useState(1);
+const productsPerPageFiveSpice = 20;
+const totalProductsFiveSpice = filteredProductsFiveSpice.length;
+const totalPagesFiveSpice = Math.ceil(totalProductsFiveSpice / productsPerPageFiveSpice);
+
+const handlePageChangeFiveSpice = (newPage) => {
+  setCurrentPageFiveSpice(newPage);
+  scrollToTop(); // Scroll to the top after changing the page
+};
+
+useEffect(() => {
+  const startIndexFiveSpice = (currentPageFiveSpice - 1) * productsPerPageFiveSpice;
+  const endIndexFiveSpice = currentPageFiveSpice * productsPerPageFiveSpice;
+
+  const paginatedSliceFiveSpice = filteredProductsFiveSpice.slice(startIndexFiveSpice, endIndexFiveSpice);
+  setPaginatedProductsSilk(paginatedSliceFiveSpice);
+}, [currentPageSilk, filteredProductsFiveSpice]);
+
+const [paginatedProductsFiveSpice, setPaginatedProductsFiveSpice] = useState([]);
   
 // Pagination
 const productsPerPage = 9;
@@ -1120,6 +1144,14 @@ useEffect(() => {
       paginatedProductsDelight,
       productsPerPageDelight,
       totalProductsDelight,
+
+      filteredProductsFiveSpice,
+      currentPageFiveSpice,
+      handlePageChangeFiveSpice,
+      totalPagesFiveSpice,
+      paginatedProductsFiveSpice,
+      productsPerPageFiveSpice,
+      totalProductsFiveSpice,
     }}>
       {children}
     </FarzaaContext.Provider>
