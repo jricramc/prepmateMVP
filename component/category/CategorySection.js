@@ -59,7 +59,7 @@ const CategorySection = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 fz-1-category-col">
             <Link href="/fivespiceShop">
               <div className="fz-1-single-category">
-                <img src="images/five-spice/5spice.png" alt="Product Icon" className="front-page-image"/>
+                <img src="images/dumpling/dumpling.jpeg" alt="Product Icon" className="front-page-image"/>
                 <h5 className="fz-1-single-category__title">Dumpling Xuan</h5>
               </div>
             </Link>

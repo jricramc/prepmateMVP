@@ -1464,11 +1464,211 @@ const allProductListFiveSpice = [
         isInWishlist: false,
         category: []
     },
-      
-      
-
-
 ]
+
+const allProductListDumpling= [
+    {
+        id: 72,
+        name: "Chicken Teriyaki",
+        imgSrc: "images/dumpling/teriyaki.jpeg",
+        description: "4pc",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 73,
+        name: "Beef Teriyaki",
+        imgSrc: "images/dumpling/beef-teriyaki.jpeg",
+        description: "-",
+        price: 14.25,
+        originalPrice: 15.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 74,
+        name: "Dan Dan Noodles w. Peanut",
+        imgSrc: "images/dumpling/dandan.jpeg",
+        description: "-",
+        price: 13.15,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 75,
+        name: "Steamed Chicken w. Chili Sauce",
+        imgSrc: "images/dumpling/chicken-chili.jpeg",
+        description: "-",
+        price: 13.15,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 76,
+        name: "Steamed Dumpling w. Vegetables",
+        imgSrc: "images/dumpling/steamed-dumpling",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 77,
+        name: "Steamed Pork & Leek Dumpling",
+        imgSrc: "images/dumpling/steamed-pork.jpeg",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 78,
+        name: "Cabbage & Pork Dumplings",
+        imgSrc: "images/dumpling/cabbage-dumplings.jpeg",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 79,
+        name: "Mini Juicy Buns with Pork",
+        imgSrc: "images/dumpling/buns-pork.jpeg",
+        description: "-",
+        price: 12.05,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 80,
+        name: "Sticky Rice Shao Mai Shanghai Style",
+        imgSrc: "images/dumpling/sticky-rice.jpeg",
+        description: "-",
+        price: 12.05,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 81,
+        name: "Chicken Fried Rice",
+        imgSrc: "images/dumpling/chicken-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 82,
+        name: "Beef Fried Rice",
+        imgSrc: "images/dumpling/beef-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 83,
+        name: "Vegetable Fried Rice",
+        imgSrc: "images/dumpling/vegetable-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 84,
+        name: "Pork Fried Rice",
+        imgSrc: "images/dumpling/pork-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 85,
+        name: "White Rice",
+        imgSrc: "images/dumpling/white-rice.jpeg",
+        description: "-",
+        price: 2.15,
+        originalPrice: 2.45,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 86,
+        name: "Brown Rice",
+        imgSrc: "images/dumpling/brown-rice.jpeg",
+        description: "-",
+        price: 2.8,
+        originalPrice: 2.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 87,
+        name: "Stir Fried Noodle w. Pork & Mustard Green",
+        imgSrc: "images/dumpling/stir-pork.jpeg",
+        description: "-",
+        price: 16.45,
+        originalPrice: 18.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 88,
+        name: "Singapore Rice Noodle",
+        imgSrc: "images/dumpling/singapore.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 89,
+        name: "Minced Pork w. Black Bean Sauce Over Noodles",
+        imgSrc: "images/dumpling/minced-pork.jpeg",
+        description: "-",
+        price: 14.25,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 90,
+        name: "Sauteed Shanghai Noodles (Pork)",
+        imgSrc: "images/dumpling/shang-noodles.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 91,
+        name: "Sauteed Flat Noodles with Beef",
+        imgSrc: "images/dumpling/flat-beef.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    }
+]
+
 const blogList = [
     {
         id:0,
@@ -1824,6 +2024,7 @@ export {
     allProductListSilk,
     allProductListDelight,
     allProductListFiveSpice,
+    allProductListDumpling,
     blogList,
     ornamentList,
     allCakeList,
