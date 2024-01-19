@@ -626,6 +626,106 @@ const allProductList= [
         originalPrice: 19.99,
         isInWishlist: false,
         category: []
+    },
+    {
+        id: 51,
+        name: "Scallion Pancakes",
+        imgSrc: "images/five-spice/scallion.jpeg",
+        description: "-",
+        price: 5.50,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 52,
+        name: "Pan Fried Pork Bun",
+        imgSrc: "images/spice-delight/saag-paneer.jpg",
+        description: "(3pc)-",
+        price: 7.50,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 53,
+        name: "Salt and Pepper Crispy Chicken",
+        imgSrc: "images/spice-delight/chic-korma.jpg",
+        description: "-",
+        price: 9.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 54,
+        name: "Steamed Pork with Garlic",
+        imgSrc: "images/spice-delight/chana.jpg",
+        description: "-",
+        price: 9.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 55,
+        name: "Beef Tendon with Hot Sauce ",
+        imgSrc: "images/spice-delight/one-each.jpg",
+        description: "-",
+        price: 8.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 56,
+        name: "Beef Tendon and Tripe with Chili Sauce",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 11,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 57,
+        name: "Sichuan Wonton with Red Chili Sauce ",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 8.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 58,
+        name: "Sichuan Spicy Pork Dumpling",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "(6pcs)-",
+        price: 8,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 59,
+        name: "Dan Dan Noodle",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "w. peanut-",
+        price: 8.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 60,
+        name: "Cucumber with House Spicy Sauce",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 8,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
     }
 ]
 
@@ -1206,16 +1306,6 @@ const allProductListFiveSpice = [
     },
     {
         id: 56,
-        name: "Beef Tendon and Tripe with Chili Sauce",
-        imgSrc: "images/spice-delight/non-veg.jpg",
-        description: "-",
-        price: 11,
-        originalPrice: 0,
-        isInWishlist: false,
-        category: []
-    },
-    {
-        id: 56,
         name: "Sichuan Wonton with Red Chili Sauce ",
         imgSrc: "images/spice-delight/non-veg.jpg",
         description: "-",
@@ -1225,7 +1315,7 @@ const allProductListFiveSpice = [
         category: []
     },
     {
-        id: 56,
+        id: 57,
         name: "Sichuan Spicy Pork Dumpling",
         imgSrc: "images/spice-delight/non-veg.jpg",
         description: "(6pcs)-",
@@ -1235,7 +1325,7 @@ const allProductListFiveSpice = [
         category: []
     },
     {
-        id: 56,
+        id: 58,
         name: "Dan Dan Noodle",
         imgSrc: "images/spice-delight/non-veg.jpg",
         description: "w. peanut-",
@@ -1245,15 +1335,138 @@ const allProductListFiveSpice = [
         category: []
     },
     {
-        id: 56,
-        name: "Cucumber with House Spicy Sauce",
+        id: 59,
+        name: "Boiled in Spicy Broth",
         imgSrc: "images/spice-delight/non-veg.jpg",
-        description: "-",
-        price: 8,
+        description: "Choice of Fish Fillet, Beef, Lamb, Chicken, Tofu, or Tripe",
+        price: 19.95,
         originalPrice: 0,
         isInWishlist: false,
         category: []
-    }
+    },
+    {
+        id: 60,
+        name: "Hot and Spicy Chicken",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 16.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 61,
+        name: "Kung Pao Chicken",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "w. peanut-",
+        price: 16.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 62,
+        name: "Sichuan Style Double Cooked Pork",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 16.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 63,
+        name: "Stir Fried Spicy Pork Kidney",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 17.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 64,
+        name: "Beef Cumin Style",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 18.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 65,
+        name: "Spicy Dry Pot Beef",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "w. peanut-",
+        price: 18.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 66,
+        name: "Hot and Spicy Fish Fillet",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 19.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 67,
+        name: "Spicy Dry Pot Fish Fillet",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 19.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 68,
+        name: "Dry Sauteed String Bean",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "-",
+        price: 12.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 69,
+        name: "Mo Po Tofu",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "w. peanut-",
+        price: 14.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 70,
+        name: "Signature Fried Rice",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "w. smoked bacon-",
+        price: 11.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 71,
+        name: "Flat Noodle (Chow Foon)",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "w. vegetable, chicken, pork, beef, or shrimp-",
+        price: 12.95,
+        originalPrice: 0,
+        isInWishlist: false,
+        category: []
+    },
+      
+      
+
 
 ]
 const blogList = [
