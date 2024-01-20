@@ -1,5 +1,5 @@
 import { allCakeList, allProductList, allProductListMill, 
-  allProductListLife, allProductListSilk, allProductListDelight, allProductListFiveSpice, allProductListDumpling, allProductListAlfredos, blogList, ornamentList } from '@/data/Data';
+  allProductListLife, allProductListSilk, allProductListDelight, allProductListFiveSpice, allProductListDumpling, blogList, ornamentList } from '@/data/Data';
 import { createContext, useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
@@ -384,28 +384,28 @@ useEffect(() => {
 
 const [paginatedProductsDumpling, setPaginatedProductsDumpling] = useState([]);
 
-const [filteredProductsAlfredos, setFilteredProductsAlfredos] = useState(allProductListAlfredos);
+// const [filteredProductsAlfredos, setFilteredProductsAlfredos] = useState(allProductListAlfredos);
 
-// Pagination for Silk Products
-const [currentPageAlfredos, setCurrentPageAlfredos] = useState(1);
-const productsPerPageAlfredos = 20;
-const totalProductsAlfredos = filteredProductsAlfredos.length;
-const totalPagesAlfredos = Math.ceil(totalProductsAlfredos / productsPerPageAlfredos);
+// // Pagination for Silk Products
+// const [currentPageAlfredos, setCurrentPageAlfredos] = useState(1);
+// const productsPerPageAlfredos = 20;
+// const totalProductsAlfredos = filteredProductsAlfredos.length;
+// const totalPagesAlfredos = Math.ceil(totalProductsAlfredos / productsPerPageAlfredos);
 
-const handlePageChangeAlfredos = (newPage) => {
-  setCurrentPageAlfredos(newPage);
-  scrollToTop(); // Scroll to the top after changing the page
-};
+// const handlePageChangeAlfredos = (newPage) => {
+//   setCurrentPageAlfredos(newPage);
+//   scrollToTop(); // Scroll to the top after changing the page
+// };
 
-useEffect(() => {
-  const startIndexAlfredos = (currentPageAlfredos - 1) * productsPerPageAlfredos;
-  const endIndexAlfredos = currentPageAlfredos * productsPerPageAlfredos;
+// useEffect(() => {
+//   const startIndexAlfredos = (currentPageAlfredos - 1) * productsPerPageAlfredos;
+//   const endIndexAlfredos = currentPageAlfredos * productsPerPageAlfredos;
 
-  const paginatedSliceAlfredos = filteredProductsAlfredos.slice(startIndexAlfredos, endIndexAlfredos);
-  setPaginatedProductsAlfredos(paginatedSliceAlfredos);
-}, [currentPageAlfredos, filteredProductsAlfredos]);
+//   const paginatedSliceAlfredos = filteredProductsAlfredos.slice(startIndexAlfredos, endIndexAlfredos);
+//   setPaginatedProductsAlfredos(paginatedSliceAlfredos);
+// }, [currentPageAlfredos, filteredProductsAlfredos]);
 
-const [paginatedProductsAlfredos, setPaginatedProductsAlfredos] = useState([]);
+// const [paginatedProductsAlfredos, setPaginatedProductsAlfredos] = useState([]);
   
 // Pagination
 const productsPerPage = 9;
@@ -1207,13 +1207,13 @@ useEffect(() => {
       productsPerPageDumpling,
       totalProductsDumpling,
 
-      filteredProductsAlfredos,
-      currentPageAlfredos,
-      handlePageChangeAlfredos,
-      totalPagesAlfredos,
-      paginatedProductsAlfredos,
-      productsPerPageAlfredos,
-      totalProductsAlfredos,
+      // filteredProductsAlfredos,
+      // currentPageAlfredos,
+      // handlePageChangeAlfredos,
+      // totalPagesAlfredos,
+      // paginatedProductsAlfredos,
+      // productsPerPageAlfredos,
+      // totalProductsAlfredos,
     }}>
       {children}
     </FarzaaContext.Provider>
