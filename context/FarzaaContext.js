@@ -1,4 +1,5 @@
-import { allCakeList, allProductList, allProductListMill, allProductListLife, allProductListSilk, allProductListDelight, blogList, ornamentList } from '@/data/Data';
+import { allCakeList, allProductList, allProductListMill, 
+  allProductListLife, allProductListSilk, allProductListDelight, allProductListFiveSpice, allProductListDumpling, blogList, ornamentList } from '@/data/Data';
 import { createContext, useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
@@ -336,6 +337,75 @@ useEffect(() => {
 }, [currentPageDelight, filteredProductsDelight]);
 
 const [paginatedProductsDelight, setPaginatedProductsDelight] = useState([]);
+
+const [filteredProductsFiveSpice, setFilteredProductsFiveSpice] = useState(allProductListFiveSpice);
+
+// Pagination for Silk Products
+const [currentPageFiveSpice, setCurrentPageFiveSpice] = useState(1);
+const productsPerPageFiveSpice = 20;
+const totalProductsFiveSpice = filteredProductsFiveSpice.length;
+const totalPagesFiveSpice = Math.ceil(totalProductsFiveSpice / productsPerPageFiveSpice);
+
+const handlePageChangeFiveSpice = (newPage) => {
+  setCurrentPageFiveSpice(newPage);
+  scrollToTop(); // Scroll to the top after changing the page
+};
+
+useEffect(() => {
+  const startIndexFiveSpice = (currentPageFiveSpice - 1) * productsPerPageFiveSpice;
+  const endIndexFiveSpice = currentPageFiveSpice * productsPerPageFiveSpice;
+
+  const paginatedSliceFiveSpice = filteredProductsFiveSpice.slice(startIndexFiveSpice, endIndexFiveSpice);
+  setPaginatedProductsFiveSpice(paginatedSliceFiveSpice);
+}, [currentPageFiveSpice, filteredProductsFiveSpice]);
+
+const [paginatedProductsFiveSpice, setPaginatedProductsFiveSpice] = useState([]);
+
+const [filteredProductsDumpling, setFilteredProductsDumpling] = useState(allProductListDumpling);
+
+// Pagination for Silk Products
+const [currentPageDumpling, setCurrentPageDumpling] = useState(1);
+const productsPerPageDumpling = 20;
+const totalProductsDumpling = filteredProductsDumpling.length;
+const totalPagesDumpling = Math.ceil(totalProductsDumpling / productsPerPageDumpling);
+
+const handlePageChangeDumpling = (newPage) => {
+  setCurrentPageDumpling(newPage);
+  scrollToTop(); // Scroll to the top after changing the page
+};
+
+useEffect(() => {
+  const startIndexDumpling = (currentPageDumpling - 1) * productsPerPageDumpling;
+  const endIndexDumpling = currentPageDumpling * productsPerPageDumpling;
+
+  const paginatedSliceDumpling = filteredProductsDumpling.slice(startIndexDumpling, endIndexDumpling);
+  setPaginatedProductsDumpling(paginatedSliceDumpling);
+}, [currentPageDumpling, filteredProductsDumpling]);
+
+const [paginatedProductsDumpling, setPaginatedProductsDumpling] = useState([]);
+
+// const [filteredProductsAlfredos, setFilteredProductsAlfredos] = useState(allProductListAlfredos);
+
+// // Pagination for Silk Products
+// const [currentPageAlfredos, setCurrentPageAlfredos] = useState(1);
+// const productsPerPageAlfredos = 20;
+// const totalProductsAlfredos = filteredProductsAlfredos.length;
+// const totalPagesAlfredos = Math.ceil(totalProductsAlfredos / productsPerPageAlfredos);
+
+// const handlePageChangeAlfredos = (newPage) => {
+//   setCurrentPageAlfredos(newPage);
+//   scrollToTop(); // Scroll to the top after changing the page
+// };
+
+// useEffect(() => {
+//   const startIndexAlfredos = (currentPageAlfredos - 1) * productsPerPageAlfredos;
+//   const endIndexAlfredos = currentPageAlfredos * productsPerPageAlfredos;
+
+//   const paginatedSliceAlfredos = filteredProductsAlfredos.slice(startIndexAlfredos, endIndexAlfredos);
+//   setPaginatedProductsAlfredos(paginatedSliceAlfredos);
+// }, [currentPageAlfredos, filteredProductsAlfredos]);
+
+// const [paginatedProductsAlfredos, setPaginatedProductsAlfredos] = useState([]);
   
 // Pagination
 const productsPerPage = 9;
@@ -1120,6 +1190,30 @@ useEffect(() => {
       paginatedProductsDelight,
       productsPerPageDelight,
       totalProductsDelight,
+
+      filteredProductsFiveSpice,
+      currentPageFiveSpice,
+      handlePageChangeFiveSpice,
+      totalPagesFiveSpice,
+      paginatedProductsFiveSpice,
+      productsPerPageFiveSpice,
+      totalProductsFiveSpice,
+
+      filteredProductsDumpling,
+      currentPageDumpling,
+      handlePageChangeDumpling,
+      totalPagesDumpling,
+      paginatedProductsDumpling,
+      productsPerPageDumpling,
+      totalProductsDumpling,
+
+      // filteredProductsAlfredos,
+      // currentPageAlfredos,
+      // handlePageChangeAlfredos,
+      // totalPagesAlfredos,
+      // paginatedProductsAlfredos,
+      // productsPerPageAlfredos,
+      // totalProductsAlfredos,
     }}>
       {children}
     </FarzaaContext.Provider>

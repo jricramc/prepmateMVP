@@ -87,6 +87,17 @@ const HeaderNav = ({ position }) => {
                 Spice Delight
               </Link>
             </li>
+            <li>
+              <Link href="/fivespiceShop" className="fz-nav-link fz-submenu-nav-link">
+                5 Spices House
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/dumplingShop" className="fz-nav-link fz-submenu-nav-link">
+                Dumpling Xuan
+              </Link>
+            </li>
           </ul>
         </li>
         <li className="fz-nav-item">

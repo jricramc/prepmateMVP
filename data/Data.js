@@ -626,10 +626,515 @@ const allProductList= [
         originalPrice: 19.99,
         isInWishlist: false,
         category: []
-    }
+    },
+    {
+        id: 51,
+        name: "Chicken Tikka",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "Chicken Tikka and Chicken Korma served with Rice",
+        price: 14.99,
+        originalPrice: 19.99,
+        isInWishlist: false,
+        category: []
+    },    {
+        id: 52,
+        name: "Chicken Korma ",
+        imgSrc: "images/spice-delight/chic-korma.jpg",
+        description: "Chicken Tikka and Chicken Korma served with Rice",
+        price: 14.99,
+        originalPrice: 19.99,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 53,
+        name: "Saag Paneer ",
+        imgSrc: "images/spice-delight/saag-paneer.jpg",
+        description: "Chicken Tikka and Chicken Korma served with Rice",
+        price: 12.99,
+        originalPrice: 17.99,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 54,
+        name: "Chana Masala ",
+        imgSrc: "images/spice-delight/chana.jpg",
+        description: "Chicken Tikka and Chicken Korma served with Rice",
+        price: 12.99,
+        originalPrice: 17.99,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 72,
+        name: "Chicken Teriyaki",
+        imgSrc: "images/dumpling/teriyaki.jpeg",
+        description: "4pc",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 73,
+        name: "Beef Teriyaki",
+        imgSrc: "images/dumpling/beef-teriyaki.jpeg",
+        description: "-",
+        price: 14.25,
+        originalPrice: 15.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 74,
+        name: "Dan Dan Noodles w. Peanut",
+        imgSrc: "images/dumpling/dandan.jpeg",
+        description: "-",
+        price: 13.15,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 75,
+        name: "Steamed Chicken w. Chili Sauce",
+        imgSrc: "images/dumpling/chicken-chili.jpeg",
+        description: "-",
+        price: 13.15,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 76,
+        name: "Steamed Dumpling w. Vegetables",
+        imgSrc: "images/dumpling/steamed-dumpling.jpeg",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 77,
+        name: "Steamed Pork & Leek Dumpling",
+        imgSrc: "images/dumpling/steamed-pork.jpeg",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 78,
+        name: "Cabbage & Pork Dumplings",
+        imgSrc: "images/dumpling/cabbage-dumplings.jpeg",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 79,
+        name: "Mini Juicy Buns with Pork",
+        imgSrc: "images/dumpling/buns-pork.jpeg",
+        description: "-",
+        price: 12.05,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 80,
+        name: "Sticky Rice Shao Mai Shanghai Style",
+        imgSrc: "images/dumpling/sticky-rice.jpeg",
+        description: "-",
+        price: 12.05,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 81,
+        name: "Chicken Fried Rice",
+        imgSrc: "images/dumpling/chicken-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 82,
+        name: "Beef Fried Rice",
+        imgSrc: "images/dumpling/beef-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 83,
+        name: "Vegetable Fried Rice",
+        imgSrc: "images/dumpling/vegetable-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 84,
+        name: "Pork Fried Rice",
+        imgSrc: "images/dumpling/pork-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 85,
+        name: "White Rice",
+        imgSrc: "images/dumpling/white-rice.jpeg",
+        description: "-",
+        price: 2.15,
+        originalPrice: 2.45,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 86,
+        name: "Brown Rice",
+        imgSrc: "images/dumpling/brown-rice.jpeg",
+        description: "-",
+        price: 2.8,
+        originalPrice: 2.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 87,
+        name: "Stir Fried Noodle w. Pork & Mustard Green",
+        imgSrc: "images/dumpling/stir-pork.jpeg",
+        description: "-",
+        price: 16.45,
+        originalPrice: 18.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 88,
+        name: "Singapore Rice Noodle",
+        imgSrc: "images/dumpling/singapore.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 89,
+        name: "Minced Pork w. Black Bean Sauce Over Noodles",
+        imgSrc: "images/dumpling/minced-pork.jpeg",
+        description: "-",
+        price: 14.25,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 90,
+        name: "Sauteed Shanghai Noodles (Pork)",
+        imgSrc: "images/dumpling/shang-noodles.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 91,
+        name: "Sauteed Flat Noodles with Beef",
+        imgSrc: "images/dumpling/flat-beef.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 100,
+        name: "Scallion Pancakes",
+        imgSrc: "images/five-spice/scallion.jpeg",
+        description: "Crispy, golden pancakes with fresh scallions.",
+        price: 5.50,
+        originalPrice: 6.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 101,
+        name: "Pan Fried Pork Buns",
+        imgSrc: "images/five-spice/pork-buns.png",
+        description: "Juicy pork filled buns, pan-fried to perfection.",
+        price: 7.50,
+        originalPrice: 9.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 102,
+        name: "Salt and Pepper Crispy Chicken",
+        imgSrc: "images/five-spice/sp-chicken.jpeg",
+        description: "Fried chicken seasoned with salt and pepper.",
+        price: 9.95,
+        originalPrice: 11.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 103,
+        name: "Steam Pork with Garlic",
+        imgSrc: "images/five-spice/pork-garlic.jpg",
+        description: "Steamed pork slices infused with garlic.",
+        price: 9.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 104,
+        name: "Beef Tendon with Hot Sauce",
+        imgSrc: "images/five-spice/spicy-beef.jpg",
+        description: "Tender beef tendon in spicy hot sauce.",
+        price: 8.95,
+        originalPrice: 10.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 105,
+        name: "Beef Tendon and Tripe with Chili Sauce",
+        imgSrc: "images/five-spice/beef-tripe.jpg",
+        description: "Spicy beef tendon and tripe in chili sauce.",
+        price: 11.00,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 106,
+        name: "Sichuan Wonton in Red Chili Sauce",
+        imgSrc: "images/five-spice/spicy-wonton.jpg",
+        description: "Wontons in a tangy Sichuan chili sauce.",
+        price: 8.95,
+        originalPrice: 10.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 107,
+        name: "Sichuan Spicy Pork Dumpling",
+        imgSrc: "images/five-spice/sichuan-pork.jpg",
+        description: "Pork dumplings with a spicy Sichuan twist.",
+        price: 8.00,
+        originalPrice: 10.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 108,
+        name: "Dan Dan Noodle",
+        imgSrc: "images/five-spice/dan-dan.jpg",
+        description: "Noodles in a spicy, savory Sichuan sauce.",
+        price: 8.95,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 109,
+        name: "Cucumber with House Spicy Sauce",
+        imgSrc: "images/five-spice/cucumber-salad.jpg",
+        description: "Fresh cucumber in a signature spicy sauce.",
+        price: 8.00,
+        originalPrice: 11.50,
+        isInWishlist: false,
+        category: []
+    },{
+        id: 110,
+        name: "Beef Boiled in Spicy Broth",
+        imgSrc: "images/five-spice/spicy-beef-soup.jpg",
+        description: "Succulent beef slices in a spicy broth.",
+        price: 19.95,
+        originalPrice: 21.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 111,
+        name: "Lamb Boiled in Spicy Broth",
+        imgSrc: "images/five-spice/lamb-broth.jpg",
+        description: "Tender lamb in a rich, spicy broth.",
+        price: 19.95,
+        originalPrice: 24.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 112,
+        name: "Chicken Boiled in Spicy Broth",
+        imgSrc: "images/five-spice/spicy-chicken-soup.jpg",
+        description: "Chicken boiled in a flavorful spicy broth.",
+        price: 17.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 113,
+        name: "Hot and Spicy Chicken",
+        imgSrc: "images/five-spice/hot-spicy-chicken.jpg",
+        description: "Spicy, stir-fried chicken with Sichuan peppers.",
+        price: 16.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 114,
+        name: "Sichuan Kung Pao Chicken",
+        imgSrc: "images/five-spice/sichuan-kung-pao.jpg",
+        description: "Classic Kung Pao chicken with a Sichuan twist.",
+        price: 16.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 115,
+        name: "Sichuan Style Double Cooked Pork",
+        imgSrc: "images/five-spice/double-cooked.jpg",
+        description: "Twice-cooked pork, Sichuan style.",
+        price: 16.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 116,
+        name: "Stir Fried Spicy Pork Kidney",
+        imgSrc: "images/five-spice/pork-kidney.jpg",
+        description: "Stir-fried pork kidney with spicy seasoning.",
+        price: 17.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 117,
+        name: "Beef Cumin Style",
+        imgSrc: "images/five-spice/cumin-beef.jpg",
+        description: "Beef stir-fried with cumin and spices.",
+        price: 19.95,
+        originalPrice: 21.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 118,
+        name: "Spicy Dry Pot Beef",
+        imgSrc: "images/five-spice/dry-beef.jpeg",
+        description: "Sizzling beef in a spicy dry pot.",
+        price: 18.95,
+        originalPrice: 23.00,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 119,
+        name: "Dry Sauteed String Bean",
+        imgSrc: "images/five-spice/string-bean.jpg",
+        description: "Crispy string beans sautéed with spices.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 120,
+        name: "Pea Pod Stems with Garlic",
+        imgSrc: "images/five-spice/pea-pod.jpg",
+        description: "Fresh pea pod stems stir-fried with garlic.",
+        price: 17.95,
+        originalPrice: 22.95,
+        isInWishlist: false,
+        category: []
+    },{
+        id: 121,
+        name: "Mapo Tofu",
+        imgSrc: "images/five-spice/mapo-tofu.jpg",
+        description: "Soft tofu in a spicy bean paste sauce.",
+        price: 12.95,
+        originalPrice: 17.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 122,
+        name: "Signature Fried Rice (with Bacon)",
+        imgSrc: "images/five-spice/rice-bacon.jpg",
+        description: "Fried rice with savory bacon bits.",
+        price: 11.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 123,
+        name: "Vegetable Flat Noodles",
+        imgSrc: "images/five-spice/veg-flat.jpg",
+        description: "Flat noodles with a mix of fresh vegetables.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 124,
+        name: "Chicken Flat Noodles",
+        imgSrc: "images/five-spice/chicken-flat.jpg",
+        description: "Flat noodles topped with tender chicken.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 125,
+        name: "Pork Flat Noodles",
+        imgSrc: "images/five-spice/pork-flat.webp",
+        description: "Flat noodles served with juicy pork.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 126,
+        name: "Beef Flat Noodles",
+        imgSrc: "images/five-spice/beef-flat.jpg",
+        description: "Hearty flat noodles with beef slices.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    }   
 ]
-
-
 
 const allProductListMill = [
     {
@@ -928,7 +1433,6 @@ const allProductListLife = [
     },
 ];
 
-
 const allProductListSilk = [
     {
         id: 29,
@@ -1152,8 +1656,522 @@ const allProductListDelight = [
         originalPrice: 19.99,
         isInWishlist: false,
         category: []
+    },
+    {
+        id: 51,
+        name: "Chicken Tikka",
+        imgSrc: "images/spice-delight/non-veg.jpg",
+        description: "Chicken Tikka and Chicken Korma served with Rice",
+        price: 14.99,
+        originalPrice: 19.99,
+        isInWishlist: false,
+        category: []
+    },    {
+        id: 52,
+        name: "Chicken Korma ",
+        imgSrc: "images/spice-delight/chic-korma.jpg",
+        description: "Chicken Tikka and Chicken Korma served with Rice",
+        price: 14.99,
+        originalPrice: 19.99,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 53,
+        name: "Saag Paneer ",
+        imgSrc: "images/spice-delight/saag-paneer.jpg",
+        description: "Chicken Tikka and Chicken Korma served with Rice",
+        price: 12.99,
+        originalPrice: 17.99,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 54,
+        name: "Chana Masala ",
+        imgSrc: "images/spice-delight/chana.jpg",
+        description: "Chicken Tikka and Chicken Korma served with Rice",
+        price: 12.99,
+        originalPrice: 17.99,
+        isInWishlist: false,
+        category: []
     }
 ]
+
+const allProductListFiveSpice = [
+    {
+        id: 100,
+        name: "Scallion Pancakes",
+        imgSrc: "images/five-spice/scallion.jpeg",
+        description: "Crispy, golden pancakes with fresh scallions.",
+        price: 5.50,
+        originalPrice: 6.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 101,
+        name: "Pan Fried Pork Buns",
+        imgSrc: "images/five-spice/pork-buns.png",
+        description: "Juicy pork filled buns, pan-fried to perfection.",
+        price: 7.50,
+        originalPrice: 9.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 102,
+        name: "Salt and Pepper Crispy Chicken",
+        imgSrc: "images/five-spice/sp-chicken.jpeg",
+        description: "Fried chicken seasoned with salt and pepper.",
+        price: 9.95,
+        originalPrice: 11.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 103,
+        name: "Steam Pork with Garlic",
+        imgSrc: "images/five-spice/pork-garlic.jpg",
+        description: "Steamed pork slices infused with garlic.",
+        price: 9.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 104,
+        name: "Beef Tendon with Hot Sauce",
+        imgSrc: "images/five-spice/spicy-beef.jpg",
+        description: "Tender beef tendon in spicy hot sauce.",
+        price: 8.95,
+        originalPrice: 10.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 105,
+        name: "Beef Tendon and Tripe with Chili Sauce",
+        imgSrc: "images/five-spice/beef-tripe.jpg",
+        description: "Spicy beef tendon and tripe in chili sauce.",
+        price: 11.00,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 106,
+        name: "Sichuan Wonton in Red Chili Sauce",
+        imgSrc: "images/five-spice/spicy-wonton.jpg",
+        description: "Wontons in a tangy Sichuan chili sauce.",
+        price: 8.95,
+        originalPrice: 10.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 107,
+        name: "Sichuan Spicy Pork Dumpling",
+        imgSrc: "images/five-spice/sichuan-pork.jpg",
+        description: "Pork dumplings with a spicy Sichuan twist.",
+        price: 8.00,
+        originalPrice: 10.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 108,
+        name: "Dan Dan Noodle",
+        imgSrc: "images/five-spice/dan-dan.jpg",
+        description: "Noodles in a spicy, savory Sichuan sauce.",
+        price: 8.95,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 109,
+        name: "Cucumber with House Spicy Sauce",
+        imgSrc: "images/five-spice/cucumber-salad.jpg",
+        description: "Fresh cucumber in a signature spicy sauce.",
+        price: 8.00,
+        originalPrice: 11.50,
+        isInWishlist: false,
+        category: []
+    },{
+        id: 110,
+        name: "Beef Boiled in Spicy Broth",
+        imgSrc: "images/five-spice/spicy-beef-soup.jpg",
+        description: "Succulent beef slices in a spicy broth.",
+        price: 19.95,
+        originalPrice: 21.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 111,
+        name: "Lamb Boiled in Spicy Broth",
+        imgSrc: "images/five-spice/lamb-broth.jpg",
+        description: "Tender lamb in a rich, spicy broth.",
+        price: 19.95,
+        originalPrice: 24.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 112,
+        name: "Chicken Boiled in Spicy Broth",
+        imgSrc: "images/five-spice/spicy-chicken-soup.jpg",
+        description: "Chicken boiled in a flavorful spicy broth.",
+        price: 17.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 113,
+        name: "Hot and Spicy Chicken",
+        imgSrc: "images/five-spice/hot-spicy-chicken.jpg",
+        description: "Spicy, stir-fried chicken with Sichuan peppers.",
+        price: 16.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 114,
+        name: "Sichuan Kung Pao Chicken",
+        imgSrc: "images/five-spice/sichuan-kung-pao.jpg",
+        description: "Classic Kung Pao chicken with a Sichuan twist.",
+        price: 16.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 115,
+        name: "Sichuan Style Double Cooked Pork",
+        imgSrc: "images/five-spice/double-cooked.jpg",
+        description: "Twice-cooked pork, Sichuan style.",
+        price: 16.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 116,
+        name: "Stir Fried Spicy Pork Kidney",
+        imgSrc: "images/five-spice/pork-kidney.jpg",
+        description: "Stir-fried pork kidney with spicy seasoning.",
+        price: 17.95,
+        originalPrice: 19.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 117,
+        name: "Beef Cumin Style",
+        imgSrc: "images/five-spice/cumin-beef.jpg",
+        description: "Beef stir-fried with cumin and spices.",
+        price: 19.95,
+        originalPrice: 21.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 118,
+        name: "Spicy Dry Pot Beef",
+        imgSrc: "images/five-spice/dry-beef.jpeg",
+        description: "Sizzling beef in a spicy dry pot.",
+        price: 18.95,
+        originalPrice: 23.00,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 119,
+        name: "Dry Sauteed String Bean",
+        imgSrc: "images/five-spice/string-bean.jpg",
+        description: "Crispy string beans sautéed with spices.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 120,
+        name: "Pea Pod Stems with Garlic",
+        imgSrc: "images/five-spice/pea-pod.jpg",
+        description: "Fresh pea pod stems stir-fried with garlic.",
+        price: 17.95,
+        originalPrice: 22.95,
+        isInWishlist: false,
+        category: []
+    },{
+        id: 121,
+        name: "Mapo Tofu",
+        imgSrc: "images/five-spice/mapo-tofu.jpg",
+        description: "Soft tofu in a spicy bean paste sauce.",
+        price: 12.95,
+        originalPrice: 17.50,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 122,
+        name: "Signature Fried Rice (with Bacon)",
+        imgSrc: "images/five-spice/rice-bacon.jpg",
+        description: "Fried rice with savory bacon bits.",
+        price: 11.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 123,
+        name: "Vegetable Flat Noodles",
+        imgSrc: "images/five-spice/veg-flat.jpg",
+        description: "Flat noodles with a mix of fresh vegetables.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 124,
+        name: "Chicken Flat Noodles",
+        imgSrc: "images/five-spice/chicken-flat.jpg",
+        description: "Flat noodles topped with tender chicken.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 125,
+        name: "Pork Flat Noodles",
+        imgSrc: "images/five-spice/pork-flat.webp",
+        description: "Flat noodles served with juicy pork.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 126,
+        name: "Beef Flat Noodles",
+        imgSrc: "images/five-spice/beef-flat.jpg",
+        description: "Hearty flat noodles with beef slices.",
+        price: 12.95,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    }   
+]
+
+const allProductListDumpling= [
+    {
+        id: 72,
+        name: "Chicken Teriyaki",
+        imgSrc: "images/dumpling/teriyaki.jpeg",
+        description: "4pc",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 73,
+        name: "Beef Teriyaki",
+        imgSrc: "images/dumpling/beef-teriyaki.jpeg",
+        description: "-",
+        price: 14.25,
+        originalPrice: 15.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 74,
+        name: "Dan Dan Noodles w. Peanut",
+        imgSrc: "images/dumpling/dandan.jpeg",
+        description: "-",
+        price: 13.15,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 75,
+        name: "Steamed Chicken w. Chili Sauce",
+        imgSrc: "images/dumpling/chicken-chili.jpeg",
+        description: "-",
+        price: 13.15,
+        originalPrice: 14.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 76,
+        name: "Steamed Dumpling w. Vegetables",
+        imgSrc: "images/dumpling/steamed-dumpling.jpeg",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 77,
+        name: "Steamed Pork & Leek Dumpling",
+        imgSrc: "images/dumpling/steamed-pork.jpeg",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 78,
+        name: "Cabbage & Pork Dumplings",
+        imgSrc: "images/dumpling/cabbage-dumplings.jpeg",
+        description: "-",
+        price: 10.95,
+        originalPrice: 12.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 79,
+        name: "Mini Juicy Buns with Pork",
+        imgSrc: "images/dumpling/buns-pork.jpeg",
+        description: "-",
+        price: 12.05,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 80,
+        name: "Sticky Rice Shao Mai Shanghai Style",
+        imgSrc: "images/dumpling/sticky-rice.jpeg",
+        description: "-",
+        price: 12.05,
+        originalPrice: 13.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 81,
+        name: "Chicken Fried Rice",
+        imgSrc: "images/dumpling/chicken-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 82,
+        name: "Beef Fried Rice",
+        imgSrc: "images/dumpling/beef-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 83,
+        name: "Vegetable Fried Rice",
+        imgSrc: "images/dumpling/vegetable-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 84,
+        name: "Pork Fried Rice",
+        imgSrc: "images/dumpling/pork-rice.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 85,
+        name: "White Rice",
+        imgSrc: "images/dumpling/white-rice.jpeg",
+        description: "-",
+        price: 2.15,
+        originalPrice: 2.45,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 86,
+        name: "Brown Rice",
+        imgSrc: "images/dumpling/brown-rice.jpeg",
+        description: "-",
+        price: 2.8,
+        originalPrice: 2.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 87,
+        name: "Stir Fried Noodle w. Pork & Mustard Green",
+        imgSrc: "images/dumpling/stir-pork.jpeg",
+        description: "-",
+        price: 16.45,
+        originalPrice: 18.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 88,
+        name: "Singapore Rice Noodle",
+        imgSrc: "images/dumpling/singapore.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 89,
+        name: "Minced Pork w. Black Bean Sauce Over Noodles",
+        imgSrc: "images/dumpling/minced-pork.jpeg",
+        description: "-",
+        price: 14.25,
+        originalPrice: 16.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 90,
+        name: "Sauteed Shanghai Noodles (Pork)",
+        imgSrc: "images/dumpling/shang-noodles.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    },
+    {
+        id: 91,
+        name: "Sauteed Flat Noodles with Beef",
+        imgSrc: "images/dumpling/flat-beef.jpeg",
+        description: "-",
+        price: 15.35,
+        originalPrice: 17.95,
+        isInWishlist: false,
+        category: []
+    }
+]
+
 const blogList = [
     {
         id:0,
@@ -1508,6 +2526,8 @@ export {
     allProductListLife,
     allProductListSilk,
     allProductListDelight,
+    allProductListFiveSpice,
+    allProductListDumpling,
     blogList,
     ornamentList,
     allCakeList,
