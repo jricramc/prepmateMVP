@@ -342,7 +342,7 @@ const [filteredProductsFiveSpice, setFilteredProductsFiveSpice] = useState(allPr
 
 // Pagination for Silk Products
 const [currentPageFiveSpice, setCurrentPageFiveSpice] = useState(1);
-const productsPerPageFiveSpice = 20;
+const productsPerPageFiveSpice = 40;
 const totalProductsFiveSpice = filteredProductsFiveSpice.length;
 const totalPagesFiveSpice = Math.ceil(totalProductsFiveSpice / productsPerPageFiveSpice);
 
