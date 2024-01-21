@@ -211,7 +211,7 @@ const CheckoutSection = () => {
                         <h4 className="fz-checkout-title">Delivery Day</h4>
                         <div className="col-6 col-xxs-12">
                             <Form.Select className='day-select' name="days" id="checkout-days">
-                                <option value="Sunday Jan 21">Sunday Jan 21</option>
+                                <option value="Sunday Jan 28">Sunday Jan 28</option>
 
                                 <option value="Wednesday Jan 24">Wednesday Jan 24</option>
                             </Form.Select>
