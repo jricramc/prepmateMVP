@@ -213,7 +213,7 @@ const CheckoutSection = () => {
                             <Form.Select className='day-select' name="days" id="checkout-days">
                                 <option value="Sunday Jan 28">Sunday Jan 28</option>
 
-                                <option value="Wednesday Jan 24">Wednesday Jan 24</option>
+                                <option value="Wednesday Jan 31">Wednesday Jan 31</option>
                             </Form.Select>
                         </div>
                     </div>
